@@ -304,7 +304,9 @@ function openCycleDetail(num) {
 
   $("cycle-detail-title").textContent = meta ? meta.title : `Ciclo ${num}`;
   $("btn-reveal-text").textContent = "Revelar texto";
-  $("cycle-text-wrap").classList.add("hidden");
+  const textWrap = $("cycle-text-wrap");
+  textWrap.classList.add("hidden");
+  textWrap.style.display = "none";
   $("cycle-progress-fill").style.width = "0%";
   $("cycle-time-current").textContent = "0:00";
   $("cycle-time-total").textContent = fmtTime(cycleTotalSpanish);
@@ -358,13 +360,14 @@ function toggleCyclePlay() {
 
   if (!cycleAudio) {
     cycleAudio = new Audio(`audio/Cycle ${currentDetailCycle}.mp3`);
-    // On timeupdate: if we've passed current segment's end, jump to next Spanish segment
     cycleAudio.addEventListener("timeupdate", onCycleTimeUpdate);
     cycleAudio.addEventListener("ended", onCycleEnded);
-    // Start at first Spanish segment
     cycleSegIdx = 0;
     cycleSegPlayed = 0;
-    cycleAudio.currentTime = cycleSegs[0].s;
+    // Seek to first Spanish segment only after metadata is ready
+    cycleAudio.addEventListener("loadedmetadata", () => {
+      cycleAudio.currentTime = cycleSegs[0].s;
+    }, { once: true });
   }
 
   cycleAudio.play();
