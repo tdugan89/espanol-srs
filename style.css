@@ -110,7 +110,17 @@ html, body {
   font-size: 17px;
   cursor: pointer;
 }
-.btn-big { width: 100%; margin-bottom: 4px; }
+.btn-big { width: 100%; margin-bottom: 10px; }
+.home-btn-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 4px; }
+.btn-half {
+  background: var(--bg-elev);
+  color: var(--text);
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
 .btn-secondary {
   background: var(--bg-elev);
   color: var(--text);

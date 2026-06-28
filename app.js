@@ -159,7 +159,6 @@ function renderHome() {
   $("progress-fill").style.width = pct + "%";
   $("btn-start").disabled = (due + newAvail) === 0;
   $("btn-start").textContent = (due + newAvail) === 0 ? "All caught up! 🎉" : "Start Review";
-  renderCurrentCycleCard();
 }
 
 function cycleProgress(num) {
@@ -554,8 +553,9 @@ async function init() {
   $("cycle-progress-bar").addEventListener("click", seekCycleAudio);
   $("btn-reveal-text").addEventListener("click", () => {
     const wrap = $("cycle-text-wrap");
-    const hidden = wrap.classList.toggle("hidden");
-    $("btn-reveal-text").textContent = hidden ? "Revelar texto" : "Ocultar texto";
+    const nowHidden = wrap.classList.toggle("hidden");
+    wrap.style.display = nowHidden ? "none" : "block";
+    $("btn-reveal-text").textContent = nowHidden ? "Revelar texto" : "Ocultar texto";
   });
 
   // Browse
