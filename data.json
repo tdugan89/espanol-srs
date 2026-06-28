@@ -1,0 +1,8210 @@
+[
+ {
+  "es": "el",
+  "en": "the (masc.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 0
+ },
+ {
+  "es": "la",
+  "en": "the (fem.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 1
+ },
+ {
+  "es": "los",
+  "en": "the (masc. pl.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 2
+ },
+ {
+  "es": "las",
+  "en": "the (fem. pl.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 3
+ },
+ {
+  "es": "un",
+  "en": "a, an (masc.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 4
+ },
+ {
+  "es": "una",
+  "en": "a, an (fem.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 5
+ },
+ {
+  "es": "unos",
+  "en": "some (masc.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 6
+ },
+ {
+  "es": "unas",
+  "en": "some (fem.)",
+  "pos": "article",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 7
+ },
+ {
+  "es": "de",
+  "en": "of, from",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Soy de España.",
+  "y": "I am from Spain.",
+  "id": 8
+ },
+ {
+  "es": "a",
+  "en": "to, at",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Voy a casa.",
+  "y": "I'm going home.",
+  "id": 9
+ },
+ {
+  "es": "en",
+  "en": "in, on, at",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Está en la mesa.",
+  "y": "It's on the table.",
+  "id": 10
+ },
+ {
+  "es": "con",
+  "en": "with",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Voy con mi amigo.",
+  "y": "I'm going with my friend.",
+  "id": 11
+ },
+ {
+  "es": "sin",
+  "en": "without",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Café sin azúcar.",
+  "y": "Coffee without sugar.",
+  "id": 12
+ },
+ {
+  "es": "por",
+  "en": "for, by, through",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Gracias por todo.",
+  "y": "Thanks for everything.",
+  "id": 13
+ },
+ {
+  "es": "para",
+  "en": "for, in order to",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Esto es para ti.",
+  "y": "This is for you.",
+  "id": 14
+ },
+ {
+  "es": "sobre",
+  "en": "on, about, over",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "El libro está sobre la mesa.",
+  "y": "The book is on the table.",
+  "id": 15
+ },
+ {
+  "es": "entre",
+  "en": "between, among",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Entre tú y yo.",
+  "y": "Between you and me.",
+  "id": 16
+ },
+ {
+  "es": "hasta",
+  "en": "until, up to",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Hasta luego.",
+  "y": "See you later.",
+  "id": 17
+ },
+ {
+  "es": "desde",
+  "en": "from, since",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Desde ayer.",
+  "y": "Since yesterday.",
+  "id": 18
+ },
+ {
+  "es": "durante",
+  "en": "during",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Durante el verano.",
+  "y": "During the summer.",
+  "id": 19
+ },
+ {
+  "es": "según",
+  "en": "according to",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Según él, es verdad.",
+  "y": "According to him, it's true.",
+  "id": 20
+ },
+ {
+  "es": "contra",
+  "en": "against",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Estoy contra la pared.",
+  "y": "I'm against the wall.",
+  "id": 21
+ },
+ {
+  "es": "hacia",
+  "en": "toward",
+  "pos": "preposition",
+  "cat": "grammar",
+  "x": "Caminamos hacia el río.",
+  "y": "We walked toward the river.",
+  "id": 22
+ },
+ {
+  "es": "y",
+  "en": "and",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Tú y yo.",
+  "y": "You and I.",
+  "id": 23
+ },
+ {
+  "es": "o",
+  "en": "or",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "¿Té o café?",
+  "y": "Tea or coffee?",
+  "id": 24
+ },
+ {
+  "es": "pero",
+  "en": "but",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Quiero ir, pero no puedo.",
+  "y": "I want to go, but I can't.",
+  "id": 25
+ },
+ {
+  "es": "si",
+  "en": "if",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Si llueve, me quedo en casa.",
+  "y": "If it rains, I'll stay home.",
+  "id": 26
+ },
+ {
+  "es": "porque",
+  "en": "because",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "No voy porque estoy cansado.",
+  "y": "I'm not going because I'm tired.",
+  "id": 27
+ },
+ {
+  "es": "aunque",
+  "en": "although, even though",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Aunque es tarde, voy a salir.",
+  "y": "Although it's late, I'm going out.",
+  "id": 28
+ },
+ {
+  "es": "cuando",
+  "en": "when",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Llámame cuando llegues.",
+  "y": "Call me when you arrive.",
+  "id": 29
+ },
+ {
+  "es": "mientras",
+  "en": "while",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Mientras tanto, espera aquí.",
+  "y": "Meanwhile, wait here.",
+  "id": 30
+ },
+ {
+  "es": "como",
+  "en": "like, as, since",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Es alto como su padre.",
+  "y": "He's tall like his father.",
+  "id": 31
+ },
+ {
+  "es": "que",
+  "en": "that, which",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Creo que sí.",
+  "y": "I think so.",
+  "id": 32
+ },
+ {
+  "es": "ni",
+  "en": "neither, nor",
+  "pos": "conjunction",
+  "cat": "grammar",
+  "x": "Ni tú ni yo.",
+  "y": "Neither you nor I.",
+  "id": 33
+ },
+ {
+  "es": "yo",
+  "en": "I",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 34
+ },
+ {
+  "es": "tú",
+  "en": "you (informal)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 35
+ },
+ {
+  "es": "usted",
+  "en": "you (formal)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 36
+ },
+ {
+  "es": "él",
+  "en": "he",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 37
+ },
+ {
+  "es": "ella",
+  "en": "she",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 38
+ },
+ {
+  "es": "nosotros",
+  "en": "we (masc.)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 39
+ },
+ {
+  "es": "nosotras",
+  "en": "we (fem.)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 40
+ },
+ {
+  "es": "vosotros",
+  "en": "you all (informal, Spain)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 41
+ },
+ {
+  "es": "ustedes",
+  "en": "you all (formal/plural)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 42
+ },
+ {
+  "es": "ellos",
+  "en": "they (masc.)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 43
+ },
+ {
+  "es": "ellas",
+  "en": "they (fem.)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 44
+ },
+ {
+  "es": "me",
+  "en": "me, myself",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 45
+ },
+ {
+  "es": "te",
+  "en": "you, yourself",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 46
+ },
+ {
+  "es": "se",
+  "en": "himself, herself, oneself",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 47
+ },
+ {
+  "es": "nos",
+  "en": "us, ourselves",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 48
+ },
+ {
+  "es": "lo",
+  "en": "it, him (object)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 49
+ },
+ {
+  "es": "le",
+  "en": "to him/her (indirect)",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 50
+ },
+ {
+  "es": "mi",
+  "en": "my",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 51
+ },
+ {
+  "es": "tu",
+  "en": "your (informal)",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 52
+ },
+ {
+  "es": "su",
+  "en": "his, her, their, your (formal)",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 53
+ },
+ {
+  "es": "nuestro",
+  "en": "our",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 54
+ },
+ {
+  "es": "mío",
+  "en": "mine",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 55
+ },
+ {
+  "es": "tuyo",
+  "en": "yours",
+  "pos": "possessive",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 56
+ },
+ {
+  "es": "este",
+  "en": "this (masc.)",
+  "pos": "demonstrative",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 57
+ },
+ {
+  "es": "esta",
+  "en": "this (fem.)",
+  "pos": "demonstrative",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 58
+ },
+ {
+  "es": "ese",
+  "en": "that (masc.)",
+  "pos": "demonstrative",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 59
+ },
+ {
+  "es": "esa",
+  "en": "that (fem.)",
+  "pos": "demonstrative",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 60
+ },
+ {
+  "es": "eso",
+  "en": "that (neuter)",
+  "pos": "demonstrative",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 61
+ },
+ {
+  "es": "aquí",
+  "en": "here",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 62
+ },
+ {
+  "es": "allí",
+  "en": "there",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 63
+ },
+ {
+  "es": "allá",
+  "en": "over there",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 64
+ },
+ {
+  "es": "ahí",
+  "en": "there (nearby)",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 65
+ },
+ {
+  "es": "no",
+  "en": "no, not",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 66
+ },
+ {
+  "es": "sí",
+  "en": "yes",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 67
+ },
+ {
+  "es": "también",
+  "en": "also, too",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 68
+ },
+ {
+  "es": "tampoco",
+  "en": "neither, not either",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 69
+ },
+ {
+  "es": "muy",
+  "en": "very",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 70
+ },
+ {
+  "es": "más",
+  "en": "more",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 71
+ },
+ {
+  "es": "menos",
+  "en": "less",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 72
+ },
+ {
+  "es": "mucho",
+  "en": "a lot, much",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 73
+ },
+ {
+  "es": "poco",
+  "en": "a little, few",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 74
+ },
+ {
+  "es": "bastante",
+  "en": "enough, quite",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 75
+ },
+ {
+  "es": "demasiado",
+  "en": "too much",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 76
+ },
+ {
+  "es": "solo",
+  "en": "only, alone",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 77
+ },
+ {
+  "es": "ya",
+  "en": "already, now",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 78
+ },
+ {
+  "es": "todavía",
+  "en": "still, yet",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 79
+ },
+ {
+  "es": "siempre",
+  "en": "always",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 80
+ },
+ {
+  "es": "nunca",
+  "en": "never",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 81
+ },
+ {
+  "es": "a veces",
+  "en": "sometimes",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 82
+ },
+ {
+  "es": "ahora",
+  "en": "now",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 83
+ },
+ {
+  "es": "antes",
+  "en": "before",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 84
+ },
+ {
+  "es": "después",
+  "en": "after, later",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 85
+ },
+ {
+  "es": "luego",
+  "en": "then, later",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 86
+ },
+ {
+  "es": "pronto",
+  "en": "soon",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 87
+ },
+ {
+  "es": "tarde",
+  "en": "late",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 88
+ },
+ {
+  "es": "temprano",
+  "en": "early",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 89
+ },
+ {
+  "es": "bien",
+  "en": "well, good",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 90
+ },
+ {
+  "es": "mal",
+  "en": "badly, wrong",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 91
+ },
+ {
+  "es": "así",
+  "en": "like this, so",
+  "pos": "adverb",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 92
+ },
+ {
+  "es": "todo",
+  "en": "everything, all",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 93
+ },
+ {
+  "es": "nada",
+  "en": "nothing",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 94
+ },
+ {
+  "es": "algo",
+  "en": "something",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 95
+ },
+ {
+  "es": "alguien",
+  "en": "someone",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 96
+ },
+ {
+  "es": "nadie",
+  "en": "no one",
+  "pos": "pronoun",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 97
+ },
+ {
+  "es": "cada",
+  "en": "each, every",
+  "pos": "determiner",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 98
+ },
+ {
+  "es": "otro",
+  "en": "other, another",
+  "pos": "adjective",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 99
+ },
+ {
+  "es": "mismo",
+  "en": "same",
+  "pos": "adjective",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 100
+ },
+ {
+  "es": "cualquier",
+  "en": "any, whichever",
+  "pos": "adjective",
+  "cat": "grammar",
+  "x": "",
+  "y": "",
+  "id": 101
+ },
+ {
+  "es": "qué",
+  "en": "what",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Qué hora es?",
+  "y": "What time is it?",
+  "id": 102
+ },
+ {
+  "es": "quién",
+  "en": "who",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Quién es ella?",
+  "y": "Who is she?",
+  "id": 103
+ },
+ {
+  "es": "cómo",
+  "en": "how",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Cómo estás?",
+  "y": "How are you?",
+  "id": 104
+ },
+ {
+  "es": "cuándo",
+  "en": "when",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Cuándo llegas?",
+  "y": "When do you arrive?",
+  "id": 105
+ },
+ {
+  "es": "dónde",
+  "en": "where",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Dónde vives?",
+  "y": "Where do you live?",
+  "id": 106
+ },
+ {
+  "es": "por qué",
+  "en": "why",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Por qué no vienes?",
+  "y": "Why aren't you coming?",
+  "id": 107
+ },
+ {
+  "es": "cuál",
+  "en": "which",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Cuál prefieres?",
+  "y": "Which do you prefer?",
+  "id": 108
+ },
+ {
+  "es": "cuánto",
+  "en": "how much",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Cuánto cuesta?",
+  "y": "How much does it cost?",
+  "id": 109
+ },
+ {
+  "es": "cuántos",
+  "en": "how many",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Cuántos años tienes?",
+  "y": "How old are you?",
+  "id": 110
+ },
+ {
+  "es": "para qué",
+  "en": "what for",
+  "pos": "question",
+  "cat": "questions",
+  "x": "¿Para qué sirve esto?",
+  "y": "What is this for?",
+  "id": 111
+ },
+ {
+  "es": "cero",
+  "en": "zero",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 112
+ },
+ {
+  "es": "uno",
+  "en": "one",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 113
+ },
+ {
+  "es": "dos",
+  "en": "two",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 114
+ },
+ {
+  "es": "tres",
+  "en": "three",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 115
+ },
+ {
+  "es": "cuatro",
+  "en": "four",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 116
+ },
+ {
+  "es": "cinco",
+  "en": "five",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 117
+ },
+ {
+  "es": "seis",
+  "en": "six",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 118
+ },
+ {
+  "es": "siete",
+  "en": "seven",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 119
+ },
+ {
+  "es": "ocho",
+  "en": "eight",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 120
+ },
+ {
+  "es": "nueve",
+  "en": "nine",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 121
+ },
+ {
+  "es": "diez",
+  "en": "ten",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 122
+ },
+ {
+  "es": "once",
+  "en": "eleven",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 123
+ },
+ {
+  "es": "doce",
+  "en": "twelve",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 124
+ },
+ {
+  "es": "trece",
+  "en": "thirteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 125
+ },
+ {
+  "es": "catorce",
+  "en": "fourteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 126
+ },
+ {
+  "es": "quince",
+  "en": "fifteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 127
+ },
+ {
+  "es": "dieciséis",
+  "en": "sixteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 128
+ },
+ {
+  "es": "diecisiete",
+  "en": "seventeen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 129
+ },
+ {
+  "es": "dieciocho",
+  "en": "eighteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 130
+ },
+ {
+  "es": "diecinueve",
+  "en": "nineteen",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 131
+ },
+ {
+  "es": "veinte",
+  "en": "twenty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 132
+ },
+ {
+  "es": "treinta",
+  "en": "thirty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 133
+ },
+ {
+  "es": "cuarenta",
+  "en": "forty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 134
+ },
+ {
+  "es": "cincuenta",
+  "en": "fifty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 135
+ },
+ {
+  "es": "sesenta",
+  "en": "sixty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 136
+ },
+ {
+  "es": "setenta",
+  "en": "seventy",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 137
+ },
+ {
+  "es": "ochenta",
+  "en": "eighty",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 138
+ },
+ {
+  "es": "noventa",
+  "en": "ninety",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 139
+ },
+ {
+  "es": "cien",
+  "en": "one hundred",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 140
+ },
+ {
+  "es": "doscientos",
+  "en": "two hundred",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 141
+ },
+ {
+  "es": "quinientos",
+  "en": "five hundred",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 142
+ },
+ {
+  "es": "mil",
+  "en": "one thousand",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 143
+ },
+ {
+  "es": "millón",
+  "en": "million",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 144
+ },
+ {
+  "es": "primero",
+  "en": "first",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 145
+ },
+ {
+  "es": "segundo",
+  "en": "second",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 146
+ },
+ {
+  "es": "tercero",
+  "en": "third",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 147
+ },
+ {
+  "es": "último",
+  "en": "last",
+  "pos": "number",
+  "cat": "numbers",
+  "x": "",
+  "y": "",
+  "id": 148
+ },
+ {
+  "es": "el tiempo",
+  "en": "time, weather",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 149
+ },
+ {
+  "es": "la hora",
+  "en": "the hour, time",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 150
+ },
+ {
+  "es": "el minuto",
+  "en": "minute",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 151
+ },
+ {
+  "es": "el segundo",
+  "en": "second",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 152
+ },
+ {
+  "es": "el día",
+  "en": "day",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 153
+ },
+ {
+  "es": "la semana",
+  "en": "week",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 154
+ },
+ {
+  "es": "el mes",
+  "en": "month",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 155
+ },
+ {
+  "es": "el año",
+  "en": "year",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 156
+ },
+ {
+  "es": "hoy",
+  "en": "today",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 157
+ },
+ {
+  "es": "mañana",
+  "en": "tomorrow",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 158
+ },
+ {
+  "es": "ayer",
+  "en": "yesterday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 159
+ },
+ {
+  "es": "la mañana",
+  "en": "morning",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 160
+ },
+ {
+  "es": "la tarde",
+  "en": "afternoon",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 161
+ },
+ {
+  "es": "la noche",
+  "en": "night",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 162
+ },
+ {
+  "es": "el mediodía",
+  "en": "noon",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 163
+ },
+ {
+  "es": "la medianoche",
+  "en": "midnight",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 164
+ },
+ {
+  "es": "lunes",
+  "en": "Monday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 165
+ },
+ {
+  "es": "martes",
+  "en": "Tuesday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 166
+ },
+ {
+  "es": "miércoles",
+  "en": "Wednesday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 167
+ },
+ {
+  "es": "jueves",
+  "en": "Thursday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 168
+ },
+ {
+  "es": "viernes",
+  "en": "Friday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 169
+ },
+ {
+  "es": "sábado",
+  "en": "Saturday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 170
+ },
+ {
+  "es": "domingo",
+  "en": "Sunday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 171
+ },
+ {
+  "es": "enero",
+  "en": "January",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 172
+ },
+ {
+  "es": "febrero",
+  "en": "February",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 173
+ },
+ {
+  "es": "marzo",
+  "en": "March",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 174
+ },
+ {
+  "es": "abril",
+  "en": "April",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 175
+ },
+ {
+  "es": "mayo",
+  "en": "May",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 176
+ },
+ {
+  "es": "junio",
+  "en": "June",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 177
+ },
+ {
+  "es": "julio",
+  "en": "July",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 178
+ },
+ {
+  "es": "agosto",
+  "en": "August",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 179
+ },
+ {
+  "es": "septiembre",
+  "en": "September",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 180
+ },
+ {
+  "es": "octubre",
+  "en": "October",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 181
+ },
+ {
+  "es": "noviembre",
+  "en": "November",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 182
+ },
+ {
+  "es": "diciembre",
+  "en": "December",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 183
+ },
+ {
+  "es": "la primavera",
+  "en": "spring",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 184
+ },
+ {
+  "es": "el verano",
+  "en": "summer",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 185
+ },
+ {
+  "es": "el otoño",
+  "en": "fall, autumn",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 186
+ },
+ {
+  "es": "el invierno",
+  "en": "winter",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 187
+ },
+ {
+  "es": "el fin de semana",
+  "en": "weekend",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 188
+ },
+ {
+  "es": "el cumpleaños",
+  "en": "birthday",
+  "pos": "noun",
+  "cat": "time",
+  "x": "",
+  "y": "",
+  "id": 189
+ },
+ {
+  "es": "ser",
+  "en": "to be (permanent)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ella es médica.",
+  "y": "She is a doctor.",
+  "id": 190
+ },
+ {
+  "es": "estar",
+  "en": "to be (state/location)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Estoy en casa.",
+  "y": "I am at home.",
+  "id": 191
+ },
+ {
+  "es": "tener",
+  "en": "to have",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Tengo dos hermanos.",
+  "y": "I have two siblings.",
+  "id": 192
+ },
+ {
+  "es": "hacer",
+  "en": "to do, to make",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Qué haces?",
+  "y": "What are you doing?",
+  "id": 193
+ },
+ {
+  "es": "ir",
+  "en": "to go",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy al trabajo.",
+  "y": "I'm going to work.",
+  "id": 194
+ },
+ {
+  "es": "decir",
+  "en": "to say, to tell",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Dime la verdad.",
+  "y": "Tell me the truth.",
+  "id": 195
+ },
+ {
+  "es": "poder",
+  "en": "to be able to, can",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No puedo venir hoy.",
+  "y": "I can't come today.",
+  "id": 196
+ },
+ {
+  "es": "querer",
+  "en": "to want, to love",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Quiero un café.",
+  "y": "I want a coffee.",
+  "id": 197
+ },
+ {
+  "es": "saber",
+  "en": "to know (facts)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No sé la respuesta.",
+  "y": "I don't know the answer.",
+  "id": 198
+ },
+ {
+  "es": "conocer",
+  "en": "to know (people/places)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Conozco a tu hermana.",
+  "y": "I know your sister.",
+  "id": 199
+ },
+ {
+  "es": "ver",
+  "en": "to see",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Veo la televisión.",
+  "y": "I watch television.",
+  "id": 200
+ },
+ {
+  "es": "dar",
+  "en": "to give",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Dame tu número.",
+  "y": "Give me your number.",
+  "id": 201
+ },
+ {
+  "es": "llegar",
+  "en": "to arrive",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Llegamos a las ocho.",
+  "y": "We arrive at eight.",
+  "id": 202
+ },
+ {
+  "es": "pasar",
+  "en": "to pass, to happen",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Qué pasa?",
+  "y": "What's happening?",
+  "id": 203
+ },
+ {
+  "es": "deber",
+  "en": "to should, to owe",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Debes estudiar más.",
+  "y": "You should study more.",
+  "id": 204
+ },
+ {
+  "es": "poner",
+  "en": "to put, to place",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Pon la mesa.",
+  "y": "Set the table.",
+  "id": 205
+ },
+ {
+  "es": "parecer",
+  "en": "to seem, to look like",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Parece interesante.",
+  "y": "It seems interesting.",
+  "id": 206
+ },
+ {
+  "es": "quedar",
+  "en": "to stay, to remain",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Quedamos a las seis?",
+  "y": "Shall we meet at six?",
+  "id": 207
+ },
+ {
+  "es": "creer",
+  "en": "to believe, to think",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Creo que tienes razón.",
+  "y": "I think you're right.",
+  "id": 208
+ },
+ {
+  "es": "hablar",
+  "en": "to speak, to talk",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Hablo español.",
+  "y": "I speak Spanish.",
+  "id": 209
+ },
+ {
+  "es": "llevar",
+  "en": "to carry, to wear",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Lleva una chaqueta roja.",
+  "y": "He's wearing a red jacket.",
+  "id": 210
+ },
+ {
+  "es": "dejar",
+  "en": "to leave, to let",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Déjame en paz.",
+  "y": "Leave me alone.",
+  "id": 211
+ },
+ {
+  "es": "seguir",
+  "en": "to follow, to continue",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Sigue recto.",
+  "y": "Keep going straight.",
+  "id": 212
+ },
+ {
+  "es": "encontrar",
+  "en": "to find",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No encuentro mis llaves.",
+  "y": "I can't find my keys.",
+  "id": 213
+ },
+ {
+  "es": "llamar",
+  "en": "to call",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Te llamo más tarde.",
+  "y": "I'll call you later.",
+  "id": 214
+ },
+ {
+  "es": "venir",
+  "en": "to come",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ven aquí.",
+  "y": "Come here.",
+  "id": 215
+ },
+ {
+  "es": "pensar",
+  "en": "to think",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Pienso en ti.",
+  "y": "I think about you.",
+  "id": 216
+ },
+ {
+  "es": "salir",
+  "en": "to go out, to leave",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Salgo a las nueve.",
+  "y": "I leave at nine.",
+  "id": 217
+ },
+ {
+  "es": "volver",
+  "en": "to return, to go back",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Vuelvo mañana.",
+  "y": "I'll be back tomorrow.",
+  "id": 218
+ },
+ {
+  "es": "tomar",
+  "en": "to take, to drink",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Toma asiento.",
+  "y": "Take a seat.",
+  "id": 219
+ },
+ {
+  "es": "vivir",
+  "en": "to live",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Vivo en Madrid.",
+  "y": "I live in Madrid.",
+  "id": 220
+ },
+ {
+  "es": "sentir",
+  "en": "to feel",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Lo siento mucho.",
+  "y": "I'm very sorry.",
+  "id": 221
+ },
+ {
+  "es": "mirar",
+  "en": "to look at",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Mira esto.",
+  "y": "Look at this.",
+  "id": 222
+ },
+ {
+  "es": "contar",
+  "en": "to count, to tell (a story)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Cuéntame qué pasó.",
+  "y": "Tell me what happened.",
+  "id": 223
+ },
+ {
+  "es": "empezar",
+  "en": "to start, to begin",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Empieza a las siete.",
+  "y": "It starts at seven.",
+  "id": 224
+ },
+ {
+  "es": "esperar",
+  "en": "to wait, to hope",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Espérame aquí.",
+  "y": "Wait for me here.",
+  "id": 225
+ },
+ {
+  "es": "buscar",
+  "en": "to look for",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Busco mis gafas.",
+  "y": "I'm looking for my glasses.",
+  "id": 226
+ },
+ {
+  "es": "entrar",
+  "en": "to enter",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Entra, por favor.",
+  "y": "Come in, please.",
+  "id": 227
+ },
+ {
+  "es": "trabajar",
+  "en": "to work",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Trabajo en una oficina.",
+  "y": "I work in an office.",
+  "id": 228
+ },
+ {
+  "es": "escribir",
+  "en": "to write",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Escribo una carta.",
+  "y": "I'm writing a letter.",
+  "id": 229
+ },
+ {
+  "es": "leer",
+  "en": "to read",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me gusta leer.",
+  "y": "I like to read.",
+  "id": 230
+ },
+ {
+  "es": "perder",
+  "en": "to lose",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Perdí mi cartera.",
+  "y": "I lost my wallet.",
+  "id": 231
+ },
+ {
+  "es": "entender",
+  "en": "to understand",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No entiendo.",
+  "y": "I don't understand.",
+  "id": 232
+ },
+ {
+  "es": "pedir",
+  "en": "to ask for, to order",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a pedir la cuenta.",
+  "y": "I'm going to ask for the bill.",
+  "id": 233
+ },
+ {
+  "es": "recibir",
+  "en": "to receive",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Recibí tu mensaje.",
+  "y": "I received your message.",
+  "id": 234
+ },
+ {
+  "es": "recordar",
+  "en": "to remember",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No recuerdo su nombre.",
+  "y": "I don't remember his name.",
+  "id": 235
+ },
+ {
+  "es": "terminar",
+  "en": "to finish",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Termino a las cinco.",
+  "y": "I finish at five.",
+  "id": 236
+ },
+ {
+  "es": "permitir",
+  "en": "to allow, to permit",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Me permite pasar?",
+  "y": "May I come through?",
+  "id": 237
+ },
+ {
+  "es": "comprar",
+  "en": "to buy",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a comprar pan.",
+  "y": "I'm going to buy bread.",
+  "id": 238
+ },
+ {
+  "es": "vender",
+  "en": "to sell",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Vendo mi coche.",
+  "y": "I'm selling my car.",
+  "id": 239
+ },
+ {
+  "es": "necesitar",
+  "en": "to need",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Necesito ayuda.",
+  "y": "I need help.",
+  "id": 240
+ },
+ {
+  "es": "usar",
+  "en": "to use",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Puedo usar tu teléfono?",
+  "y": "Can I use your phone?",
+  "id": 241
+ },
+ {
+  "es": "cambiar",
+  "en": "to change",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Quiero cambiar de plan.",
+  "y": "I want to change plans.",
+  "id": 242
+ },
+ {
+  "es": "abrir",
+  "en": "to open",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Abre la puerta.",
+  "y": "Open the door.",
+  "id": 243
+ },
+ {
+  "es": "cerrar",
+  "en": "to close",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Cierra la ventana.",
+  "y": "Close the window.",
+  "id": 244
+ },
+ {
+  "es": "ganar",
+  "en": "to win, to earn",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ganamos el partido.",
+  "y": "We won the game.",
+  "id": 245
+ },
+ {
+  "es": "traer",
+  "en": "to bring",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Trae tu pasaporte.",
+  "y": "Bring your passport.",
+  "id": 246
+ },
+ {
+  "es": "explicar",
+  "en": "to explain",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Me lo puedes explicar?",
+  "y": "Can you explain it to me?",
+  "id": 247
+ },
+ {
+  "es": "preguntar",
+  "en": "to ask",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a preguntar al profesor.",
+  "y": "I'm going to ask the teacher.",
+  "id": 248
+ },
+ {
+  "es": "estudiar",
+  "en": "to study",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Estudio medicina.",
+  "y": "I study medicine.",
+  "id": 249
+ },
+ {
+  "es": "aprender",
+  "en": "to learn",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Estoy aprendiendo español.",
+  "y": "I'm learning Spanish.",
+  "id": 250
+ },
+ {
+  "es": "enseñar",
+  "en": "to teach",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ella enseña inglés.",
+  "y": "She teaches English.",
+  "id": 251
+ },
+ {
+  "es": "jugar",
+  "en": "to play",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Los niños juegan en el parque.",
+  "y": "The kids play in the park.",
+  "id": 252
+ },
+ {
+  "es": "escuchar",
+  "en": "to listen",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Escucho música.",
+  "y": "I listen to music.",
+  "id": 253
+ },
+ {
+  "es": "ayudar",
+  "en": "to help",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Me puedes ayudar?",
+  "y": "Can you help me?",
+  "id": 254
+ },
+ {
+  "es": "gustar",
+  "en": "to like",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me gusta el chocolate.",
+  "y": "I like chocolate.",
+  "id": 255
+ },
+ {
+  "es": "decidir",
+  "en": "to decide",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Tengo que decidir hoy.",
+  "y": "I have to decide today.",
+  "id": 256
+ },
+ {
+  "es": "olvidar",
+  "en": "to forget",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Olvidé mi paraguas.",
+  "y": "I forgot my umbrella.",
+  "id": 257
+ },
+ {
+  "es": "conseguir",
+  "en": "to get, to obtain",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Conseguí el trabajo.",
+  "y": "I got the job.",
+  "id": 258
+ },
+ {
+  "es": "comenzar",
+  "en": "to begin",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "La clase comienza a las ocho.",
+  "y": "Class begins at eight.",
+  "id": 259
+ },
+ {
+  "es": "sacar",
+  "en": "to take out",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Saca la basura.",
+  "y": "Take out the trash.",
+  "id": 260
+ },
+ {
+  "es": "mantener",
+  "en": "to maintain, to keep",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Mantén la calma.",
+  "y": "Keep calm.",
+  "id": 261
+ },
+ {
+  "es": "caminar",
+  "en": "to walk",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Camino todos los días.",
+  "y": "I walk every day.",
+  "id": 262
+ },
+ {
+  "es": "correr",
+  "en": "to run",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Corro por la mañana.",
+  "y": "I run in the morning.",
+  "id": 263
+ },
+ {
+  "es": "dormir",
+  "en": "to sleep",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Duermo ocho horas.",
+  "y": "I sleep eight hours.",
+  "id": 264
+ },
+ {
+  "es": "despertar",
+  "en": "to wake up",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me despierto a las seis.",
+  "y": "I wake up at six.",
+  "id": 265
+ },
+ {
+  "es": "levantarse",
+  "en": "to get up",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me levanto temprano.",
+  "y": "I get up early.",
+  "id": 266
+ },
+ {
+  "es": "acostarse",
+  "en": "to go to bed",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me acuesto a las once.",
+  "y": "I go to bed at eleven.",
+  "id": 267
+ },
+ {
+  "es": "bañarse",
+  "en": "to bathe oneself",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me baño por la noche.",
+  "y": "I bathe at night.",
+  "id": 268
+ },
+ {
+  "es": "vestirse",
+  "en": "to get dressed",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me visto rápido.",
+  "y": "I get dressed quickly.",
+  "id": 269
+ },
+ {
+  "es": "ducharse",
+  "en": "to take a shower",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me ducho cada mañana.",
+  "y": "I shower every morning.",
+  "id": 270
+ },
+ {
+  "es": "comer",
+  "en": "to eat",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Como a las dos.",
+  "y": "I eat at two.",
+  "id": 271
+ },
+ {
+  "es": "beber",
+  "en": "to drink",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Bebo mucha agua.",
+  "y": "I drink a lot of water.",
+  "id": 272
+ },
+ {
+  "es": "cocinar",
+  "en": "to cook",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me gusta cocinar.",
+  "y": "I like to cook.",
+  "id": 273
+ },
+ {
+  "es": "limpiar",
+  "en": "to clean",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Limpio la casa los sábados.",
+  "y": "I clean the house on Saturdays.",
+  "id": 274
+ },
+ {
+  "es": "lavar",
+  "en": "to wash",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Lavo los platos.",
+  "y": "I wash the dishes.",
+  "id": 275
+ },
+ {
+  "es": "manejar",
+  "en": "to drive",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No sé manejar.",
+  "y": "I don't know how to drive.",
+  "id": 276
+ },
+ {
+  "es": "conducir",
+  "en": "to drive",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Conduzco al trabajo.",
+  "y": "I drive to work.",
+  "id": 277
+ },
+ {
+  "es": "viajar",
+  "en": "to travel",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me encanta viajar.",
+  "y": "I love to travel.",
+  "id": 278
+ },
+ {
+  "es": "volar",
+  "en": "to fly",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "El avión vuela alto.",
+  "y": "The plane flies high.",
+  "id": 279
+ },
+ {
+  "es": "nadar",
+  "en": "to swim",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Nado en la piscina.",
+  "y": "I swim in the pool.",
+  "id": 280
+ },
+ {
+  "es": "bailar",
+  "en": "to dance",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Bailamos toda la noche.",
+  "y": "We danced all night.",
+  "id": 281
+ },
+ {
+  "es": "cantar",
+  "en": "to sing",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ella canta muy bien.",
+  "y": "She sings very well.",
+  "id": 282
+ },
+ {
+  "es": "reír",
+  "en": "to laugh",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Me hace reír.",
+  "y": "It makes me laugh.",
+  "id": 283
+ },
+ {
+  "es": "llorar",
+  "en": "to cry",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "El bebé llora mucho.",
+  "y": "The baby cries a lot.",
+  "id": 284
+ },
+ {
+  "es": "sonreír",
+  "en": "to smile",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Siempre sonríe.",
+  "y": "She always smiles.",
+  "id": 285
+ },
+ {
+  "es": "gritar",
+  "en": "to shout",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No grites.",
+  "y": "Don't shout.",
+  "id": 286
+ },
+ {
+  "es": "morir",
+  "en": "to die",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Murió en 1990.",
+  "y": "He died in 1990.",
+  "id": 287
+ },
+ {
+  "es": "nacer",
+  "en": "to be born",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Nací en abril.",
+  "y": "I was born in April.",
+  "id": 288
+ },
+ {
+  "es": "crecer",
+  "en": "to grow",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Los niños crecen rápido.",
+  "y": "Children grow up fast.",
+  "id": 289
+ },
+ {
+  "es": "mover",
+  "en": "to move",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "No te muevas.",
+  "y": "Don't move.",
+  "id": 290
+ },
+ {
+  "es": "subir",
+  "en": "to go up, to climb",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Sube las escaleras.",
+  "y": "Go up the stairs.",
+  "id": 291
+ },
+ {
+  "es": "bajar",
+  "en": "to go down, to lower",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Baja el volumen.",
+  "y": "Turn down the volume.",
+  "id": 292
+ },
+ {
+  "es": "caer",
+  "en": "to fall",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Se me cayó el teléfono.",
+  "y": "I dropped my phone.",
+  "id": 293
+ },
+ {
+  "es": "tocar",
+  "en": "to touch, to play (an instrument)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Toco la guitarra.",
+  "y": "I play the guitar.",
+  "id": 294
+ },
+ {
+  "es": "tirar",
+  "en": "to throw, to pull",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Tira la pelota.",
+  "y": "Throw the ball.",
+  "id": 295
+ },
+ {
+  "es": "romper",
+  "en": "to break",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Se rompió el vaso.",
+  "y": "The glass broke.",
+  "id": 296
+ },
+ {
+  "es": "arreglar",
+  "en": "to fix, to arrange",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a arreglar el coche.",
+  "y": "I'm going to fix the car.",
+  "id": 297
+ },
+ {
+  "es": "construir",
+  "en": "to build",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Van a construir un edificio.",
+  "y": "They're going to build a building.",
+  "id": 298
+ },
+ {
+  "es": "crear",
+  "en": "to create",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Crearon una empresa nueva.",
+  "y": "They created a new company.",
+  "id": 299
+ },
+ {
+  "es": "mostrar",
+  "en": "to show",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Muéstrame el camino.",
+  "y": "Show me the way.",
+  "id": 300
+ },
+ {
+  "es": "indicar",
+  "en": "to indicate",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "La señal indica la salida.",
+  "y": "The sign indicates the exit.",
+  "id": 301
+ },
+ {
+  "es": "invitar",
+  "en": "to invite",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Te invito a cenar.",
+  "y": "I invite you to dinner.",
+  "id": 302
+ },
+ {
+  "es": "visitar",
+  "en": "to visit",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Visito a mis abuelos.",
+  "y": "I visit my grandparents.",
+  "id": 303
+ },
+ {
+  "es": "celebrar",
+  "en": "to celebrate",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Celebramos su cumpleaños.",
+  "y": "We celebrate his birthday.",
+  "id": 304
+ },
+ {
+  "es": "disfrutar",
+  "en": "to enjoy",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Disfruta del viaje.",
+  "y": "Enjoy the trip.",
+  "id": 305
+ },
+ {
+  "es": "preferir",
+  "en": "to prefer",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Prefiero el té.",
+  "y": "I prefer tea.",
+  "id": 306
+ },
+ {
+  "es": "intentar",
+  "en": "to try",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a intentarlo.",
+  "y": "I'm going to try it.",
+  "id": 307
+ },
+ {
+  "es": "lograr",
+  "en": "to achieve, to manage to",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Logró su meta.",
+  "y": "She achieved her goal.",
+  "id": 308
+ },
+ {
+  "es": "evitar",
+  "en": "to avoid",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Evito el tráfico.",
+  "y": "I avoid traffic.",
+  "id": 309
+ },
+ {
+  "es": "imaginar",
+  "en": "to imagine",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Imagina eso.",
+  "y": "Imagine that.",
+  "id": 310
+ },
+ {
+  "es": "apoyar",
+  "en": "to support",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Te apoyo siempre.",
+  "y": "I always support you.",
+  "id": 311
+ },
+ {
+  "es": "cuidar",
+  "en": "to take care of",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Cuido a mi hermano.",
+  "y": "I take care of my brother.",
+  "id": 312
+ },
+ {
+  "es": "proteger",
+  "en": "to protect",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Protege a su familia.",
+  "y": "He protects his family.",
+  "id": 313
+ },
+ {
+  "es": "respetar",
+  "en": "to respect",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Respeto tu opinión.",
+  "y": "I respect your opinion.",
+  "id": 314
+ },
+ {
+  "es": "odiar",
+  "en": "to hate",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Odio esperar.",
+  "y": "I hate waiting.",
+  "id": 315
+ },
+ {
+  "es": "amar",
+  "en": "to love",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Te amo.",
+  "y": "I love you.",
+  "id": 316
+ },
+ {
+  "es": "besar",
+  "en": "to kiss",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Se besaron.",
+  "y": "They kissed.",
+  "id": 317
+ },
+ {
+  "es": "abrazar",
+  "en": "to hug",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Abrázame.",
+  "y": "Hug me.",
+  "id": 318
+ },
+ {
+  "es": "casarse",
+  "en": "to get married",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Se casaron en junio.",
+  "y": "They got married in June.",
+  "id": 319
+ },
+ {
+  "es": "divorciarse",
+  "en": "to get divorced",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "",
+  "y": "",
+  "id": 320
+ },
+ {
+  "es": "mudarse",
+  "en": "to move (residence)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Nos mudamos el mes próximo.",
+  "y": "We're moving next month.",
+  "id": 321
+ },
+ {
+  "es": "alquilar",
+  "en": "to rent",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Alquilamos un apartamento.",
+  "y": "We rented an apartment.",
+  "id": 322
+ },
+ {
+  "es": "pagar",
+  "en": "to pay",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Cómo quiere pagar?",
+  "y": "How would you like to pay?",
+  "id": 323
+ },
+ {
+  "es": "costar",
+  "en": "to cost",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Cuánto cuesta esto?",
+  "y": "How much does this cost?",
+  "id": 324
+ },
+ {
+  "es": "ahorrar",
+  "en": "to save (money)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Ahorro para el futuro.",
+  "y": "I'm saving for the future.",
+  "id": 325
+ },
+ {
+  "es": "gastar",
+  "en": "to spend (money)",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Gasto poco dinero.",
+  "y": "I spend little money.",
+  "id": 326
+ },
+ {
+  "es": "prestar",
+  "en": "to lend",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "¿Me prestas tu bolígrafo?",
+  "y": "Can you lend me your pen?",
+  "id": 327
+ },
+ {
+  "es": "firmar",
+  "en": "to sign",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Firme aquí, por favor.",
+  "y": "Sign here, please.",
+  "id": 328
+ },
+ {
+  "es": "enviar",
+  "en": "to send",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Envío el correo hoy.",
+  "y": "I'll send the email today.",
+  "id": 329
+ },
+ {
+  "es": "contestar",
+  "en": "to answer",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Contesta el teléfono.",
+  "y": "Answer the phone.",
+  "id": 330
+ },
+ {
+  "es": "responder",
+  "en": "to respond",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Voy a responder pronto.",
+  "y": "I'm going to respond soon.",
+  "id": 331
+ },
+ {
+  "es": "reservar",
+  "en": "to reserve, to book",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Reservé una mesa.",
+  "y": "I booked a table.",
+  "id": 332
+ },
+ {
+  "es": "confirmar",
+  "en": "to confirm",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Confirma tu vuelo.",
+  "y": "Confirm your flight.",
+  "id": 333
+ },
+ {
+  "es": "cancelar",
+  "en": "to cancel",
+  "pos": "verb",
+  "cat": "verbs",
+  "x": "Cancelé la cita.",
+  "y": "I canceled the appointment.",
+  "id": 334
+ },
+ {
+  "es": "la persona",
+  "en": "person",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 335
+ },
+ {
+  "es": "el hombre",
+  "en": "man",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 336
+ },
+ {
+  "es": "la mujer",
+  "en": "woman",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 337
+ },
+ {
+  "es": "el niño",
+  "en": "boy, child",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 338
+ },
+ {
+  "es": "la niña",
+  "en": "girl",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 339
+ },
+ {
+  "es": "el bebé",
+  "en": "baby",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 340
+ },
+ {
+  "es": "el amigo",
+  "en": "friend (male)",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 341
+ },
+ {
+  "es": "la amiga",
+  "en": "friend (female)",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 342
+ },
+ {
+  "es": "la familia",
+  "en": "family",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 343
+ },
+ {
+  "es": "el padre",
+  "en": "father",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 344
+ },
+ {
+  "es": "la madre",
+  "en": "mother",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 345
+ },
+ {
+  "es": "los padres",
+  "en": "parents",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 346
+ },
+ {
+  "es": "el hijo",
+  "en": "son",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 347
+ },
+ {
+  "es": "la hija",
+  "en": "daughter",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 348
+ },
+ {
+  "es": "el hermano",
+  "en": "brother",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 349
+ },
+ {
+  "es": "la hermana",
+  "en": "sister",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 350
+ },
+ {
+  "es": "el abuelo",
+  "en": "grandfather",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 351
+ },
+ {
+  "es": "la abuela",
+  "en": "grandmother",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 352
+ },
+ {
+  "es": "el tío",
+  "en": "uncle",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 353
+ },
+ {
+  "es": "la tía",
+  "en": "aunt",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 354
+ },
+ {
+  "es": "el primo",
+  "en": "cousin (male)",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 355
+ },
+ {
+  "es": "la prima",
+  "en": "cousin (female)",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 356
+ },
+ {
+  "es": "el esposo",
+  "en": "husband",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 357
+ },
+ {
+  "es": "la esposa",
+  "en": "wife",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 358
+ },
+ {
+  "es": "el novio",
+  "en": "boyfriend",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 359
+ },
+ {
+  "es": "la novia",
+  "en": "girlfriend",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 360
+ },
+ {
+  "es": "el sobrino",
+  "en": "nephew",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 361
+ },
+ {
+  "es": "la sobrina",
+  "en": "niece",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 362
+ },
+ {
+  "es": "el suegro",
+  "en": "father-in-law",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 363
+ },
+ {
+  "es": "la nuera",
+  "en": "daughter-in-law",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 364
+ },
+ {
+  "es": "el vecino",
+  "en": "neighbor",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 365
+ },
+ {
+  "es": "el jefe",
+  "en": "boss",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 366
+ },
+ {
+  "es": "el compañero",
+  "en": "colleague, classmate",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 367
+ },
+ {
+  "es": "el adulto",
+  "en": "adult",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 368
+ },
+ {
+  "es": "el adolescente",
+  "en": "teenager",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 369
+ },
+ {
+  "es": "el anciano",
+  "en": "elderly person",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 370
+ },
+ {
+  "es": "la gente",
+  "en": "people",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 371
+ },
+ {
+  "es": "el nombre",
+  "en": "name",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 372
+ },
+ {
+  "es": "el apellido",
+  "en": "last name",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 373
+ },
+ {
+  "es": "la edad",
+  "en": "age",
+  "pos": "noun",
+  "cat": "people",
+  "x": "",
+  "y": "",
+  "id": 374
+ },
+ {
+  "es": "el cuerpo",
+  "en": "body",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 375
+ },
+ {
+  "es": "la cabeza",
+  "en": "head",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 376
+ },
+ {
+  "es": "la cara",
+  "en": "face",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 377
+ },
+ {
+  "es": "el ojo",
+  "en": "eye",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 378
+ },
+ {
+  "es": "la nariz",
+  "en": "nose",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 379
+ },
+ {
+  "es": "la boca",
+  "en": "mouth",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 380
+ },
+ {
+  "es": "la oreja",
+  "en": "ear",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 381
+ },
+ {
+  "es": "el pelo",
+  "en": "hair",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 382
+ },
+ {
+  "es": "el cuello",
+  "en": "neck",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 383
+ },
+ {
+  "es": "el hombro",
+  "en": "shoulder",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 384
+ },
+ {
+  "es": "el brazo",
+  "en": "arm",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 385
+ },
+ {
+  "es": "la mano",
+  "en": "hand",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 386
+ },
+ {
+  "es": "el dedo",
+  "en": "finger",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 387
+ },
+ {
+  "es": "la pierna",
+  "en": "leg",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 388
+ },
+ {
+  "es": "el pie",
+  "en": "foot",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 389
+ },
+ {
+  "es": "la espalda",
+  "en": "back",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 390
+ },
+ {
+  "es": "el estómago",
+  "en": "stomach",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 391
+ },
+ {
+  "es": "el corazón",
+  "en": "heart",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 392
+ },
+ {
+  "es": "la piel",
+  "en": "skin",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 393
+ },
+ {
+  "es": "el diente",
+  "en": "tooth",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 394
+ },
+ {
+  "es": "la sangre",
+  "en": "blood",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 395
+ },
+ {
+  "es": "el hueso",
+  "en": "bone",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 396
+ },
+ {
+  "es": "la rodilla",
+  "en": "knee",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 397
+ },
+ {
+  "es": "la voz",
+  "en": "voice",
+  "pos": "noun",
+  "cat": "body",
+  "x": "",
+  "y": "",
+  "id": 398
+ },
+ {
+  "es": "la comida",
+  "en": "food, meal",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 399
+ },
+ {
+  "es": "el desayuno",
+  "en": "breakfast",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 400
+ },
+ {
+  "es": "el almuerzo",
+  "en": "lunch",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 401
+ },
+ {
+  "es": "la cena",
+  "en": "dinner",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 402
+ },
+ {
+  "es": "el agua",
+  "en": "water",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 403
+ },
+ {
+  "es": "el café",
+  "en": "coffee",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 404
+ },
+ {
+  "es": "el té",
+  "en": "tea",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 405
+ },
+ {
+  "es": "la leche",
+  "en": "milk",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 406
+ },
+ {
+  "es": "el jugo",
+  "en": "juice",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 407
+ },
+ {
+  "es": "el vino",
+  "en": "wine",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 408
+ },
+ {
+  "es": "la cerveza",
+  "en": "beer",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 409
+ },
+ {
+  "es": "el pan",
+  "en": "bread",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 410
+ },
+ {
+  "es": "la mantequilla",
+  "en": "butter",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 411
+ },
+ {
+  "es": "el queso",
+  "en": "cheese",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 412
+ },
+ {
+  "es": "el huevo",
+  "en": "egg",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 413
+ },
+ {
+  "es": "el arroz",
+  "en": "rice",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 414
+ },
+ {
+  "es": "la pasta",
+  "en": "pasta",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 415
+ },
+ {
+  "es": "la sopa",
+  "en": "soup",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 416
+ },
+ {
+  "es": "la ensalada",
+  "en": "salad",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 417
+ },
+ {
+  "es": "la carne",
+  "en": "meat",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 418
+ },
+ {
+  "es": "el pollo",
+  "en": "chicken",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 419
+ },
+ {
+  "es": "la res",
+  "en": "beef",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 420
+ },
+ {
+  "es": "el cerdo",
+  "en": "pork",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 421
+ },
+ {
+  "es": "el pescado",
+  "en": "fish",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 422
+ },
+ {
+  "es": "el marisco",
+  "en": "seafood",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 423
+ },
+ {
+  "es": "la fruta",
+  "en": "fruit",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 424
+ },
+ {
+  "es": "la manzana",
+  "en": "apple",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 425
+ },
+ {
+  "es": "el plátano",
+  "en": "banana",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 426
+ },
+ {
+  "es": "la naranja",
+  "en": "orange",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 427
+ },
+ {
+  "es": "la uva",
+  "en": "grape",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 428
+ },
+ {
+  "es": "la fresa",
+  "en": "strawberry",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 429
+ },
+ {
+  "es": "el limón",
+  "en": "lemon",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 430
+ },
+ {
+  "es": "la verdura",
+  "en": "vegetable",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 431
+ },
+ {
+  "es": "la papa",
+  "en": "potato",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 432
+ },
+ {
+  "es": "el tomate",
+  "en": "tomato",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 433
+ },
+ {
+  "es": "la cebolla",
+  "en": "onion",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 434
+ },
+ {
+  "es": "el ajo",
+  "en": "garlic",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 435
+ },
+ {
+  "es": "la lechuga",
+  "en": "lettuce",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 436
+ },
+ {
+  "es": "la zanahoria",
+  "en": "carrot",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 437
+ },
+ {
+  "es": "el azúcar",
+  "en": "sugar",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 438
+ },
+ {
+  "es": "la sal",
+  "en": "salt",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 439
+ },
+ {
+  "es": "la pimienta",
+  "en": "pepper",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 440
+ },
+ {
+  "es": "el aceite",
+  "en": "oil",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 441
+ },
+ {
+  "es": "el postre",
+  "en": "dessert",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 442
+ },
+ {
+  "es": "el pastel",
+  "en": "cake",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 443
+ },
+ {
+  "es": "el helado",
+  "en": "ice cream",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 444
+ },
+ {
+  "es": "el dulce",
+  "en": "candy, sweet",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 445
+ },
+ {
+  "es": "el restaurante",
+  "en": "restaurant",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 446
+ },
+ {
+  "es": "el menú",
+  "en": "menu",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 447
+ },
+ {
+  "es": "la cuenta",
+  "en": "the bill, check",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 448
+ },
+ {
+  "es": "la propina",
+  "en": "tip",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 449
+ },
+ {
+  "es": "el plato",
+  "en": "plate, dish",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 450
+ },
+ {
+  "es": "el vaso",
+  "en": "glass",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 451
+ },
+ {
+  "es": "la taza",
+  "en": "cup",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 452
+ },
+ {
+  "es": "el cuchillo",
+  "en": "knife",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 453
+ },
+ {
+  "es": "el tenedor",
+  "en": "fork",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 454
+ },
+ {
+  "es": "la cuchara",
+  "en": "spoon",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 455
+ },
+ {
+  "es": "la servilleta",
+  "en": "napkin",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 456
+ },
+ {
+  "es": "el hambre",
+  "en": "hunger",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 457
+ },
+ {
+  "es": "la sed",
+  "en": "thirst",
+  "pos": "noun",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 458
+ },
+ {
+  "es": "delicioso",
+  "en": "delicious",
+  "pos": "adjective",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 459
+ },
+ {
+  "es": "sabroso",
+  "en": "tasty",
+  "pos": "adjective",
+  "cat": "food",
+  "x": "",
+  "y": "",
+  "id": 460
+ },
+ {
+  "es": "la casa",
+  "en": "house",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 461
+ },
+ {
+  "es": "el apartamento",
+  "en": "apartment",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 462
+ },
+ {
+  "es": "la habitación",
+  "en": "room, bedroom",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 463
+ },
+ {
+  "es": "la cocina",
+  "en": "kitchen",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 464
+ },
+ {
+  "es": "el baño",
+  "en": "bathroom",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 465
+ },
+ {
+  "es": "la sala",
+  "en": "living room",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 466
+ },
+ {
+  "es": "el comedor",
+  "en": "dining room",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 467
+ },
+ {
+  "es": "la puerta",
+  "en": "door",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 468
+ },
+ {
+  "es": "la ventana",
+  "en": "window",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 469
+ },
+ {
+  "es": "la mesa",
+  "en": "table",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 470
+ },
+ {
+  "es": "la silla",
+  "en": "chair",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 471
+ },
+ {
+  "es": "la cama",
+  "en": "bed",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 472
+ },
+ {
+  "es": "el sofá",
+  "en": "sofa, couch",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 473
+ },
+ {
+  "es": "el armario",
+  "en": "closet, wardrobe",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 474
+ },
+ {
+  "es": "la luz",
+  "en": "light",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 475
+ },
+ {
+  "es": "la llave",
+  "en": "key",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 476
+ },
+ {
+  "es": "el espejo",
+  "en": "mirror",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 477
+ },
+ {
+  "es": "la pared",
+  "en": "wall",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 478
+ },
+ {
+  "es": "el techo",
+  "en": "ceiling, roof",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 479
+ },
+ {
+  "es": "el suelo",
+  "en": "floor, ground",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 480
+ },
+ {
+  "es": "la escalera",
+  "en": "stairs",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 481
+ },
+ {
+  "es": "el jardín",
+  "en": "garden",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 482
+ },
+ {
+  "es": "la toalla",
+  "en": "towel",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 483
+ },
+ {
+  "es": "la almohada",
+  "en": "pillow",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 484
+ },
+ {
+  "es": "la manta",
+  "en": "blanket",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 485
+ },
+ {
+  "es": "el teléfono",
+  "en": "telephone",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 486
+ },
+ {
+  "es": "la computadora",
+  "en": "computer",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 487
+ },
+ {
+  "es": "el ordenador",
+  "en": "computer (Spain)",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 488
+ },
+ {
+  "es": "la televisión",
+  "en": "television",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 489
+ },
+ {
+  "es": "el libro",
+  "en": "book",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 490
+ },
+ {
+  "es": "el papel",
+  "en": "paper",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 491
+ },
+ {
+  "es": "el bolígrafo",
+  "en": "pen",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 492
+ },
+ {
+  "es": "el lápiz",
+  "en": "pencil",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 493
+ },
+ {
+  "es": "la bolsa",
+  "en": "bag",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 494
+ },
+ {
+  "es": "la mochila",
+  "en": "backpack",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 495
+ },
+ {
+  "es": "la tarjeta",
+  "en": "card",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 496
+ },
+ {
+  "es": "el reloj",
+  "en": "clock, watch",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 497
+ },
+ {
+  "es": "la ropa",
+  "en": "clothing",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 498
+ },
+ {
+  "es": "la camisa",
+  "en": "shirt",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 499
+ },
+ {
+  "es": "el pantalón",
+  "en": "pants",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 500
+ },
+ {
+  "es": "el vestido",
+  "en": "dress",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 501
+ },
+ {
+  "es": "la falda",
+  "en": "skirt",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 502
+ },
+ {
+  "es": "el zapato",
+  "en": "shoe",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 503
+ },
+ {
+  "es": "el abrigo",
+  "en": "coat",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 504
+ },
+ {
+  "es": "la chaqueta",
+  "en": "jacket",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 505
+ },
+ {
+  "es": "el sombrero",
+  "en": "hat",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 506
+ },
+ {
+  "es": "los calcetines",
+  "en": "socks",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 507
+ },
+ {
+  "es": "la corbata",
+  "en": "tie",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 508
+ },
+ {
+  "es": "el cinturón",
+  "en": "belt",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 509
+ },
+ {
+  "es": "las gafas",
+  "en": "glasses",
+  "pos": "noun",
+  "cat": "house",
+  "x": "",
+  "y": "",
+  "id": 510
+ },
+ {
+  "es": "la ciudad",
+  "en": "city",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 511
+ },
+ {
+  "es": "el pueblo",
+  "en": "town",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 512
+ },
+ {
+  "es": "el país",
+  "en": "country",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 513
+ },
+ {
+  "es": "el mundo",
+  "en": "world",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 514
+ },
+ {
+  "es": "la calle",
+  "en": "street",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 515
+ },
+ {
+  "es": "la avenida",
+  "en": "avenue",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 516
+ },
+ {
+  "es": "la plaza",
+  "en": "square",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 517
+ },
+ {
+  "es": "el parque",
+  "en": "park",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 518
+ },
+ {
+  "es": "la tienda",
+  "en": "store",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 519
+ },
+ {
+  "es": "el mercado",
+  "en": "market",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 520
+ },
+ {
+  "es": "el supermercado",
+  "en": "supermarket",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 521
+ },
+ {
+  "es": "el hospital",
+  "en": "hospital",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 522
+ },
+ {
+  "es": "la escuela",
+  "en": "school",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 523
+ },
+ {
+  "es": "la universidad",
+  "en": "university",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 524
+ },
+ {
+  "es": "la oficina",
+  "en": "office",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 525
+ },
+ {
+  "es": "el banco",
+  "en": "bank",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 526
+ },
+ {
+  "es": "la iglesia",
+  "en": "church",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 527
+ },
+ {
+  "es": "el hotel",
+  "en": "hotel",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 528
+ },
+ {
+  "es": "el aeropuerto",
+  "en": "airport",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 529
+ },
+ {
+  "es": "la estación",
+  "en": "station",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 530
+ },
+ {
+  "es": "la playa",
+  "en": "beach",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 531
+ },
+ {
+  "es": "la montaña",
+  "en": "mountain",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 532
+ },
+ {
+  "es": "el río",
+  "en": "river",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 533
+ },
+ {
+  "es": "el mar",
+  "en": "sea",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 534
+ },
+ {
+  "es": "el lago",
+  "en": "lake",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 535
+ },
+ {
+  "es": "el bosque",
+  "en": "forest",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 536
+ },
+ {
+  "es": "la carretera",
+  "en": "highway, road",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 537
+ },
+ {
+  "es": "el camino",
+  "en": "path, way",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 538
+ },
+ {
+  "es": "la esquina",
+  "en": "corner",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 539
+ },
+ {
+  "es": "el coche",
+  "en": "car",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 540
+ },
+ {
+  "es": "el carro",
+  "en": "car (Latin America)",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 541
+ },
+ {
+  "es": "el autobús",
+  "en": "bus",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 542
+ },
+ {
+  "es": "el tren",
+  "en": "train",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 543
+ },
+ {
+  "es": "el avión",
+  "en": "airplane",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 544
+ },
+ {
+  "es": "el barco",
+  "en": "boat, ship",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 545
+ },
+ {
+  "es": "la bicicleta",
+  "en": "bicycle",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 546
+ },
+ {
+  "es": "el taxi",
+  "en": "taxi",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 547
+ },
+ {
+  "es": "el metro",
+  "en": "subway",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 548
+ },
+ {
+  "es": "el billete",
+  "en": "ticket",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 549
+ },
+ {
+  "es": "el boleto",
+  "en": "ticket (Latin America)",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 550
+ },
+ {
+  "es": "el pasaporte",
+  "en": "passport",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 551
+ },
+ {
+  "es": "la maleta",
+  "en": "suitcase",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 552
+ },
+ {
+  "es": "el equipaje",
+  "en": "luggage",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 553
+ },
+ {
+  "es": "el viaje",
+  "en": "trip, journey",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 554
+ },
+ {
+  "es": "la dirección",
+  "en": "address, direction",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 555
+ },
+ {
+  "es": "el mapa",
+  "en": "map",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 556
+ },
+ {
+  "es": "la salida",
+  "en": "exit",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 557
+ },
+ {
+  "es": "la entrada",
+  "en": "entrance",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 558
+ },
+ {
+  "es": "la frontera",
+  "en": "border",
+  "pos": "noun",
+  "cat": "places",
+  "x": "",
+  "y": "",
+  "id": 559
+ },
+ {
+  "es": "el sol",
+  "en": "sun",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 560
+ },
+ {
+  "es": "la luna",
+  "en": "moon",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 561
+ },
+ {
+  "es": "la estrella",
+  "en": "star",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 562
+ },
+ {
+  "es": "el cielo",
+  "en": "sky",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 563
+ },
+ {
+  "es": "la nube",
+  "en": "cloud",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 564
+ },
+ {
+  "es": "la lluvia",
+  "en": "rain",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 565
+ },
+ {
+  "es": "la nieve",
+  "en": "snow",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 566
+ },
+ {
+  "es": "el viento",
+  "en": "wind",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 567
+ },
+ {
+  "es": "la tormenta",
+  "en": "storm",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 568
+ },
+ {
+  "es": "el calor",
+  "en": "heat",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 569
+ },
+ {
+  "es": "el frío",
+  "en": "cold",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 570
+ },
+ {
+  "es": "el clima",
+  "en": "climate, weather",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 571
+ },
+ {
+  "es": "el árbol",
+  "en": "tree",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 572
+ },
+ {
+  "es": "la flor",
+  "en": "flower",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 573
+ },
+ {
+  "es": "la planta",
+  "en": "plant",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 574
+ },
+ {
+  "es": "la hoja",
+  "en": "leaf",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 575
+ },
+ {
+  "es": "la tierra",
+  "en": "earth, land",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 576
+ },
+ {
+  "es": "el fuego",
+  "en": "fire",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 577
+ },
+ {
+  "es": "el aire",
+  "en": "air",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 578
+ },
+ {
+  "es": "la piedra",
+  "en": "stone, rock",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 579
+ },
+ {
+  "es": "el animal",
+  "en": "animal",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 580
+ },
+ {
+  "es": "el perro",
+  "en": "dog",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 581
+ },
+ {
+  "es": "el gato",
+  "en": "cat",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 582
+ },
+ {
+  "es": "el pájaro",
+  "en": "bird",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 583
+ },
+ {
+  "es": "el caballo",
+  "en": "horse",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 584
+ },
+ {
+  "es": "la vaca",
+  "en": "cow",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 585
+ },
+ {
+  "es": "el pez",
+  "en": "fish",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 586
+ },
+ {
+  "es": "el ratón",
+  "en": "mouse",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 587
+ },
+ {
+  "es": "la mosca",
+  "en": "fly",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 588
+ },
+ {
+  "es": "la araña",
+  "en": "spider",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 589
+ },
+ {
+  "es": "la serpiente",
+  "en": "snake",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 590
+ },
+ {
+  "es": "el león",
+  "en": "lion",
+  "pos": "noun",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 591
+ },
+ {
+  "es": "hace calor",
+  "en": "it's hot (weather)",
+  "pos": "phrase",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 592
+ },
+ {
+  "es": "hace frío",
+  "en": "it's cold (weather)",
+  "pos": "phrase",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 593
+ },
+ {
+  "es": "hace sol",
+  "en": "it's sunny",
+  "pos": "phrase",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 594
+ },
+ {
+  "es": "está lloviendo",
+  "en": "it's raining",
+  "pos": "phrase",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 595
+ },
+ {
+  "es": "está nublado",
+  "en": "it's cloudy",
+  "pos": "phrase",
+  "cat": "nature",
+  "x": "",
+  "y": "",
+  "id": 596
+ },
+ {
+  "es": "bueno",
+  "en": "good",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 597
+ },
+ {
+  "es": "malo",
+  "en": "bad",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 598
+ },
+ {
+  "es": "grande",
+  "en": "big",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 599
+ },
+ {
+  "es": "pequeño",
+  "en": "small",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 600
+ },
+ {
+  "es": "nuevo",
+  "en": "new",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 601
+ },
+ {
+  "es": "viejo",
+  "en": "old",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 602
+ },
+ {
+  "es": "joven",
+  "en": "young",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 603
+ },
+ {
+  "es": "alto",
+  "en": "tall",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 604
+ },
+ {
+  "es": "bajo",
+  "en": "short",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 605
+ },
+ {
+  "es": "largo",
+  "en": "long",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 606
+ },
+ {
+  "es": "corto",
+  "en": "short (length)",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 607
+ },
+ {
+  "es": "ancho",
+  "en": "wide",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 608
+ },
+ {
+  "es": "estrecho",
+  "en": "narrow",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 609
+ },
+ {
+  "es": "rápido",
+  "en": "fast",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 610
+ },
+ {
+  "es": "lento",
+  "en": "slow",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 611
+ },
+ {
+  "es": "fácil",
+  "en": "easy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 612
+ },
+ {
+  "es": "difícil",
+  "en": "difficult",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 613
+ },
+ {
+  "es": "importante",
+  "en": "important",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 614
+ },
+ {
+  "es": "interesante",
+  "en": "interesting",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 615
+ },
+ {
+  "es": "aburrido",
+  "en": "boring",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 616
+ },
+ {
+  "es": "bonito",
+  "en": "pretty",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 617
+ },
+ {
+  "es": "feo",
+  "en": "ugly",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 618
+ },
+ {
+  "es": "hermoso",
+  "en": "beautiful",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 619
+ },
+ {
+  "es": "guapo",
+  "en": "handsome",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 620
+ },
+ {
+  "es": "limpio",
+  "en": "clean",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 621
+ },
+ {
+  "es": "sucio",
+  "en": "dirty",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 622
+ },
+ {
+  "es": "lleno",
+  "en": "full",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 623
+ },
+ {
+  "es": "vacío",
+  "en": "empty",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 624
+ },
+ {
+  "es": "caro",
+  "en": "expensive",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 625
+ },
+ {
+  "es": "barato",
+  "en": "cheap",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 626
+ },
+ {
+  "es": "rico",
+  "en": "rich, tasty",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 627
+ },
+ {
+  "es": "pobre",
+  "en": "poor",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 628
+ },
+ {
+  "es": "fuerte",
+  "en": "strong",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 629
+ },
+ {
+  "es": "débil",
+  "en": "weak",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 630
+ },
+ {
+  "es": "pesado",
+  "en": "heavy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 631
+ },
+ {
+  "es": "ligero",
+  "en": "light (weight)",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 632
+ },
+ {
+  "es": "caliente",
+  "en": "hot",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 633
+ },
+ {
+  "es": "frío",
+  "en": "cold",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 634
+ },
+ {
+  "es": "tibio",
+  "en": "warm",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 635
+ },
+ {
+  "es": "seco",
+  "en": "dry",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 636
+ },
+ {
+  "es": "mojado",
+  "en": "wet",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 637
+ },
+ {
+  "es": "feliz",
+  "en": "happy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 638
+ },
+ {
+  "es": "triste",
+  "en": "sad",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 639
+ },
+ {
+  "es": "contento",
+  "en": "content, happy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 640
+ },
+ {
+  "es": "enojado",
+  "en": "angry",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 641
+ },
+ {
+  "es": "cansado",
+  "en": "tired",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 642
+ },
+ {
+  "es": "nervioso",
+  "en": "nervous",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 643
+ },
+ {
+  "es": "tranquilo",
+  "en": "calm",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 644
+ },
+ {
+  "es": "ocupado",
+  "en": "busy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 645
+ },
+ {
+  "es": "libre",
+  "en": "free",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 646
+ },
+ {
+  "es": "seguro",
+  "en": "sure, safe",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 647
+ },
+ {
+  "es": "peligroso",
+  "en": "dangerous",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 648
+ },
+ {
+  "es": "amable",
+  "en": "kind",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 649
+ },
+ {
+  "es": "simpático",
+  "en": "nice, friendly",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 650
+ },
+ {
+  "es": "antipático",
+  "en": "unpleasant",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 651
+ },
+ {
+  "es": "inteligente",
+  "en": "intelligent",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 652
+ },
+ {
+  "es": "tonto",
+  "en": "silly, dumb",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 653
+ },
+ {
+  "es": "gracioso",
+  "en": "funny",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 654
+ },
+ {
+  "es": "serio",
+  "en": "serious",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 655
+ },
+ {
+  "es": "honesto",
+  "en": "honest",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 656
+ },
+ {
+  "es": "famoso",
+  "en": "famous",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 657
+ },
+ {
+  "es": "normal",
+  "en": "normal",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 658
+ },
+ {
+  "es": "diferente",
+  "en": "different",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 659
+ },
+ {
+  "es": "igual",
+  "en": "same, equal",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 660
+ },
+ {
+  "es": "parecido",
+  "en": "similar",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 661
+ },
+ {
+  "es": "posible",
+  "en": "possible",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 662
+ },
+ {
+  "es": "imposible",
+  "en": "impossible",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 663
+ },
+ {
+  "es": "necesario",
+  "en": "necessary",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 664
+ },
+ {
+  "es": "listo",
+  "en": "ready, clever",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 665
+ },
+ {
+  "es": "perfecto",
+  "en": "perfect",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 666
+ },
+ {
+  "es": "correcto",
+  "en": "correct",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 667
+ },
+ {
+  "es": "incorrecto",
+  "en": "incorrect",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 668
+ },
+ {
+  "es": "verdadero",
+  "en": "true",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 669
+ },
+ {
+  "es": "falso",
+  "en": "false",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 670
+ },
+ {
+  "es": "claro",
+  "en": "clear",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 671
+ },
+ {
+  "es": "oscuro",
+  "en": "dark",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 672
+ },
+ {
+  "es": "suave",
+  "en": "soft",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 673
+ },
+ {
+  "es": "duro",
+  "en": "hard",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 674
+ },
+ {
+  "es": "dulce",
+  "en": "sweet",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 675
+ },
+ {
+  "es": "amargo",
+  "en": "bitter",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 676
+ },
+ {
+  "es": "picante",
+  "en": "spicy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 677
+ },
+ {
+  "es": "agrio",
+  "en": "sour",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 678
+ },
+ {
+  "es": "propio",
+  "en": "own",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 679
+ },
+ {
+  "es": "público",
+  "en": "public",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 680
+ },
+ {
+  "es": "privado",
+  "en": "private",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 681
+ },
+ {
+  "es": "gratis",
+  "en": "free (no cost)",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 682
+ },
+ {
+  "es": "real",
+  "en": "real",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 683
+ },
+ {
+  "es": "actual",
+  "en": "current",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 684
+ },
+ {
+  "es": "anterior",
+  "en": "previous",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 685
+ },
+ {
+  "es": "siguiente",
+  "en": "next, following",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 686
+ },
+ {
+  "es": "entero",
+  "en": "whole",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 687
+ },
+ {
+  "es": "medio",
+  "en": "half, middle",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 688
+ },
+ {
+  "es": "doble",
+  "en": "double",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 689
+ },
+ {
+  "es": "único",
+  "en": "only, unique",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 690
+ },
+ {
+  "es": "varios",
+  "en": "several",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 691
+ },
+ {
+  "es": "ningún",
+  "en": "none, no",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 692
+ },
+ {
+  "es": "cierto",
+  "en": "certain, true",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 693
+ },
+ {
+  "es": "disponible",
+  "en": "available",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 694
+ },
+ {
+  "es": "vivo",
+  "en": "alive",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 695
+ },
+ {
+  "es": "muerto",
+  "en": "dead",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 696
+ },
+ {
+  "es": "sano",
+  "en": "healthy",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 697
+ },
+ {
+  "es": "enfermo",
+  "en": "sick",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 698
+ },
+ {
+  "es": "cómodo",
+  "en": "comfortable",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 699
+ },
+ {
+  "es": "incómodo",
+  "en": "uncomfortable",
+  "pos": "adjective",
+  "cat": "adjectives",
+  "x": "",
+  "y": "",
+  "id": 700
+ },
+ {
+  "es": "rojo",
+  "en": "red",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 701
+ },
+ {
+  "es": "azul",
+  "en": "blue",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 702
+ },
+ {
+  "es": "verde",
+  "en": "green",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 703
+ },
+ {
+  "es": "amarillo",
+  "en": "yellow",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 704
+ },
+ {
+  "es": "negro",
+  "en": "black",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 705
+ },
+ {
+  "es": "blanco",
+  "en": "white",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 706
+ },
+ {
+  "es": "gris",
+  "en": "gray",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 707
+ },
+ {
+  "es": "marrón",
+  "en": "brown",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 708
+ },
+ {
+  "es": "rosa",
+  "en": "pink",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 709
+ },
+ {
+  "es": "morado",
+  "en": "purple",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 710
+ },
+ {
+  "es": "naranja",
+  "en": "orange (color)",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 711
+ },
+ {
+  "es": "dorado",
+  "en": "golden",
+  "pos": "adjective",
+  "cat": "colors",
+  "x": "",
+  "y": "",
+  "id": 712
+ },
+ {
+  "es": "el amor",
+  "en": "love",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 713
+ },
+ {
+  "es": "la felicidad",
+  "en": "happiness",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 714
+ },
+ {
+  "es": "la tristeza",
+  "en": "sadness",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 715
+ },
+ {
+  "es": "el miedo",
+  "en": "fear",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 716
+ },
+ {
+  "es": "la sorpresa",
+  "en": "surprise",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 717
+ },
+ {
+  "es": "el enojo",
+  "en": "anger",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 718
+ },
+ {
+  "es": "la alegría",
+  "en": "joy",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 719
+ },
+ {
+  "es": "la esperanza",
+  "en": "hope",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 720
+ },
+ {
+  "es": "la confianza",
+  "en": "trust, confidence",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 721
+ },
+ {
+  "es": "el estrés",
+  "en": "stress",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 722
+ },
+ {
+  "es": "la preocupación",
+  "en": "worry",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 723
+ },
+ {
+  "es": "el orgullo",
+  "en": "pride",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 724
+ },
+ {
+  "es": "la vergüenza",
+  "en": "embarrassment, shame",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 725
+ },
+ {
+  "es": "los celos",
+  "en": "jealousy",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 726
+ },
+ {
+  "es": "el cariño",
+  "en": "affection",
+  "pos": "noun",
+  "cat": "emotions",
+  "x": "",
+  "y": "",
+  "id": 727
+ },
+ {
+  "es": "el trabajo",
+  "en": "work, job",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 728
+ },
+ {
+  "es": "la empresa",
+  "en": "company",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 729
+ },
+ {
+  "es": "la reunión",
+  "en": "meeting",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 730
+ },
+ {
+  "es": "el proyecto",
+  "en": "project",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 731
+ },
+ {
+  "es": "el cliente",
+  "en": "client",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 732
+ },
+ {
+  "es": "el negocio",
+  "en": "business",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 733
+ },
+ {
+  "es": "el dinero",
+  "en": "money",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 734
+ },
+ {
+  "es": "el salario",
+  "en": "salary",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 735
+ },
+ {
+  "es": "el sueldo",
+  "en": "wage, salary",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 736
+ },
+ {
+  "es": "la entrevista",
+  "en": "interview",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 737
+ },
+ {
+  "es": "el currículum",
+  "en": "resume, CV",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 738
+ },
+ {
+  "es": "el contrato",
+  "en": "contract",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 739
+ },
+ {
+  "es": "la profesión",
+  "en": "profession",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 740
+ },
+ {
+  "es": "el médico",
+  "en": "doctor",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 741
+ },
+ {
+  "es": "el maestro",
+  "en": "teacher",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 742
+ },
+ {
+  "es": "el profesor",
+  "en": "professor, teacher",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 743
+ },
+ {
+  "es": "el estudiante",
+  "en": "student",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 744
+ },
+ {
+  "es": "el abogado",
+  "en": "lawyer",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 745
+ },
+ {
+  "es": "el ingeniero",
+  "en": "engineer",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 746
+ },
+ {
+  "es": "el enfermero",
+  "en": "nurse",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 747
+ },
+ {
+  "es": "el policía",
+  "en": "police officer",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 748
+ },
+ {
+  "es": "el cocinero",
+  "en": "cook, chef",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 749
+ },
+ {
+  "es": "la clase",
+  "en": "class",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 750
+ },
+ {
+  "es": "la tarea",
+  "en": "homework, task",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 751
+ },
+ {
+  "es": "el examen",
+  "en": "exam, test",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 752
+ },
+ {
+  "es": "la nota",
+  "en": "grade, note",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 753
+ },
+ {
+  "es": "la pregunta",
+  "en": "question",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 754
+ },
+ {
+  "es": "la respuesta",
+  "en": "answer",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 755
+ },
+ {
+  "es": "el problema",
+  "en": "problem",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 756
+ },
+ {
+  "es": "la solución",
+  "en": "solution",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 757
+ },
+ {
+  "es": "la idea",
+  "en": "idea",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 758
+ },
+ {
+  "es": "el plan",
+  "en": "plan",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 759
+ },
+ {
+  "es": "la meta",
+  "en": "goal",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 760
+ },
+ {
+  "es": "el éxito",
+  "en": "success",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 761
+ },
+ {
+  "es": "el error",
+  "en": "mistake, error",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 762
+ },
+ {
+  "es": "la diferencia",
+  "en": "difference",
+  "pos": "noun",
+  "cat": "work",
+  "x": "",
+  "y": "",
+  "id": 763
+ },
+ {
+  "es": "el internet",
+  "en": "internet",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 764
+ },
+ {
+  "es": "la aplicación",
+  "en": "app",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 765
+ },
+ {
+  "es": "la página web",
+  "en": "webpage",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 766
+ },
+ {
+  "es": "el correo electrónico",
+  "en": "email",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 767
+ },
+ {
+  "es": "la contraseña",
+  "en": "password",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 768
+ },
+ {
+  "es": "el mensaje",
+  "en": "message",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 769
+ },
+ {
+  "es": "la llamada",
+  "en": "phone call",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 770
+ },
+ {
+  "es": "la red social",
+  "en": "social media",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 771
+ },
+ {
+  "es": "la foto",
+  "en": "photo",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 772
+ },
+ {
+  "es": "el video",
+  "en": "video",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 773
+ },
+ {
+  "es": "la música",
+  "en": "music",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 774
+ },
+ {
+  "es": "la cámara",
+  "en": "camera",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 775
+ },
+ {
+  "es": "la pantalla",
+  "en": "screen",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 776
+ },
+ {
+  "es": "el archivo",
+  "en": "file",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 777
+ },
+ {
+  "es": "la batería",
+  "en": "battery",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 778
+ },
+ {
+  "es": "el wifi",
+  "en": "wifi",
+  "pos": "noun",
+  "cat": "technology",
+  "x": "",
+  "y": "",
+  "id": 779
+ },
+ {
+  "es": "Hola",
+  "en": "Hello",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 780
+ },
+ {
+  "es": "Buenos días",
+  "en": "Good morning",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 781
+ },
+ {
+  "es": "Buenas tardes",
+  "en": "Good afternoon",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 782
+ },
+ {
+  "es": "Buenas noches",
+  "en": "Good evening / night",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 783
+ },
+ {
+  "es": "¿Cómo estás?",
+  "en": "How are you? (informal)",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 784
+ },
+ {
+  "es": "¿Cómo está usted?",
+  "en": "How are you? (formal)",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 785
+ },
+ {
+  "es": "Bien, gracias",
+  "en": "Fine, thanks",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 786
+ },
+ {
+  "es": "¿Qué tal?",
+  "en": "How's it going?",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 787
+ },
+ {
+  "es": "Mucho gusto",
+  "en": "Nice to meet you",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 788
+ },
+ {
+  "es": "Encantado de conocerte",
+  "en": "Pleased to meet you",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 789
+ },
+ {
+  "es": "¿Cómo te llamas?",
+  "en": "What's your name?",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 790
+ },
+ {
+  "es": "Me llamo...",
+  "en": "My name is...",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 791
+ },
+ {
+  "es": "Soy de...",
+  "en": "I'm from...",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 792
+ },
+ {
+  "es": "Adiós",
+  "en": "Goodbye",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 793
+ },
+ {
+  "es": "Hasta luego",
+  "en": "See you later",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 794
+ },
+ {
+  "es": "Hasta pronto",
+  "en": "See you soon",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 795
+ },
+ {
+  "es": "Hasta mañana",
+  "en": "See you tomorrow",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 796
+ },
+ {
+  "es": "Nos vemos",
+  "en": "See you",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 797
+ },
+ {
+  "es": "Por favor",
+  "en": "Please",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 798
+ },
+ {
+  "es": "Gracias",
+  "en": "Thank you",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 799
+ },
+ {
+  "es": "Muchas gracias",
+  "en": "Thank you very much",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 800
+ },
+ {
+  "es": "De nada",
+  "en": "You're welcome",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 801
+ },
+ {
+  "es": "Perdón",
+  "en": "Excuse me, sorry",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 802
+ },
+ {
+  "es": "Lo siento",
+  "en": "I'm sorry",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 803
+ },
+ {
+  "es": "Disculpe",
+  "en": "Excuse me (formal)",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 804
+ },
+ {
+  "es": "Con permiso",
+  "en": "Excuse me (to pass by)",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 805
+ },
+ {
+  "es": "No hay problema",
+  "en": "No problem",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 806
+ },
+ {
+  "es": "¿Habla inglés?",
+  "en": "Do you speak English?",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 807
+ },
+ {
+  "es": "No entiendo",
+  "en": "I don't understand",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 808
+ },
+ {
+  "es": "¿Puede repetir, por favor?",
+  "en": "Can you repeat, please?",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 809
+ },
+ {
+  "es": "Más despacio, por favor",
+  "en": "Slower, please",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 810
+ },
+ {
+  "es": "¿Cómo se dice...?",
+  "en": "How do you say...?",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 811
+ },
+ {
+  "es": "No sé",
+  "en": "I don't know",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 812
+ },
+ {
+  "es": "Claro",
+  "en": "Sure, of course",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 813
+ },
+ {
+  "es": "Por supuesto",
+  "en": "Of course",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 814
+ },
+ {
+  "es": "Tal vez",
+  "en": "Maybe",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 815
+ },
+ {
+  "es": "Vale",
+  "en": "Okay (Spain)",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 816
+ },
+ {
+  "es": "De acuerdo",
+  "en": "Agreed, okay",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 817
+ },
+ {
+  "es": "Felicidades",
+  "en": "Congratulations",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 818
+ },
+ {
+  "es": "Feliz cumpleaños",
+  "en": "Happy birthday",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 819
+ },
+ {
+  "es": "Buena suerte",
+  "en": "Good luck",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 820
+ },
+ {
+  "es": "Salud",
+  "en": "Cheers / bless you",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 821
+ },
+ {
+  "es": "Bienvenido",
+  "en": "Welcome",
+  "pos": "phrase",
+  "cat": "greetings",
+  "x": "",
+  "y": "",
+  "id": 822
+ },
+ {
+  "es": "Una mesa para dos, por favor",
+  "en": "A table for two, please",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 823
+ },
+ {
+  "es": "¿Puedo ver el menú?",
+  "en": "Can I see the menu?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 824
+ },
+ {
+  "es": "¿Qué me recomienda?",
+  "en": "What do you recommend?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 825
+ },
+ {
+  "es": "Quiero pedir...",
+  "en": "I'd like to order...",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 826
+ },
+ {
+  "es": "Para mí...",
+  "en": "For me...",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 827
+ },
+ {
+  "es": "¿Está incluida la propina?",
+  "en": "Is the tip included?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 828
+ },
+ {
+  "es": "La cuenta, por favor",
+  "en": "The bill, please",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 829
+ },
+ {
+  "es": "Está delicioso",
+  "en": "It's delicious",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 830
+ },
+ {
+  "es": "Estoy lleno",
+  "en": "I'm full",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 831
+ },
+ {
+  "es": "Tengo hambre",
+  "en": "I'm hungry",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 832
+ },
+ {
+  "es": "Tengo sed",
+  "en": "I'm thirsty",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 833
+ },
+ {
+  "es": "¿Cuánto cuesta esto?",
+  "en": "How much does this cost?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 834
+ },
+ {
+  "es": "Es muy caro",
+  "en": "It's very expensive",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 835
+ },
+ {
+  "es": "¿Tiene algo más barato?",
+  "en": "Do you have something cheaper?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 836
+ },
+ {
+  "es": "¿Aceptan tarjeta?",
+  "en": "Do you accept card?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 837
+ },
+ {
+  "es": "Voy a pagar en efectivo",
+  "en": "I'll pay in cash",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 838
+ },
+ {
+  "es": "¿Dónde está el probador?",
+  "en": "Where's the fitting room?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 839
+ },
+ {
+  "es": "¿Tiene esto en otra talla?",
+  "en": "Do you have this in another size?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 840
+ },
+ {
+  "es": "Solo estoy mirando",
+  "en": "I'm just looking",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 841
+ },
+ {
+  "es": "Me lo llevo",
+  "en": "I'll take it",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 842
+ },
+ {
+  "es": "¿Puedo devolver esto?",
+  "en": "Can I return this?",
+  "pos": "phrase",
+  "cat": "restaurant",
+  "x": "",
+  "y": "",
+  "id": 843
+ },
+ {
+  "es": "¿Dónde está el baño?",
+  "en": "Where's the bathroom?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 844
+ },
+ {
+  "es": "¿Cómo llego a...?",
+  "en": "How do I get to...?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 845
+ },
+ {
+  "es": "¿Está lejos de aquí?",
+  "en": "Is it far from here?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 846
+ },
+ {
+  "es": "Está cerca",
+  "en": "It's close",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 847
+ },
+ {
+  "es": "Siga recto",
+  "en": "Go straight ahead",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 848
+ },
+ {
+  "es": "Gire a la derecha",
+  "en": "Turn right",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 849
+ },
+ {
+  "es": "Gire a la izquierda",
+  "en": "Turn left",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 850
+ },
+ {
+  "es": "Está al lado de...",
+  "en": "It's next to...",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 851
+ },
+ {
+  "es": "Está enfrente de...",
+  "en": "It's in front of...",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 852
+ },
+ {
+  "es": "Está detrás de...",
+  "en": "It's behind...",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 853
+ },
+ {
+  "es": "Estoy perdido",
+  "en": "I'm lost",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 854
+ },
+ {
+  "es": "¿Me puede ayudar?",
+  "en": "Can you help me?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 855
+ },
+ {
+  "es": "¿A qué hora sale el tren?",
+  "en": "What time does the train leave?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 856
+ },
+ {
+  "es": "¿A qué hora llega el vuelo?",
+  "en": "What time does the flight arrive?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 857
+ },
+ {
+  "es": "Quiero reservar una habitación",
+  "en": "I want to book a room",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 858
+ },
+ {
+  "es": "¿Tiene habitaciones disponibles?",
+  "en": "Do you have rooms available?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 859
+ },
+ {
+  "es": "¿Cuál es la contraseña del wifi?",
+  "en": "What's the wifi password?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 860
+ },
+ {
+  "es": "Necesito un taxi",
+  "en": "I need a taxi",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 861
+ },
+ {
+  "es": "Lléveme a este hotel",
+  "en": "Take me to this hotel",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 862
+ },
+ {
+  "es": "¿Cuánto tiempo se tarda?",
+  "en": "How long does it take?",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 863
+ },
+ {
+  "es": "Tengo una reserva",
+  "en": "I have a reservation",
+  "pos": "phrase",
+  "cat": "travel",
+  "x": "",
+  "y": "",
+  "id": 864
+ },
+ {
+  "es": "¡Ayuda!",
+  "en": "Help!",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 865
+ },
+ {
+  "es": "¡Cuidado!",
+  "en": "Watch out!",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 866
+ },
+ {
+  "es": "Llame a la policía",
+  "en": "Call the police",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 867
+ },
+ {
+  "es": "Necesito un médico",
+  "en": "I need a doctor",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 868
+ },
+ {
+  "es": "Es una emergencia",
+  "en": "It's an emergency",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 869
+ },
+ {
+  "es": "Me siento mal",
+  "en": "I feel sick",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 870
+ },
+ {
+  "es": "Me duele la cabeza",
+  "en": "My head hurts",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 871
+ },
+ {
+  "es": "Me duele el estómago",
+  "en": "My stomach hurts",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 872
+ },
+ {
+  "es": "Tengo fiebre",
+  "en": "I have a fever",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 873
+ },
+ {
+  "es": "¿Dónde está el hospital más cercano?",
+  "en": "Where's the nearest hospital?",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 874
+ },
+ {
+  "es": "Soy alérgico a...",
+  "en": "I'm allergic to...",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 875
+ },
+ {
+  "es": "Llame a una ambulancia",
+  "en": "Call an ambulance",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 876
+ },
+ {
+  "es": "Me robaron",
+  "en": "I was robbed",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 877
+ },
+ {
+  "es": "Perdí mi pasaporte",
+  "en": "I lost my passport",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 878
+ },
+ {
+  "es": "¿Puede llamar a mi familia?",
+  "en": "Can you call my family?",
+  "pos": "phrase",
+  "cat": "emergency",
+  "x": "",
+  "y": "",
+  "id": 879
+ },
+ {
+  "es": "¿De dónde eres?",
+  "en": "Where are you from?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 880
+ },
+ {
+  "es": "¿A qué te dedicas?",
+  "en": "What do you do for work?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 881
+ },
+ {
+  "es": "¿Cuántos años tienes?",
+  "en": "How old are you?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 882
+ },
+ {
+  "es": "Tengo... años",
+  "en": "I'm ... years old",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 883
+ },
+ {
+  "es": "¿Tienes hermanos?",
+  "en": "Do you have siblings?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 884
+ },
+ {
+  "es": "Estoy de vacaciones",
+  "en": "I'm on vacation",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 885
+ },
+ {
+  "es": "Me encanta este lugar",
+  "en": "I love this place",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 886
+ },
+ {
+  "es": "¡Qué bien!",
+  "en": "How nice!",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 887
+ },
+ {
+  "es": "¡Qué lástima!",
+  "en": "What a shame!",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 888
+ },
+ {
+  "es": "¡Qué interesante!",
+  "en": "How interesting!",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 889
+ },
+ {
+  "es": "No importa",
+  "en": "It doesn't matter",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 890
+ },
+ {
+  "es": "No pasa nada",
+  "en": "It's okay, no worries",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 891
+ },
+ {
+  "es": "Estoy de acuerdo",
+  "en": "I agree",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 892
+ },
+ {
+  "es": "No estoy de acuerdo",
+  "en": "I disagree",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 893
+ },
+ {
+  "es": "Tienes razón",
+  "en": "You're right",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 894
+ },
+ {
+  "es": "Buena idea",
+  "en": "Good idea",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 895
+ },
+ {
+  "es": "¿En serio?",
+  "en": "Really?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 896
+ },
+ {
+  "es": "¡Increíble!",
+  "en": "Incredible!",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 897
+ },
+ {
+  "es": "Vamos",
+  "en": "Let's go",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 898
+ },
+ {
+  "es": "Espera un momento",
+  "en": "Wait a moment",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 899
+ },
+ {
+  "es": "¿Listo?",
+  "en": "Ready?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 900
+ },
+ {
+  "es": "Estoy listo",
+  "en": "I'm ready",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 901
+ },
+ {
+  "es": "¿Me entiendes?",
+  "en": "Do you understand me?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 902
+ },
+ {
+  "es": "Te entiendo",
+  "en": "I understand you",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 903
+ },
+ {
+  "es": "¿Qué significa esto?",
+  "en": "What does this mean?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 904
+ },
+ {
+  "es": "Buen provecho",
+  "en": "Enjoy your meal",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 905
+ },
+ {
+  "es": "Salud (al beber)",
+  "en": "Cheers",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 906
+ },
+ {
+  "es": "Cuídate",
+  "en": "Take care",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 907
+ },
+ {
+  "es": "Que tengas un buen día",
+  "en": "Have a good day",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 908
+ },
+ {
+  "es": "Igualmente",
+  "en": "Likewise",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 909
+ },
+ {
+  "es": "Por aquí",
+  "en": "This way",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 910
+ },
+ {
+  "es": "¿En qué puedo ayudarle?",
+  "en": "How can I help you?",
+  "pos": "phrase",
+  "cat": "smalltalk",
+  "x": "",
+  "y": "",
+  "id": 911
+ }
+]
