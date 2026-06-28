@@ -284,11 +284,15 @@ function openCyclesList() {
 }
 
 // ---------------------------------------------------------------------------
-// Cycle detail + audio player
+// Cycle detail + Spanish-only audio player
 // ---------------------------------------------------------------------------
 let cycleAudio = null;
 let cycleAudioRAF = null;
 let currentDetailCycle = null;
+let cycleSegs = [];       // Spanish segments for current cycle
+let cycleSegIdx = 0;      // which segment we're on
+let cycleSegPlayed = 0;   // cumulative seconds of Spanish played (for progress)
+let cycleTotalSpanish = 0; // total seconds of Spanish content
 
 function openCycleDetail(num) {
   currentDetailCycle = num;
@@ -296,22 +300,22 @@ function openCycleDetail(num) {
   saveJSON(LS_CYCLE, num);
 
   const meta = CYCLES_META.find(c => c.num === num);
+  cycleSegs = CYCLE_DATA.segments[String(num)] || [];
+  cycleTotalSpanish = cycleSegs.reduce((sum, s) => sum + (s.e - s.s), 0);
+
   $("cycle-detail-title").textContent = meta ? meta.title : `Ciclo ${num}`;
   $("btn-reveal-text").textContent = "Revelar texto";
   $("cycle-text-wrap").classList.add("hidden");
   $("cycle-progress-fill").style.width = "0%";
   $("cycle-time-current").textContent = "0:00";
-  $("cycle-time-total").textContent = fmtTime(meta ? meta.duration : 0);
+  $("cycle-time-total").textContent = fmtTime(cycleTotalSpanish);
   $("cycle-play-btn").textContent = "▶";
 
-  // Populate text segments
-  const segs = CYCLE_DATA.segments[String(num)] || [];
   const textEl = $("cycle-text");
-  textEl.innerHTML = segs.map((s, i) =>
+  textEl.innerHTML = cycleSegs.map((s, i) =>
     `<span class="seg-line" data-idx="${i}" data-start="${s.s}" data-end="${s.e}">${escapeHtml(s.t)}</span>`
   ).join("\n");
 
-  // Populate vocab
   const words = CYCLE_DATA.words[String(num)] || [];
   const vocabList = $("cycle-vocab-list");
   vocabList.innerHTML = "";
@@ -331,9 +335,7 @@ function openCycleDetail(num) {
     vocabList.appendChild(row);
   });
 
-  // Stop previous audio
   stopCycleAudio();
-
   show("screen-cycle-detail");
 }
 
@@ -341,34 +343,75 @@ function stopCycleAudio() {
   if (cycleAudio) { cycleAudio.pause(); cycleAudio = null; }
   if (cycleAudioRAF) { cancelAnimationFrame(cycleAudioRAF); cycleAudioRAF = null; }
   $("cycle-play-btn").textContent = "▶";
+  cycleSegIdx = 0;
+  cycleSegPlayed = 0;
 }
 
 function toggleCyclePlay() {
-  if (!currentDetailCycle) return;
+  if (!currentDetailCycle || !cycleSegs.length) return;
+
   if (cycleAudio && !cycleAudio.paused) {
     cycleAudio.pause();
     $("cycle-play-btn").textContent = "▶";
     if (cycleAudioRAF) { cancelAnimationFrame(cycleAudioRAF); cycleAudioRAF = null; }
     return;
   }
+
   if (!cycleAudio) {
     cycleAudio = new Audio(`audio/Cycle ${currentDetailCycle}.mp3`);
-    cycleAudio.addEventListener("ended", () => {
-      $("cycle-play-btn").textContent = "▶";
-      if (cycleAudioRAF) { cancelAnimationFrame(cycleAudioRAF); cycleAudioRAF = null; }
-    });
+    // On timeupdate: if we've passed current segment's end, jump to next Spanish segment
+    cycleAudio.addEventListener("timeupdate", onCycleTimeUpdate);
+    cycleAudio.addEventListener("ended", onCycleEnded);
+    // Start at first Spanish segment
+    cycleSegIdx = 0;
+    cycleSegPlayed = 0;
+    cycleAudio.currentTime = cycleSegs[0].s;
   }
+
   cycleAudio.play();
   $("cycle-play-btn").textContent = "⏸";
   tickCycleProgress();
 }
 
+function onCycleTimeUpdate() {
+  if (!cycleAudio || !cycleSegs.length) return;
+  const cur = cycleAudio.currentTime;
+  const seg = cycleSegs[cycleSegIdx];
+  if (!seg) return;
+
+  // If we've gone past the end of this segment, jump to next
+  if (cur >= seg.e + 0.1) {
+    // Accumulate played time for this segment
+    cycleSegPlayed += (seg.e - seg.s);
+    cycleSegIdx++;
+    if (cycleSegIdx >= cycleSegs.length) {
+      cycleAudio.pause();
+      onCycleEnded();
+      return;
+    }
+    cycleAudio.currentTime = cycleSegs[cycleSegIdx].s;
+  }
+}
+
+function onCycleEnded() {
+  $("cycle-play-btn").textContent = "▶";
+  if (cycleAudioRAF) { cancelAnimationFrame(cycleAudioRAF); cycleAudioRAF = null; }
+  $("cycle-progress-fill").style.width = "100%";
+  $("cycle-time-current").textContent = fmtTime(cycleTotalSpanish);
+}
+
 function tickCycleProgress() {
   if (!cycleAudio || cycleAudio.paused) return;
-  const dur = cycleAudio.duration || 1;
   const cur = cycleAudio.currentTime;
-  $("cycle-progress-fill").style.width = (cur / dur * 100) + "%";
-  $("cycle-time-current").textContent = fmtTime(cur);
+  const seg = cycleSegs[cycleSegIdx];
+
+  if (seg && cycleTotalSpanish > 0) {
+    const playedInSeg = Math.max(0, cur - seg.s);
+    const totalPlayed = cycleSegPlayed + playedInSeg;
+    $("cycle-progress-fill").style.width = (totalPlayed / cycleTotalSpanish * 100) + "%";
+    $("cycle-time-current").textContent = fmtTime(totalPlayed);
+  }
+
   highlightActiveSeg(cur);
   cycleAudioRAF = requestAnimationFrame(tickCycleProgress);
 }
@@ -383,10 +426,22 @@ function highlightActiveSeg(currentTime) {
 }
 
 function seekCycleAudio(e) {
-  if (!cycleAudio) return;
-  const bar = e.currentTarget;
-  const pct = e.offsetX / bar.offsetWidth;
-  cycleAudio.currentTime = pct * (cycleAudio.duration || 0);
+  if (!cycleAudio || !cycleSegs.length || !cycleTotalSpanish) return;
+  const pct = e.offsetX / e.currentTarget.offsetWidth;
+  const targetPlayed = pct * cycleTotalSpanish;
+
+  // Find which segment this falls in
+  let acc = 0;
+  for (let i = 0; i < cycleSegs.length; i++) {
+    const segDur = cycleSegs[i].e - cycleSegs[i].s;
+    if (acc + segDur >= targetPlayed) {
+      cycleSegIdx = i;
+      cycleSegPlayed = acc;
+      cycleAudio.currentTime = cycleSegs[i].s + (targetPlayed - acc);
+      return;
+    }
+    acc += segDur;
+  }
 }
 
 function addWordToDeck(word, row) {
