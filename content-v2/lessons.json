@@ -1,0 +1,6031 @@
+[
+  {
+    "id": "lesson:fsi:01",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 1,
+    "title": "Getting Started — The Alphabet and Names",
+    "duration_seconds": 265.0,
+    "audio_asset": {
+      "id": "audio:fsi:01",
+      "path": "audio/Cycle 1.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "NAMES",
+        "type": "section",
+        "pdf_pages": [
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 1,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:02",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 2,
+    "title": "Getting Started in Class",
+    "duration_seconds": 427.0,
+    "audio_asset": {
+      "id": "audio:fsi:02",
+      "path": "audio/Cycle 2.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          20
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEl'I'ING srARTED IN CLASS",
+        "type": "section",
+        "pdf_pages": [
+          20
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "MANAGING '!HE CLASS IN SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          22,
+          23
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 2,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:03",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 3,
+    "title": "Getting Started in Country — At the Airport",
+    "duration_seconds": 1103.0,
+    "audio_asset": {
+      "id": "audio:fsi:03",
+      "path": "audio/Cycle 3.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          24
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING srARl'ED IN OOUNTRY",
+        "type": "section",
+        "pdf_pages": [
+          24
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "IN '!HE BEGINNING",
+        "type": "section",
+        "pdf_pages": [
+          25
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "FINDING YOUR WAY AROUND",
+        "type": "section",
+        "pdf_pages": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "1. SEITING '!HE SCr.NE",
+        "type": "section",
+        "pdf_pages": [
+          26,
+          27
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          27
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue: (oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          27,
+          28
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          28
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "16 SPA1~SH",
+        "type": "section",
+        "pdf_pages": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "ENCONTRAR NECESITAR CAMBIAR HABLAR ILAMAR(SE)",
+        "type": "section",
+        "pdf_pages": [
+          30
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "ESI'AR SER IR",
+        "type": "section",
+        "pdf_pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 3,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:04",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 4,
+    "title": "Getting Started in Country — At the Hotel",
+    "duration_seconds": 1018.0,
+    "audio_asset": {
+      "id": "audio:fsi:04",
+      "path": "audio/Cycle 4.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          44
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GErrING srARTED IN COUN'IRY",
+        "type": "section",
+        "pdf_pages": [
+          44,
+          45
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "The follow1ng dialogue w1ll help you handle certain sl tuatlons that roa:¡",
+        "type": "dialogue",
+        "pdf_pages": [
+          45
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "occur at a hotel. Observe that ln cur second sltuatlona.l dialogue, the naid answers",
+        "type": "dialogue",
+        "pdf_pages": [
+          45,
+          46
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "ll. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          46
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          46
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          46
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "DialOgue No. 1: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          46,
+          47
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "I. SEl'I'ING 'mE SJENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          47
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "II • HEARING TI (B)",
+        "type": "section",
+        "pdf_pages": [
+          47
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "III. SEEING TI (B)",
+        "type": "section",
+        "pdf_pages": [
+          47,
+          48
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          49,
+          50
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "EH. verbs: ENTENDER HACER PROMErER PONER TRAER",
+        "type": "section",
+        "pdf_pages": [
+          50
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "- DECIR",
+        "type": "section",
+        "pdf_pages": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "VI. PUTl'ING IT 'IOOErnER",
+        "type": "section",
+        "pdf_pages": [
+          63
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          63
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "SPANlSH 51",
+        "type": "section",
+        "pdf_pages": [
+          64
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "DiaLogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          64,
+          65
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          65,
+          66
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "VII. MAKING rr WORK",
+        "type": "section",
+        "pdf_pages": [
+          66
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 4,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:05",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 5,
+    "title": "Getting Started in Country — At the Restaurant",
+    "duration_seconds": 587.0,
+    "audio_asset": {
+      "id": "audio:fsi:05",
+      "path": "audio/Cycle 5.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "s01",
+        "title": "SPANISH. 55",
+        "type": "section",
+        "pdf_pages": [
+          68
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "GEITING 3rARTED IN OOUN.IRY",
+        "type": "section",
+        "pdf_pages": [
+          68,
+          69
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "'!be dialogue that follows w111 help you to get star'ted.",
+        "type": "dialogue",
+        "pdf_pages": [
+          69
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "I. SErl'ING '!HE ::CENE",
+        "type": "section",
+        "pdf_pages": [
+          70
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "II. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          70
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          70,
+          71,
+          72
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "sentence in rur dialogue where quiere or quisiera is used.",
+        "type": "dialogue",
+        "pdf_pages": [
+          72,
+          73,
+          74,
+          75
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "IV. TAKING rr APART",
+        "type": "section",
+        "pdf_pages": [
+          76,
+          77
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "v. GErrING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 5,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:06",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 6,
+    "title": "Getting Started in Country — Giving Instructions to the Baby-Sitter",
+    "duration_seconds": 554.0,
+    "audio_asset": {
+      "id": "audio:fsi:06",
+      "path": "audio/Cycle 6.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          82,
+          83,
+          84
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          84,
+          85
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "LLAMAR(SE) LAVAR(SE) SENTAR(SE)",
+        "type": "section",
+        "pdf_pages": [
+          85
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "ACOSl'AR (SE) PREOCUPAR(SE) QUEDAR(SE)",
+        "type": "section",
+        "pdf_pages": [
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "rv . TAKING IT APARI'",
+        "type": "section",
+        "pdf_pages": [
+          90
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue",
+        "type": "dialogue",
+        "pdf_pages": [
+          90,
+          91
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "V. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          91,
+          92,
+          93
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VI. PU'ITING IT IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          93,
+          94,
+          95
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VII. MAKING TI VDRK",
+        "type": "section",
+        "pdf_pages": [
+          95
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          95
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 6,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:07",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 7,
+    "title": "Talking on the Telephone — Managing a Conversation",
+    "duration_seconds": 330.0,
+    "audio_asset": {
+      "id": "audio:fsi:07",
+      "path": "audio/Cycle 7.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          96
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING CN '!HE TBLEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          96
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SEITING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          97
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          97
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          97
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          97
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue: (continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue",
+        "type": "dialogue",
+        "pdf_pages": [
+          101
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "v. GEl'rING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          102
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VI. PUTl'ING IT 'lOOElHER",
+        "type": "section",
+        "pdf_pages": [
+          102,
+          103
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 7,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:08",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 8,
+    "title": "Getting Around Outside — Asking for Directions",
+    "duration_seconds": 657.0,
+    "audio_asset": {
+      "id": "audio:fsi:08",
+      "path": "audio/Cycle 8.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          104
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GErrING AROUND OOTSIDE",
+        "type": "section",
+        "pdf_pages": [
+          104
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "'1h1s CycIe will heIp you to deveIop youl' vocabulary and prepare you to IOOve",
+        "type": "vocabulary",
+        "pdf_pages": [
+          104
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "I. SEITIOO '!HE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          105
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "II. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          105
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "III. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          105
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          105
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1: (oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          105,
+          106
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "ll. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          106
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "111. SEEING IT (S)",
+        "type": "section",
+        "pdf_pages": [
+          106
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          106,
+          107,
+          108,
+          109
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "SPANISH 'j\",",
+        "type": "section",
+        "pdf_pages": [
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "v. GElTING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          116,
+          117,
+          118
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          118,
+          119
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          119
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          119,
+          120,
+          121
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "VII. MAKING rr WORK",
+        "type": "section",
+        "pdf_pages": [
+          121
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          121
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 8,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:09",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 9,
+    "title": "Talking on the Telephone — Taking a Message",
+    "duration_seconds": 469.0,
+    "audio_asset": {
+      "id": "audio:fsi:09",
+      "path": "audio/Cycle 9.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          122
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING rn '!HE TELEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          122
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SEITING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          123
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          123
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          123
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          123
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue: (oontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue",
+        "type": "dialogue",
+        "pdf_pages": [
+          128
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "V. GEITING rrHE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          129
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VI. PUTI'ING IT 'lOOErHER",
+        "type": "section",
+        "pdf_pages": [
+          129,
+          130
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "VII. MAKING IT \\«)RK",
+        "type": "section",
+        "pdf_pages": [
+          130
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          130
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 9,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:10",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 10,
+    "title": "Getting Around Inside",
+    "duration_seconds": 545.0,
+    "audio_asset": {
+      "id": "audio:fsi:10",
+      "path": "audio/Cycle 10.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          132
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING AROUND INSIDE",
+        "type": "section",
+        "pdf_pages": [
+          132
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SEITING '!HE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          133
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          133
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          133
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          133
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          133
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "1. SETl'ING '!HE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          134
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          134
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "DialOgue No. 2: (oontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Vocabularyt:",
+        "type": "vocabulary",
+        "pdf_pages": [
+          141
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          141
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          141,
+          142
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          142,
+          143,
+          144
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "DiaLogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          144
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "DiaLogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          144,
+          145
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          145
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          145,
+          146
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          146
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          146
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 10,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:11",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 11,
+    "title": "Talking on the Telephone — Dealing with Wrong Numbers",
+    "duration_seconds": 369.0,
+    "audio_asset": {
+      "id": "audio:fsi:11",
+      "path": "audio/Cycle 11.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          148
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING 00 '!HE TELEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          148,
+          149
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          149
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          149
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue: (continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          156
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          156
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 11,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:12",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 12,
+    "title": "Getting Around — Public Transportation",
+    "duration_seconds": 787.0,
+    "audio_asset": {
+      "id": "audio:fsi:12",
+      "path": "audio/Cycle 12.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          158
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GErrING AROUND",
+        "type": "section",
+        "pdf_pages": [
+          158,
+          159
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SEI'I'ING '!HE ::CENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          160
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          160
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: foontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          160,
+          161
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "l. SEITING rmE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          161
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          161
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          161,
+          162
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Dialogue No. 2: (continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          162
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "1. SE'ITING '!HE SCENE (e)",
+        "type": "section",
+        "pdf_pages": [
+          162
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "TI. HEARING IT (e)",
+        "type": "section",
+        "pdf_pages": [
+          162
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "111. SEEING IT (e)",
+        "type": "section",
+        "pdf_pages": [
+          162
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Dialogue No. 3:",
+        "type": "dialogue",
+        "pdf_pages": [
+          162,
+          163
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "Dialogue No. 3: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          171
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          172
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 3",
+        "type": "dialogue",
+        "pdf_pages": [
+          172
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          173,
+          174
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "VI. PU'ITING IT 'IOGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          174,
+          175
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          175
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "Dialogue No. 3",
+        "type": "dialogue",
+        "pdf_pages": [
+          175
+        ]
+      },
+      {
+        "id": "s21",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          175,
+          176
+        ]
+      },
+      {
+        "id": "s22",
+        "title": "VII. MAKIm IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          177
+        ]
+      },
+      {
+        "id": "s23",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          177
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 12,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:13",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 13,
+    "title": "Talking on the Telephone — Leaving a Message",
+    "duration_seconds": 344.0,
+    "audio_asset": {
+      "id": "audio:fsi:13",
+      "path": "audio/Cycle 13.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          178
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING 00 '!HE rrEL.EPHONE",
+        "type": "section",
+        "pdf_pages": [
+          178,
+          179
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          179
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue: (oontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          179,
+          180,
+          181,
+          182
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "_ _ _ _ _ BE.OO. _ _ _ _ _ 538-48- •",
+        "type": "section",
+        "pdf_pages": [
+          182,
+          183,
+          184
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue",
+        "type": "dialogue",
+        "pdf_pages": [
+          184
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "v. GEITING '!HE liEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          184,
+          185
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          186
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          186
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 13,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:14",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 14,
+    "title": "Getting Acquainted — The Familiar Form",
+    "duration_seconds": 750.0,
+    "audio_asset": {
+      "id": "audio:fsi:14",
+      "path": "audio/Cycle 14.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          188
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING ACQUAINTED",
+        "type": "section",
+        "pdf_pages": [
+          188
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "Language Note 1 of Cyele 6.) For example, it would not be unusual for the \"tú\"",
+        "type": "language_notes",
+        "pdf_pages": [
+          188,
+          189
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "'The first dialogue in tbis Cycle illustrates the W88 to ask someone to change",
+        "type": "dialogue",
+        "pdf_pages": [
+          189
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "1. SEITING '!HE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          190
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "11. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          190
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          190
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          190
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "DialOgue No. 1: (eontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          190,
+          191
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "l. SEITING 'lBE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          191
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          191
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          191,
+          192
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "II. HEARING rr (C)",
+        "type": "section",
+        "pdf_pages": [
+          192
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "III. SEEING rr (C)",
+        "type": "section",
+        "pdf_pages": [
+          192,
+          193
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "SPANISH HS9",
+        "type": "section",
+        "pdf_pages": [
+          202,
+          203
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          203
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          203,
+          204
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "Dialogue No. 3",
+        "type": "dialogue",
+        "pdf_pages": [
+          204
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          205,
+          206
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "VI. PUTrINJ IT 'IOOEIHER",
+        "type": "section",
+        "pdf_pages": [
+          206
+        ]
+      },
+      {
+        "id": "s21",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          206,
+          207,
+          208
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 14,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:15",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 15,
+    "title": "Meeting People",
+    "duration_seconds": 843.0,
+    "audio_asset": {
+      "id": "audio:fsi:15",
+      "path": "audio/Cycle 15.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          210
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "MEETING PEDPLE",
+        "type": "section",
+        "pdf_pages": [
+          210,
+          211
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SE1'rING '!HE OOENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          212
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "II. HEARING rr (A)",
+        "type": "section",
+        "pdf_pages": [
+          212
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "III. SEEING rr (A)",
+        "type": "section",
+        "pdf_pages": [
+          212
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          212
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "EE.UU.",
+        "type": "section",
+        "pdf_pages": [
+          212
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          212,
+          213
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          213
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "SPANISH a>1",
+        "type": "section",
+        "pdf_pages": [
+          214
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "TI. HEARING IT (e)",
+        "type": "section",
+        "pdf_pages": [
+          214
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "III. SEEING IT (e)",
+        "type": "section",
+        "pdf_pages": [
+          214
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Dialogue No. 3:",
+        "type": "dialogue",
+        "pdf_pages": [
+          214,
+          215
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "DiaLOgue No. 3: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "SPANISH 2)9",
+        "type": "section",
+        "pdf_pages": [
+          222,
+          223,
+          224
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "IV. TAKING IT APARr",
+        "type": "section",
+        "pdf_pages": [
+          225
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          225
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          225,
+          226
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "Dialogue No. 3",
+        "type": "dialogue",
+        "pdf_pages": [
+          226
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "v. GEl'I'ING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          232
+        ]
+      },
+      {
+        "id": "s21",
+        "title": "220 SPAt~ISH",
+        "type": "section",
+        "pdf_pages": [
+          233
+        ]
+      },
+      {
+        "id": "s22",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          233,
+          234
+        ]
+      },
+      {
+        "id": "s23",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          234,
+          235
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 15,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:16",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 16,
+    "title": "Talking on the Telephone — Placing a Long-Distance Call",
+    "duration_seconds": 545.0,
+    "audio_asset": {
+      "id": "audio:fsi:16",
+      "path": "audio/Cycle 16.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          236
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING CN 'lllE TELEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          236
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SEl'I'ING '!HE SJENE",
+        "type": "section",
+        "pdf_pages": [
+          237,
+          238
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue: (continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "IV. TAKING IT APARl'",
+        "type": "section",
+        "pdf_pages": [
+          245,
+          246,
+          247
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "VII. MAKING rr Y()RK",
+        "type": "section",
+        "pdf_pages": [
+          247
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 16,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:17",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 17,
+    "title": "Getting Acquainted — Describing Yourself and Your Family",
+    "duration_seconds": 543.0,
+    "audio_asset": {
+      "id": "audio:fsi:17",
+      "path": "audio/Cycle 17.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          248
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GETT!NG ACQUAINTED",
+        "type": "section",
+        "pdf_pages": [
+          248
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SEl'l'ING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          249
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          249
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "SPANISH 'Z37",
+        "type": "section",
+        "pdf_pages": [
+          250
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          250
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          251
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "dialogue, it is rore like the exclarnation of surprise that is used in Ehglish",
+        "type": "dialogue",
+        "pdf_pages": [
+          251
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "tic enthusiasm, as in this dialogue ,-it is slmilar to the Ehglish expression",
+        "type": "dialogue",
+        "pdf_pages": [
+          251,
+          252,
+          253,
+          254
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "IV. TAKING rr APART",
+        "type": "section",
+        "pdf_pages": [
+          255,
+          256
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          256,
+          257,
+          258
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VI. PU'ITING IT 'lOOEIHER",
+        "type": "section",
+        "pdf_pages": [
+          259
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "SPAN!SI 247",
+        "type": "section",
+        "pdf_pages": [
+          260
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 17,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:18",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 18,
+    "title": "Talking on the Telephone — Calling the Physician",
+    "duration_seconds": 434.0,
+    "audio_asset": {
+      "id": "audio:fsi:18",
+      "path": "audio/Cycle 18.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          262
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING CN '!HE TELEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          262
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "Notice that in our dialogue the doctor gpes to the patient's horne. It is not",
+        "type": "dialogue",
+        "pdf_pages": [
+          262,
+          263,
+          264,
+          265,
+          266,
+          267
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "IV. TAKING rr APARI'",
+        "type": "section",
+        "pdf_pages": [
+          268
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          269
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "VI. PUlTING IT 'IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          269,
+          270
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "VII. MAKING rr YDRK",
+        "type": "section",
+        "pdf_pages": [
+          270
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 18,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:19",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 19,
+    "title": "Getting Acquainted — Social Courtesies",
+    "duration_seconds": 628.0,
+    "audio_asset": {
+      "id": "audio:fsi:19",
+      "path": "audio/Cycle 19.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          272
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING ACQUAINTED",
+        "type": "section",
+        "pdf_pages": [
+          272
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SErrING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          273
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          273
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          274,
+          275
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "also uni ve rs al 1y understood. Such vocabulary differences are not unusual; the",
+        "type": "vocabulary",
+        "pdf_pages": [
+          275
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Roberto does in our dialogue.",
+        "type": "dialogue",
+        "pdf_pages": [
+          275,
+          276,
+          277,
+          278,
+          279
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          280,
+          281,
+          282,
+          283
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VI. PUTrING IT 'IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          283,
+          284
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "'Z{2 SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          285,
+          286
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "VII. MAKING rr YK:>RK",
+        "type": "section",
+        "pdf_pages": [
+          286
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          286
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 19,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:20",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 20,
+    "title": "Getting Acquainted — Small Talk and Expressing Appreciation",
+    "duration_seconds": 1193.0,
+    "audio_asset": {
+      "id": "audio:fsi:20",
+      "path": "audio/Cycle 20.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "s01",
+        "title": "CYCLE a>",
+        "type": "section",
+        "pdf_pages": [
+          288
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "GEITING ACQUAINTFD",
+        "type": "section",
+        "pdf_pages": [
+          288
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "tendency is reflected, or at least lmplied, in this Cycle's dialogue, when Roberto,",
+        "type": "dialogue",
+        "pdf_pages": [
+          288
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "'Zl6 SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          289
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "l. SEITING 'mE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          289
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "11. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          289
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          289
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "SPANISH Zl7",
+        "type": "section",
+        "pdf_pages": [
+          290
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "Dialogue No. 1: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          290
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "1. SEITING '!HE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          290
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          290
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          291
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          291
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "Dialogue No. 2: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          291
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "SPANISH 'Zl9",
+        "type": "section",
+        "pdf_pages": [
+          292
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          292,
+          293,
+          294,
+          295
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "SPANISH ~3",
+        "type": "section",
+        "pdf_pages": [
+          296
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "~4 SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          297
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "SPANISH ~5",
+        "type": "section",
+        "pdf_pages": [
+          298
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "~6 SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          299
+        ]
+      },
+      {
+        "id": "s21",
+        "title": "SPANISH á37",
+        "type": "section",
+        "pdf_pages": [
+          300
+        ]
+      },
+      {
+        "id": "s22",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          300,
+          301
+        ]
+      },
+      {
+        "id": "s23",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          301
+        ]
+      },
+      {
+        "id": "s24",
+        "title": "SPANISH ~9",
+        "type": "section",
+        "pdf_pages": [
+          302
+        ]
+      },
+      {
+        "id": "s25",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          302,
+          303,
+          304,
+          305,
+          306
+        ]
+      },
+      {
+        "id": "s26",
+        "title": "VI. PUTrING IT 'lOOEIHER",
+        "type": "section",
+        "pdf_pages": [
+          306
+        ]
+      },
+      {
+        "id": "s27",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          306,
+          307
+        ]
+      },
+      {
+        "id": "s28",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          307,
+          308
+        ]
+      },
+      {
+        "id": "s29",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          308
+        ]
+      },
+      {
+        "id": "s30",
+        "title": "296 SP~'ITSH",
+        "type": "section",
+        "pdf_pages": [
+          309,
+          310
+        ]
+      },
+      {
+        "id": "s31",
+        "title": "VII. MAJaNG IT YDRK",
+        "type": "section",
+        "pdf_pages": [
+          310
+        ]
+      },
+      {
+        "id": "s32",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          310
+        ]
+      },
+      {
+        "id": "s33",
+        "title": "298 SPAt~ISH",
+        "type": "section",
+        "pdf_pages": [
+          311
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 20,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:21",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 21,
+    "title": "Talking on the Telephone — Reserving a Hotel Room",
+    "duration_seconds": 457.0,
+    "audio_asset": {
+      "id": "audio:fsi:21",
+      "path": "audio/Cycle 21.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          312
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "TALKING 00 '!HE TELEPHONE",
+        "type": "section",
+        "pdf_pages": [
+          312,
+          313
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          313
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          313
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          313,
+          314
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          314,
+          315
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          316
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "V. GErrING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          316
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VI. PUTI'ING IT 'IOOElHER",
+        "type": "section",
+        "pdf_pages": [
+          316,
+          317,
+          318
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VII. MAKING rr VDRK",
+        "type": "section",
+        "pdf_pages": [
+          318
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 21,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:22",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 22,
+    "title": "At the Office — Greeting Visitors",
+    "duration_seconds": 588.0,
+    "audio_asset": {
+      "id": "audio:fsi:22",
+      "path": "audio/Cycle 22.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          320
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "1. SEl'1'ING 'mE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          321
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          321
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          321
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          322,
+          323
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "N . TAKING IT APARI'",
+        "type": "section",
+        "pdf_pages": [
+          324
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "v. GEITING 'IHE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          324
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VI. PU'ITING IT 'TOGEI'HER",
+        "type": "section",
+        "pdf_pages": [
+          324,
+          325,
+          326,
+          327
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VII. MAKING IT Yl)RK",
+        "type": "section",
+        "pdf_pages": [
+          327
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          327
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 22,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:23",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 23,
+    "title": "Getting Acquainted — Local Holidays",
+    "duration_seconds": 702.0,
+    "audio_asset": {
+      "id": "audio:fsi:23",
+      "path": "audio/Cycle 23.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          328
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GErrING ACQUAINTED",
+        "type": "section",
+        "pdf_pages": [
+          328,
+          329
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SETrING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          330
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          330,
+          331
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          331
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          332,
+          333
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "EE.UU.?",
+        "type": "section",
+        "pdf_pages": [
+          333
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "N. TAKING IT APARI'",
+        "type": "section",
+        "pdf_pages": [
+          333,
+          334
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          334,
+          335,
+          336
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VI. PUTI'ING IT 'lOOEIHER",
+        "type": "section",
+        "pdf_pages": [
+          337,
+          338,
+          339
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "VII. MAKING IT \\tK)RK",
+        "type": "section",
+        "pdf_pages": [
+          339
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          339
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 23,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:24",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 24,
+    "title": "Getting Out — The Outing",
+    "duration_seconds": 813.0,
+    "audio_asset": {
+      "id": "audio:fsi:24",
+      "path": "audio/Cycle 24.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          340
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEI'I'ING OUT",
+        "type": "section",
+        "pdf_pages": [
+          340
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "In this QJ cle and several of those that fol1ow, the dialogue wil1 be presented",
+        "type": "dialogue",
+        "pdf_pages": [
+          340
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "3~ SPANISH",
+        "type": "section",
+        "pdf_pages": [
+          341
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "1. SElTING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          341
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          341
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          341
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          341
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "SPANISH 3~",
+        "type": "section",
+        "pdf_pages": [
+          342
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion - oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          342
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 2: (Long Ve~8ion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          342,
+          343
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 2: (Long Ver-sion - continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          343
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          344,
+          345,
+          346
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "N. TAKING rr APART",
+        "type": "section",
+        "pdf_pages": [
+          346,
+          347
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          348,
+          349
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "SPPu~ISH 337",
+        "type": "section",
+        "pdf_pages": [
+          350
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "VI. PUTrING IT IDGErHER",
+        "type": "section",
+        "pdf_pages": [
+          350,
+          351,
+          352
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "VII. MAKING IT \\\\ORK",
+        "type": "section",
+        "pdf_pages": [
+          352
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          352
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 24,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:25",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 25,
+    "title": "Getting Out — Shopping at a Local Market",
+    "duration_seconds": 743.0,
+    "audio_asset": {
+      "id": "audio:fsi:25",
+      "path": "audio/Cycle 25.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          354
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING OUT",
+        "type": "section",
+        "pdf_pages": [
+          354
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "342 SPANlSH",
+        "type": "section",
+        "pdf_pages": [
+          355
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "1. SEITING 'mE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          355
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "11. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          355
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          355
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          355
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion - eontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          355,
+          356
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          356
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          356
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 2: (Long VeT'sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          356,
+          357
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 2: (Long Ve~sion - eontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          357,
+          358
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Language Note 2 of Cycle 24 (page 24.5)).",
+        "type": "language_notes",
+        "pdf_pages": [
+          358,
+          359,
+          360
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "N. TAKING rr APART",
+        "type": "section",
+        "pdf_pages": [
+          361,
+          362,
+          363,
+          364,
+          365
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "VI. PUTl'ING IT 100ErHER",
+        "type": "section",
+        "pdf_pages": [
+          365,
+          366,
+          367
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "VII. MAKING rr WORK",
+        "type": "section",
+        "pdf_pages": [
+          367
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 25,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:26",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 26,
+    "title": "Getting Out — Dining Out",
+    "duration_seconds": 772.0,
+    "audio_asset": {
+      "id": "audio:fsi:26",
+      "path": "audio/Cycle 26.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          368
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "as is the case ln the second dialogue ln th1s Cycle, you will be expected to P83 the",
+        "type": "dialogue",
+        "pdf_pages": [
+          368
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SETI'ING 'mE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          369
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT CA)",
+        "type": "section",
+        "pdf_pages": [
+          369
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          369
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          369
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion - eontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          369,
+          370
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "1. SEITING 'lHE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          370
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          370
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          370
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 2: (Long Ve1\"sionJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          370,
+          371
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 2: (Long Vepsion - aontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          371,
+          372,
+          373,
+          374
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "N. TAKING IT APARI'",
+        "type": "section",
+        "pdf_pages": [
+          375,
+          376
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "v. GElTING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          376,
+          377,
+          378
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "VI. PUTrING IT 'IDGElHER",
+        "type": "section",
+        "pdf_pages": [
+          379,
+          380,
+          381
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "VII. MARING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          381
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          381
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 26,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:27",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 27,
+    "title": "Getting Out — Paying at a Restaurant",
+    "duration_seconds": 446.0,
+    "audio_asset": {
+      "id": "audio:fsi:27",
+      "path": "audio/Cycle 27.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          382
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING OUT",
+        "type": "section",
+        "pdf_pages": [
+          382,
+          383
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          383
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          383,
+          384,
+          385
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 2: (Long Ve~sion - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          385,
+          386,
+          387
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "IV. TAKING IT APARl'",
+        "type": "section",
+        "pdf_pages": [
+          387
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "V. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          388,
+          389,
+          390
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VI. PUTrING IT 'IOOEIHER",
+        "type": "section",
+        "pdf_pages": [
+          390,
+          391,
+          392
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VII. MAKING IT Vl>RK",
+        "type": "section",
+        "pdf_pages": [
+          392
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          392
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 27,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:28",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 28,
+    "title": "Getting Out — Sight-Seeing",
+    "duration_seconds": 672.0,
+    "audio_asset": {
+      "id": "audio:fsi:28",
+      "path": "audio/Cycle 28.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "s01",
+        "title": "CYCLE ~",
+        "type": "section",
+        "pdf_pages": [
+          394
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "GEl'TING OUT",
+        "type": "section",
+        "pdf_pages": [
+          394,
+          395
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          395
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          395
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "DiaLogue No. 1: (Sho~t Ve~sionJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          395
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "DiaLogue No. 1: (Sho~t Ve~sion - oontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          395
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "SPANISH 3~3",
+        "type": "section",
+        "pdf_pages": [
+          396
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Dialogue No. 2: (Long Version)",
+        "type": "dialogue",
+        "pdf_pages": [
+          396,
+          397
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "Dialogue No. 2: (Long Vepsion - ~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          397
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "SPANISH 3tS5",
+        "type": "section",
+        "pdf_pages": [
+          398
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          398,
+          399
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Both spelllngs and pronunciations are used in Mexico. 'The one with the",
+        "type": "pronunciation",
+        "pdf_pages": [
+          399
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "(an Uto-Aztecan language) spell1ng and pronunciation.",
+        "type": "pronunciation",
+        "pdf_pages": [
+          399,
+          400
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "IV. TAKING IT APARI'",
+        "type": "section",
+        "pdf_pages": [
+          400,
+          401
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "v. GEITING 'nIE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "VII. MAKING rr WORK",
+        "type": "section",
+        "pdf_pages": [
+          407
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 28,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:29",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 29,
+    "title": "Getting Out — Sports",
+    "duration_seconds": 724.0,
+    "audio_asset": {
+      "id": "audio:fsi:29",
+      "path": "audio/Cycle 29.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "s01",
+        "title": "CYCLE CJ",
+        "type": "section",
+        "pdf_pages": [
+          408
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "GElTING CXJT",
+        "type": "section",
+        "pdf_pages": [
+          408
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "1. SEITING '!HE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          409
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          409
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          409
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 1: (continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          409,
+          410
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "l. SEITING rrHE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          410
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          410
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          410
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          410,
+          411
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          411,
+          412,
+          413
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "Two verbs in Spanish express the idea of \"to practice.\" Practicar conveys",
+        "type": "section",
+        "pdf_pages": [
+          413
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "Narrative No. 1:",
+        "type": "narrative",
+        "pdf_pages": [
+          414,
+          415
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "IV. TAKING IT APARr",
+        "type": "section",
+        "pdf_pages": [
+          415,
+          416
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "Dialogue and Na'l'Pative No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          416
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          417,
+          418,
+          419
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "VI. PurrING IT IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          419
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          419,
+          420
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "DiaLogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          420
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "DiaLogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          420,
+          421
+        ]
+      },
+      {
+        "id": "s21",
+        "title": "DiaLogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          421
+        ]
+      },
+      {
+        "id": "s22",
+        "title": "VII. MAKING IT YORK",
+        "type": "section",
+        "pdf_pages": [
+          421
+        ]
+      },
+      {
+        "id": "s23",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          421
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 29,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:30",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 30,
+    "title": "Getting Things — Housing",
+    "duration_seconds": 735.0,
+    "audio_asset": {
+      "id": "audio:fsi:30",
+      "path": "audio/Cycle 30.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          422,
+          423
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "1. SEITING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          424
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          424
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          424
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "DiaLogue:",
+        "type": "dialogue",
+        "pdf_pages": [
+          424,
+          425,
+          426,
+          427
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          428
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "v. GEl'I'ING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          429,
+          430,
+          431,
+          432
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          433
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 30,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:31",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 31,
+    "title": "Getting Things — Where to Go Grocery Shopping",
+    "duration_seconds": 937.0,
+    "audio_asset": {
+      "id": "audio:fsi:31",
+      "path": "audio/Cycle 31.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          434
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING 'lHINGS",
+        "type": "section",
+        "pdf_pages": [
+          434,
+          435
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SEITING 'lHE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          436
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          436
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: (oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          437
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "l. SElTING '!HE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          437
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "11. HEARING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          437
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          437
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Dialogue No. 2:",
+        "type": "dialogue",
+        "pdf_pages": [
+          438
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "Dialogue No. 2: (~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          438,
+          439
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "else. (See Language Note 4 of O¡cle 8.)",
+        "type": "language_notes",
+        "pdf_pages": [
+          439,
+          440
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "tráigame una cerveza (\"bring re a beer\"); however, 1n tbis dialogue the construct10n",
+        "type": "dialogue",
+        "pdf_pages": [
+          440
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "428 SPAt~ISH",
+        "type": "section",
+        "pdf_pages": [
+          441,
+          442,
+          443
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "IV. TAKING rr APARI'",
+        "type": "section",
+        "pdf_pages": [
+          443,
+          444,
+          445
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "v. GElTING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          445,
+          446,
+          447,
+          448,
+          449
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "IR SER VER",
+        "type": "section",
+        "pdf_pages": [
+          449,
+          450,
+          451,
+          452,
+          453
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "VI. PU'ITING IT rIDGErHER",
+        "type": "section",
+        "pdf_pages": [
+          453
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          453
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          454
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          454,
+          455
+        ]
+      },
+      {
+        "id": "s20",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          455
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 31,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:32",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 32,
+    "title": "Getting Things — How to Pay a Maid or Deliveryman",
+    "duration_seconds": 645.0,
+    "audio_asset": {
+      "id": "audio:fsi:32",
+      "path": "audio/Cycle 32.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          456
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING 'lHINGS",
+        "type": "section",
+        "pdf_pages": [
+          456
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SEI'rING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          457
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          457
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          457
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "DiaLogue No. 1: (Short Version - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          458
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "DiaLogue No 2: (Long Ver8ion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          458,
+          459
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "DialOgue No. 2: (Long Version - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          459
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          459,
+          460,
+          461
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "IV. TAKING rr APARI'",
+        "type": "section",
+        "pdf_pages": [
+          462,
+          463
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "v. GEl'rING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          463,
+          464,
+          465,
+          466
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VI. PUTrING IT 'IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          466,
+          467,
+          468
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "VII. MAKING rr YDRK",
+        "type": "section",
+        "pdf_pages": [
+          468
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 32,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:33",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 33,
+    "title": "Getting Things — At the Gift Shop",
+    "duration_seconds": 732.0,
+    "audio_asset": {
+      "id": "audio:fsi:33",
+      "path": "audio/Cycle 33.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          470
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING 1HINGS",
+        "type": "section",
+        "pdf_pages": [
+          470
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "1. SEl'l'ING '!HE SCENE",
+        "type": "section",
+        "pdf_pages": [
+          471
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          471
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: (Short Version - oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          472
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 2: (Long Version)",
+        "type": "dialogue",
+        "pdf_pages": [
+          472,
+          473
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 2: (Long Ve~sion - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          473,
+          474
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          474,
+          475,
+          476
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          476,
+          477
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "v. GEITING ':mE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          477,
+          478,
+          479,
+          480
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "VI. PUTrING IT 'lDGErHER",
+        "type": "section",
+        "pdf_pages": [
+          480,
+          481,
+          482,
+          483
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VII. MAKING IT Yl>RK",
+        "type": "section",
+        "pdf_pages": [
+          483
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          483
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 33,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:34",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 34,
+    "title": "Getting Things — Entertainment",
+    "duration_seconds": 571.0,
+    "audio_asset": {
+      "id": "audio:fsi:34",
+      "path": "audio/Cycle 34.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          484
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEl'I'ING 'lHINGS",
+        "type": "section",
+        "pdf_pages": [
+          484,
+          485
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "DiaLogue No. 1: (Shopt Vepsion - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          486
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "DiaLogue No. 2: (Long Vepsion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          486,
+          487
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 2: (Long Vepsion - oontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          487,
+          488,
+          489
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "IV. TAKING rr APARI'",
+        "type": "section",
+        "pdf_pages": [
+          489,
+          490
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "V. GEITING 'llIE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          490,
+          491,
+          492,
+          493
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "VI. PUTrING IT 'IDGErHER",
+        "type": "section",
+        "pdf_pages": [
+          493,
+          494,
+          495
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 34,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:35",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 35,
+    "title": "Getting Things — At the Bank",
+    "duration_seconds": 584.0,
+    "audio_asset": {
+      "id": "audio:fsi:35",
+      "path": "audio/Cycle 35.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          496,
+          497
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          497
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          497
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "Dialogue No. 1: (Sho~t Ve~8ion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          497
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion - eontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          498
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 2: (Long Ve~8ion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          498,
+          499
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 2: (Long Ve~sion - continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          499
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Language Notes",
+        "type": "language_notes",
+        "pdf_pages": [
+          499,
+          500
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "IV. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          501
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          502,
+          503
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "VI. PUTrING IT 'IDGEmER",
+        "type": "section",
+        "pdf_pages": [
+          503,
+          504,
+          505,
+          506
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          506
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          506
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 35,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:36",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 36,
+    "title": "At the Office — Directing the Secretary",
+    "duration_seconds": 467.0,
+    "audio_asset": {
+      "id": "audio:fsi:36",
+      "path": "audio/Cycle 36.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          508
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "AT '!HE OFFlCE",
+        "type": "section",
+        "pdf_pages": [
+          508,
+          509
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          509
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          509
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          509
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1: (Sho~t Ve~sion - ~ontinued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          510
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 2: (Long Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          510,
+          511,
+          512
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "IV • TAKING IT AP ART",
+        "type": "section",
+        "pdf_pages": [
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "VI. PUTrING IT 'IDGEIHER",
+        "type": "section",
+        "pdf_pages": [
+          520,
+          521,
+          522,
+          523
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "VII. MAKIOO rr WJRK",
+        "type": "section",
+        "pdf_pages": [
+          523
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 36,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:37",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 37,
+    "title": "Getting Things — An Emergency",
+    "duration_seconds": 720.0,
+    "audio_asset": {
+      "id": "audio:fsi:37",
+      "path": "audio/Cycle 37.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          524
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "'lhis Cycle will g1ve you. rore practice in successfully getting your point",
+        "type": "section",
+        "pdf_pages": [
+          524,
+          525
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "11. HEARING IT",
+        "type": "section",
+        "pdf_pages": [
+          525
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "111. SEEING IT",
+        "type": "section",
+        "pdf_pages": [
+          525
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1: (Shopt Vepsion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          525
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1: (Shopt Vepsion - continuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          525,
+          526
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "Dialogue No. 2: (Long Ve~sion)",
+        "type": "dialogue",
+        "pdf_pages": [
+          526
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "Dialogue No. 2: (Long Vepsion - oontinuedJ",
+        "type": "dialogue",
+        "pdf_pages": [
+          527,
+          528
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "ESTAR TENER VIVIR",
+        "type": "section",
+        "pdf_pages": [
+          528,
+          529
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "N. TAKING IT APART",
+        "type": "section",
+        "pdf_pages": [
+          530,
+          531
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "PON-FR DEC-IR SER o IR",
+        "type": "section",
+        "pdf_pages": [
+          531
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          532,
+          533,
+          534,
+          535
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "VI. PU'ITING IT 'IOOEmER",
+        "type": "section",
+        "pdf_pages": [
+          535,
+          536
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          536
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          536
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 37,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          524,
+          525,
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537
+        ]
+      }
+    }
+  },
+  {
+    "id": "lesson:fsi:38",
+    "course_id": "course:fsi-spanish-familiarization",
+    "number": 38,
+    "title": "Getting Things — Household Repairs",
+    "duration_seconds": 1206.0,
+    "audio_asset": {
+      "id": "audio:fsi:38",
+      "path": "audio/Cycle 38.mp3",
+      "media_type": "audio/mpeg"
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "type": "overview",
+        "pdf_pages": [
+          538
+        ]
+      },
+      {
+        "id": "s01",
+        "title": "GEITING 'llITNGS",
+        "type": "section",
+        "pdf_pages": [
+          538
+        ]
+      },
+      {
+        "id": "s02",
+        "title": "l. SETl'ING '!HE SCENE (A)",
+        "type": "section",
+        "pdf_pages": [
+          539
+        ]
+      },
+      {
+        "id": "s03",
+        "title": "11. HEARING IT (A)",
+        "type": "section",
+        "pdf_pages": [
+          539
+        ]
+      },
+      {
+        "id": "s04",
+        "title": "Dialogue No. 1:",
+        "type": "dialogue",
+        "pdf_pages": [
+          539
+        ]
+      },
+      {
+        "id": "s05",
+        "title": "Dialogue No. 1: (continued)",
+        "type": "dialogue",
+        "pdf_pages": [
+          540
+        ]
+      },
+      {
+        "id": "s06",
+        "title": "1. SEITING '!HE SCENE (B)",
+        "type": "section",
+        "pdf_pages": [
+          540
+        ]
+      },
+      {
+        "id": "s07",
+        "title": "111. SEEING IT (B)",
+        "type": "section",
+        "pdf_pages": [
+          541,
+          542
+        ]
+      },
+      {
+        "id": "s08",
+        "title": "verb in the nain clause is in a past tense. (See Language Note 1 of Cycle 37.)",
+        "type": "language_notes",
+        "pdf_pages": [
+          542,
+          543
+        ]
+      },
+      {
+        "id": "s09",
+        "title": "'Ibis phrese rray be used\" as in the dialogue\" to indicate that one is",
+        "type": "dialogue",
+        "pdf_pages": [
+          543,
+          544,
+          545,
+          546
+        ]
+      },
+      {
+        "id": "s10",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          546,
+          547
+        ]
+      },
+      {
+        "id": "s11",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          547,
+          548
+        ]
+      },
+      {
+        "id": "s12",
+        "title": "v. GEITING '!HE FEEL OF IT",
+        "type": "section",
+        "pdf_pages": [
+          548,
+          549,
+          550
+        ]
+      },
+      {
+        "id": "s13",
+        "title": "VI. PUTl'ING IT 'IDGErHER",
+        "type": "section",
+        "pdf_pages": [
+          550
+        ]
+      },
+      {
+        "id": "s14",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          550,
+          551
+        ]
+      },
+      {
+        "id": "s15",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          551,
+          552
+        ]
+      },
+      {
+        "id": "s16",
+        "title": "Dialogue No. 1",
+        "type": "dialogue",
+        "pdf_pages": [
+          552,
+          553
+        ]
+      },
+      {
+        "id": "s17",
+        "title": "Dialogue No. 2",
+        "type": "dialogue",
+        "pdf_pages": [
+          553
+        ]
+      },
+      {
+        "id": "s18",
+        "title": "VII. MAKING IT WORK",
+        "type": "section",
+        "pdf_pages": [
+          554
+        ]
+      },
+      {
+        "id": "s19",
+        "title": "VIII. USING IT",
+        "type": "section",
+        "pdf_pages": [
+          554
+        ]
+      }
+    ],
+    "source": {
+      "course": "FSI Spanish Familiarization and Short-Term Training",
+      "cycle": 38,
+      "manual": {
+        "filename": "Fsi-SpanishFamiliarizationAndShort-termTraining.pdf",
+        "pdf_pages": [
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          544,
+          545,
+          546,
+          547,
+          548,
+          549,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555
+        ]
+      }
+    }
+  }
+]

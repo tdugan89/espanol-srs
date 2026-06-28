@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "content_version": "2.0.0",
+  "counts": {
+    "lexemes": 912,
+    "cards": 912,
+    "lessons": 38,
+    "segments": 4594,
+    "occurrences": 912,
+    "lesson_vocabulary": 2393
+  },
+  "runtime_bundle": {
+    "path": "app_data_v2.json",
+    "sha256": "4ae21f3f0e8d08073ae6bd24a10304044260b69df633f1dfd5aeca277697d4a8"
+  },
+  "legacy_inputs": {
+    "data.json": "49cab0e1af9cdbf1f436a331e4a9ade5c0f305e304ec557a360f3e4dfb293c75",
+    "cycles.json": "18d16b25fabe39b2eb5b5aca46671930ebe26e02d26309b2f305e43e19b01143",
+    "cycle_data.json": "d2390f1f76678a81a77c0986a72341ffd45b632906b283bc765afd21dd2dfd28"
+  }
+}

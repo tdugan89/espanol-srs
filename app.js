@@ -1,10 +1,11 @@
-const LS_PROGRESS = "esrs_progress_v1";
-const LS_SETTINGS = "esrs_settings_v1";
-const LS_STATS    = "esrs_stats_v1";
-const LS_CYCLE    = "esrs_current_cycle_v1";
+const LS_USER = "esrs_user_v2";
+const LS_PROGRESS_V1 = "esrs_progress_v1";
+const LS_SETTINGS_V1 = "esrs_settings_v1";
+const LS_STATS_V1 = "esrs_stats_v1";
+const LS_CYCLE_V1 = "esrs_current_cycle_v1";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
-const defaultSettings = { newPerDay: 20 };
+const defaultSettings = { new_per_day: 20 };
 
 function loadJSON(key, fallback) {
   try { const r = localStorage.getItem(key); return r ? JSON.parse(r) : fallback; }
@@ -23,10 +24,32 @@ function fmtTime(secs) {
 let DATA = [];
 let CYCLES_META = [];
 let CYCLE_DATA = { segments: {}, words: {} };
-let progress = loadJSON(LS_PROGRESS, {});
-let settings = Object.assign({}, defaultSettings, loadJSON(LS_SETTINGS, {}));
-let stats = loadJSON(LS_STATS, { streak: 0, lastStudyDay: null, totalReviews: 0, history: {} });
-let currentCycleNum = loadJSON(LS_CYCLE, 3);
+let CONTENT = null;
+const existingUser = loadJSON(LS_USER, null);
+let user = existingUser || {
+  schema_version: 2,
+  cards: {},
+  review_events: [],
+  lesson_progress: {},
+  settings: Object.assign({}, defaultSettings),
+  stats: { streak: 0, last_study_day: null, total_reviews: 0, history: {} },
+  current_lesson_id: "lesson:fsi:03",
+};
+let progress = user.cards;
+let settings = Object.assign({}, defaultSettings, user.settings || {});
+let stats = Object.assign(
+  { streak: 0, last_study_day: null, total_reviews: 0, history: {} },
+  user.stats || {}
+);
+let currentCycleNum = parseInt((user.current_lesson_id || "lesson:fsi:03").split(":").pop(), 10) || 3;
+
+function saveUser() {
+  user.cards = progress;
+  user.settings = settings;
+  user.stats = stats;
+  user.current_lesson_id = `lesson:fsi:${String(currentCycleNum).padStart(2, "0")}`;
+  saveJSON(LS_USER, user);
+}
 
 function todayStr() { return new Date().toISOString().slice(0, 10); }
 
@@ -34,7 +57,15 @@ function todayStr() { return new Date().toISOString().slice(0, 10); }
 // SM-2
 // ---------------------------------------------------------------------------
 function getCardState(id) {
-  return progress[id] || { reps: 0, interval: 0, ef: 2.5, due: 0, lapses: 0 };
+  return progress[id] || {
+    in_deck: true,
+    reps: 0,
+    interval: 0,
+    ease_factor: 2.5,
+    due_at: 0,
+    lapses: 0,
+    first_seen_on: null,
+  };
 }
 function formatInterval(days) {
   if (days < 1) return Math.round(days * 24 * 60) + "m";
@@ -52,36 +83,52 @@ function previewIntervals(id) {
   };
 }
 function nextInterval(st, quality) {
-  let { reps, interval, ef } = st;
-  ef = ef || 2.5;
-  if (quality === "again") return { reps: 0, interval: 1, ef: Math.max(1.3, ef - 0.2) };
+  let { reps, interval } = st;
+  let ease_factor = st.ease_factor || 2.5;
+  if (quality === "again") return { reps: 0, interval: 1, ease_factor: Math.max(1.3, ease_factor - 0.2) };
   if (quality === "hard") {
-    return { reps: reps + 1, interval: reps === 0 ? 1 : Math.max(interval + 0.5, interval * 1.2), ef: Math.max(1.3, ef - 0.15) };
+    return { reps: reps + 1, interval: reps === 0 ? 1 : Math.max(interval + 0.5, interval * 1.2), ease_factor: Math.max(1.3, ease_factor - 0.15) };
   }
   const q = quality === "easy" ? 5 : 4;
-  let newEf = Math.max(1.3, ef + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02)));
+  let newEf = Math.max(1.3, ease_factor + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02)));
   let newInterval = reps === 0 ? 1 : reps === 1 ? 6 : interval * newEf;
   if (quality === "easy") newInterval *= 1.3;
-  return { reps: reps + 1, interval: newInterval, ef: newEf };
+  return { reps: reps + 1, interval: newInterval, ease_factor: newEf };
 }
 function applyRating(id, quality) {
   const st = getCardState(id);
   const result = nextInterval(st, quality);
   const dueOffset = quality === "again" ? 10 * 60 * 1000 : result.interval * DAY_MS;
-  progress[id] = { reps: result.reps, interval: result.interval, ef: result.ef, due: Date.now() + dueOffset, lapses: (st.lapses || 0) + (quality === "again" ? 1 : 0) };
-  saveJSON(LS_PROGRESS, progress);
-  stats.totalReviews += 1;
+  const reviewedAt = Date.now();
+  progress[id] = {
+    in_deck: true,
+    reps: result.reps,
+    interval: result.interval,
+    ease_factor: result.ease_factor,
+    due_at: reviewedAt + dueOffset,
+    lapses: (st.lapses || 0) + (quality === "again" ? 1 : 0),
+    first_seen_on: st.first_seen_on || todayStr(),
+  };
+  user.review_events.push({
+    card_id: id,
+    reviewed_at: reviewedAt,
+    rating: quality,
+    previous_interval: st.interval || 0,
+    new_interval: result.interval,
+  });
+  if (user.review_events.length > 5000) user.review_events = user.review_events.slice(-5000);
+  stats.total_reviews += 1;
   const t = todayStr();
   stats.history[t] = (stats.history[t] || 0) + 1;
   updateStreak();
-  saveJSON(LS_STATS, stats);
+  saveUser();
 }
 function updateStreak() {
   const t = todayStr();
-  if (stats.lastStudyDay === t) return;
+  if (stats.last_study_day === t) return;
   const yesterday = new Date(Date.now() - DAY_MS).toISOString().slice(0, 10);
-  stats.streak = stats.lastStudyDay === yesterday ? stats.streak + 1 : 1;
-  stats.lastStudyDay = t;
+  stats.streak = stats.last_study_day === yesterday ? stats.streak + 1 : 1;
+  stats.last_study_day = t;
 }
 
 // ---------------------------------------------------------------------------
@@ -92,12 +139,27 @@ function shuffle(arr) {
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 }
-function getDueCards()  { const now = Date.now(); return DATA.filter(c => progress[c.id] && progress[c.id].due <= now); }
-function getNewCards()  { return DATA.filter(c => !progress[c.id]); }
-function getTodayNewCount() { const t = todayStr(); return Object.values(progress).filter(p => p.firstSeen === t).length; }
+function isInDeck(card) {
+  const state = progress[card.id];
+  return state ? state.in_deck !== false : card.default_in_deck !== false;
+}
+function getDueCards() {
+  const now = Date.now();
+  return DATA.filter(c => {
+    const state = progress[c.id];
+    return isInDeck(c) && state && state.reps > 0 && state.due_at <= now;
+  });
+}
+function getNewCards() {
+  return DATA.filter(c => isInDeck(c) && getCardState(c.id).reps === 0);
+}
+function getTodayNewCount() {
+  const t = todayStr();
+  return Object.values(progress).filter(p => p.first_seen_on === t).length;
+}
 function buildSession() {
   const due = shuffle(getDueCards());
-  const budget = Math.max(0, settings.newPerDay - getTodayNewCount());
+  const budget = Math.max(0, settings.new_per_day - getTodayNewCount());
   const newCards = shuffle(getNewCards()).slice(0, budget);
   const queue = [];
   let di = 0, ni = 0;
@@ -115,8 +177,8 @@ let cardAudio = null;
 let cardAudioStop = null;
 
 function playCardAudio(card) {
-  if (!card || !card.cycle || card.audio_start == null) return;
-  const src = `audio/Cycle ${card.cycle}.mp3`;
+  if (!card || !card.audio_path || card.audio_start == null) return;
+  const src = card.audio_path;
   if (!cardAudio || cardAudio.dataset.src !== src) {
     if (cardAudio) cardAudio.pause();
     cardAudio = new Audio(src);
@@ -147,7 +209,7 @@ function show(id) {
 // ---------------------------------------------------------------------------
 function renderHome() {
   const due = getDueCards().length;
-  const budget = Math.max(0, settings.newPerDay - getTodayNewCount());
+  const budget = Math.max(0, settings.new_per_day - getTodayNewCount());
   const newAvail = Math.min(getNewCards().length, budget);
   $("stat-due").textContent = due;
   $("stat-new").textContent = newAvail;
@@ -164,7 +226,7 @@ function renderHome() {
 function cycleProgress(num) {
   const words = (CYCLE_DATA.words[String(num)] || []);
   if (!words.length) return { pct: 0, learned: 0, total: 0 };
-  const learned = words.filter(w => progress[w.id] && progress[w.id].reps >= 1).length;
+  const learned = words.filter(w => getCardState(w.id).reps >= 1).length;
   return { pct: Math.round(learned / words.length * 100), learned, total: words.length };
 }
 
@@ -213,7 +275,7 @@ function renderCard(card) {
   $("card-cat-back").textContent = card.cat;
   $("card-term").textContent = card.es;
   $("card-emoji").textContent = card.emoji || "";
-  $("card-definition").textContent = card.def || "";
+  $("card-definition").textContent = card.def || card.en;
   $("card-example").textContent = card.x || "";
   const imgLink = $("card-image-link");
   imgLink.href = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(card.es);
@@ -234,9 +296,7 @@ function flipCard() {
 
 function rate(quality) {
   const id = currentCard.id;
-  const wasNew = !progress[id];
   applyRating(id, quality);
-  if (wasNew) { progress[id].firstSeen = todayStr(); saveJSON(LS_PROGRESS, progress); }
   sessionReviewed++;
   if (quality === "again") currentQueue.splice(Math.min(currentQueue.length, currentIndex + 4), 0, currentCard);
   currentIndex++;
@@ -296,7 +356,7 @@ let cycleTotalSpanish = 0; // total seconds of Spanish content
 function openCycleDetail(num) {
   currentDetailCycle = num;
   currentCycleNum = num;
-  saveJSON(LS_CYCLE, num);
+  saveUser();
 
   const meta = CYCLES_META.find(c => c.num === num);
   cycleSegs = CYCLE_DATA.segments[String(num)] || [];
@@ -322,7 +382,8 @@ function openCycleDetail(num) {
   vocabList.innerHTML = "";
   $("cycle-vocab-count").textContent = `${words.length} words`;
   words.forEach(w => {
-    const inDeck = !!progress[w.id];
+    const card = DATA.find(item => item.id === w.id);
+    const inDeck = card ? isInDeck(card) : false;
     const row = document.createElement("div");
     row.className = "vocab-row";
     row.innerHTML = `
@@ -447,9 +508,10 @@ function seekCycleAudio(e) {
 }
 
 function addWordToDeck(word, row) {
-  if (progress[word.id]) return;
-  progress[word.id] = { reps: 0, interval: 0, ef: 2.5, due: Date.now(), lapses: 0 };
-  saveJSON(LS_PROGRESS, progress);
+  const existing = getCardState(word.id);
+  if (existing.in_deck && progress[word.id]) return;
+  progress[word.id] = Object.assign({}, existing, { in_deck: true });
+  saveUser();
   const btn = row.querySelector("button");
   btn.textContent = "In deck";
   btn.className = "vocab-badge vb-in-deck";
@@ -461,8 +523,9 @@ function addWordToDeck(word, row) {
 let activeCategory = "all";
 
 function cardStatus(card) {
-  const p = progress[card.id];
-  if (!p) return { cls: "bs-new", label: "New" };
+  const p = getCardState(card.id);
+  if (!isInDeck(card)) return { cls: "bs-new", label: "Not in deck" };
+  if (!p.reps) return { cls: "bs-new", label: "New" };
   if (p.reps >= 1 && p.interval >= 21) return { cls: "bs-mastered", label: "Mastered" };
   return { cls: "bs-learning", label: "Learning" };
 }
@@ -503,15 +566,123 @@ function renderBrowseList() {
 // ---------------------------------------------------------------------------
 // Settings
 // ---------------------------------------------------------------------------
-function renderSettings() { $("setting-new-per-day").value = settings.newPerDay; }
+function renderSettings() { $("setting-new-per-day").value = settings.new_per_day; }
 function saveSettings() {
-  settings.newPerDay = parseInt($("setting-new-per-day").value, 10) || defaultSettings.newPerDay;
-  saveJSON(LS_SETTINGS, settings);
+  settings.new_per_day = parseInt($("setting-new-per-day").value, 10) || defaultSettings.new_per_day;
+  saveUser();
 }
 
 // ---------------------------------------------------------------------------
 // Init
 // ---------------------------------------------------------------------------
+function migrateV1UserState() {
+  if (existingUser) return;
+  const legacyProgress = loadJSON(LS_PROGRESS_V1, {});
+  const legacySettings = loadJSON(LS_SETTINGS_V1, {});
+  const legacyStats = loadJSON(LS_STATS_V1, {});
+  const legacyCycle = loadJSON(LS_CYCLE_V1, 3);
+  const cardByLegacyId = new Map(
+    CONTENT.entities.cards.map(card => [String(card.source.legacy_id), card.id])
+  );
+
+  Object.entries(legacyProgress).forEach(([legacyId, state]) => {
+    const id = cardByLegacyId.get(String(legacyId));
+    if (!id) return;
+    progress[id] = {
+      in_deck: true,
+      reps: state.reps || 0,
+      interval: state.interval || 0,
+      ease_factor: state.ef || 2.5,
+      due_at: state.due || 0,
+      lapses: state.lapses || 0,
+      first_seen_on: state.firstSeen || null,
+    };
+  });
+  settings.new_per_day = legacySettings.newPerDay || defaultSettings.new_per_day;
+  stats = {
+    streak: legacyStats.streak || 0,
+    last_study_day: legacyStats.lastStudyDay || null,
+    total_reviews: legacyStats.totalReviews || 0,
+    history: legacyStats.history || {},
+  };
+  currentCycleNum = Number(legacyCycle) || 3;
+  user.migrated_from = "v1";
+  saveUser();
+}
+
+function buildRuntimeViews(bundle) {
+  CONTENT = bundle;
+  const entities = bundle.entities;
+  const lexemeById = new Map(entities.lexemes.map(row => [row.id, row]));
+  const occurrenceById = new Map(entities.occurrences.map(row => [row.id, row]));
+  const lessonById = new Map(entities.lessons.map(row => [row.id, row]));
+  const cardByLexeme = new Map();
+  entities.cards.forEach(card => {
+    if (!cardByLexeme.has(card.lexeme_id)) cardByLexeme.set(card.lexeme_id, card);
+  });
+
+  DATA = entities.cards.map(card => {
+    const lexeme = lexemeById.get(card.lexeme_id);
+    const occurrence = occurrenceById.get(card.example_occurrence_ids[0]);
+    const lesson = occurrence && occurrence.lesson_id
+      ? lessonById.get(occurrence.lesson_id)
+      : null;
+    return {
+      id: card.id,
+      lexeme_id: lexeme.id,
+      es: card.prompt,
+      en: card.answer,
+      pos: lexeme.part_of_speech,
+      cat: lexeme.categories[0] || "uncategorized",
+      def: lexeme.definition_es,
+      x: occurrence ? occurrence.text_es : "",
+      y: occurrence ? occurrence.text_en : "",
+      default_in_deck: card.default_in_deck,
+      audio_path: lesson ? lesson.audio_asset.path : null,
+      audio_start: occurrence && occurrence.audio_clip ? occurrence.audio_clip.start_seconds : null,
+      audio_end: occurrence && occurrence.audio_clip ? occurrence.audio_clip.end_seconds : null,
+    };
+  });
+
+  CYCLES_META = entities.lessons
+    .slice()
+    .sort((a, b) => a.number - b.number)
+    .map(lesson => ({
+      id: lesson.id,
+      num: lesson.number,
+      title: lesson.title,
+      duration: lesson.duration_seconds,
+      spanish_count: entities.segments.filter(segment => segment.lesson_id === lesson.id).length,
+    }));
+
+  CYCLE_DATA = { segments: {}, words: {} };
+  CYCLES_META.forEach(meta => {
+    const lessonId = `lesson:fsi:${String(meta.num).padStart(2, "0")}`;
+    CYCLE_DATA.segments[String(meta.num)] = entities.segments
+      .filter(segment => segment.lesson_id === lessonId)
+      .sort((a, b) => a.sequence - b.sequence)
+      .map(segment => ({
+        id: segment.id,
+        s: segment.start_seconds,
+        e: segment.end_seconds,
+        t: segment.text,
+        manual_reference: segment.manual_reference,
+      }));
+    CYCLE_DATA.words[String(meta.num)] = entities.lesson_vocabulary
+      .filter(link => link.lesson_id === lessonId)
+      .map(link => {
+        const lexeme = lexemeById.get(link.lexeme_id);
+        const card = cardByLexeme.get(link.lexeme_id);
+        return {
+          id: card.id,
+          lexeme_id: lexeme.id,
+          es: lexeme.lemma,
+          cat: lexeme.categories[0] || "uncategorized",
+        };
+      });
+  });
+}
+
 async function init() {
   screens["screen-home"]         = $("screen-home");
   screens["screen-review"]       = $("screen-review");
@@ -521,14 +692,9 @@ async function init() {
   screens["screen-browse"]       = $("screen-browse");
   screens["screen-settings"]     = $("screen-settings");
 
-  const [dataRes, metaRes, cycleRes] = await Promise.all([
-    fetch("data.json"),
-    fetch("cycles.json"),
-    fetch("cycle_data.json"),
-  ]);
-  DATA        = await dataRes.json();
-  CYCLES_META = await metaRes.json();
-  CYCLE_DATA  = await cycleRes.json();
+  const contentRes = await fetch("app_data_v2.json");
+  buildRuntimeViews(await contentRes.json());
+  migrateV1UserState();
 
   renderHome();
 
@@ -571,9 +737,11 @@ async function init() {
   $("btn-reset-progress").addEventListener("click", () => {
     if (confirm("Reset all progress? This cannot be undone.")) {
       progress = {};
-      stats = { streak: 0, lastStudyDay: null, totalReviews: 0, history: {} };
-      saveJSON(LS_PROGRESS, progress);
-      saveJSON(LS_STATS, stats);
+      stats = { streak: 0, last_study_day: null, total_reviews: 0, history: {} };
+      user.cards = progress;
+      user.review_events = [];
+      user.lesson_progress = {};
+      saveUser();
       show("screen-home");
       renderHome();
     }

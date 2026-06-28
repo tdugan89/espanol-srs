@@ -4,7 +4,7 @@ const path = require("path");
 
 (async () => {
   const html = fs.readFileSync(path.join(__dirname, "index.html"), "utf8");
-  const dataJson = fs.readFileSync(path.join(__dirname, "data.json"), "utf8");
+  const appDataJson = fs.readFileSync(path.join(__dirname, "app_data_v2.json"), "utf8");
 
   const dom = new JSDOM(html, {
     url: "http://localhost/",
@@ -14,15 +14,33 @@ const path = require("path");
 
   const { window } = dom;
 
-  // stub fetch to serve local data.json (jsdom has no real network fetch by default)
+  // Stub the generated v2 runtime bundle.
   window.fetch = async (url) => {
-    if (url.includes("data.json")) {
-      return { json: async () => JSON.parse(dataJson) };
+    if (url === "app_data_v2.json") {
+      return { json: async () => JSON.parse(appDataJson) };
     }
-    return { json: async () => ({}) };
+    throw new Error("Unexpected fetch: " + url);
   };
   // stub localStorage (jsdom provides one, but ensure clean)
   window.localStorage.clear();
+  // Seed one v1 review to prove first-launch migration preserves it.
+  window.localStorage.setItem("esrs_progress_v1", JSON.stringify({
+    "0": {
+      reps: 2,
+      interval: 6,
+      ef: 2.4,
+      due: Date.now() + 86400000,
+      lapses: 1,
+      firstSeen: "2026-06-01",
+    },
+  }));
+  window.localStorage.setItem("esrs_settings_v1", JSON.stringify({ newPerDay: 20 }));
+  window.localStorage.setItem("esrs_stats_v1", JSON.stringify({
+    streak: 2,
+    lastStudyDay: "2026-06-27",
+    totalReviews: 4,
+    history: { "2026-06-27": 4 },
+  }));
   // navigator.serviceWorker may not exist in jsdom -> guard
   if (!window.navigator.serviceWorker) {
     window.navigator.serviceWorker = { register: async () => ({}) };
@@ -39,6 +57,10 @@ const path = require("path");
 
   const doc = window.document;
   const byId = (id) => doc.getElementById(id);
+  const content = JSON.parse(appDataJson);
+  if (content.schema_version !== 2) throw new Error("Expected content schema v2");
+  if (content.entities.lexemes.length !== 912) throw new Error("Expected 912 lexemes");
+  if (content.entities.lessons.length !== 38) throw new Error("Expected 38 lessons");
 
   console.log("=== HOME SCREEN ===");
   console.log("due:", byId("stat-due").textContent);
@@ -46,6 +68,11 @@ const path = require("path");
   console.log("streak:", byId("stat-streak").textContent);
   console.log("learned:", byId("stat-learned").textContent);
   console.log("start button text:", byId("btn-start").textContent);
+  const migratedUser = JSON.parse(window.localStorage.getItem("esrs_user_v2"));
+  if (migratedUser.migrated_from !== "v1") throw new Error("v1 state was not migrated");
+  if (migratedUser.cards["card:legacy:0000"].reps !== 2) {
+    throw new Error("Legacy numeric card ID did not map to its stable v2 ID");
+  }
 
   if (byId("stat-new").textContent !== "20") {
     throw new Error("Expected 20 new cards available by default, got " + byId("stat-new").textContent);
@@ -64,7 +91,8 @@ const path = require("path");
   await new Promise((r) => setTimeout(r, 20));
   const flipped = byId("card").classList.contains("flipped");
   console.log("flipped:", flipped);
-  console.log("translation shown:", byId("card-translation").textContent);
+  console.log("answer shown:", byId("card-definition").textContent);
+  if (!byId("card-definition").textContent) throw new Error("Card answer is blank");
   if (byId("rating-row").classList.contains("hidden")) throw new Error("Rating row should be visible after flip");
 
   console.log("\n=== RATE 'good' REPEATEDLY UNTIL SESSION ENDS ===");
@@ -92,10 +120,15 @@ const path = require("path");
   console.log("learned after session:", byId("stat-learned").textContent);
   console.log("streak after session:", byId("stat-streak").textContent);
 
-  const progress = JSON.parse(window.localStorage.getItem("esrs_progress_v1"));
-  const numTracked = Object.keys(progress).length;
+  const user = JSON.parse(window.localStorage.getItem("esrs_user_v2"));
+  if (user.schema_version !== 2) throw new Error("Expected user schema v2");
+  const numTracked = Object.keys(user.cards).length;
   console.log("cards tracked in localStorage:", numTracked);
   if (numTracked < 1) throw new Error("No progress was saved!");
+  if (!user.review_events.length) throw new Error("No review events were recorded");
+  if (!Object.keys(user.cards).every(id => id.startsWith("card:"))) {
+    throw new Error("Progress is not keyed by stable card IDs");
+  }
 
   console.log("\n=== BROWSE SCREEN ===");
   byId("btn-browse").click();
@@ -116,9 +149,18 @@ const path = require("path");
   byId("setting-new-per-day").dispatchEvent(new window.Event("change"));
   byId("btn-settings-back").click();
   await new Promise((r) => setTimeout(r, 10));
-  const settings = JSON.parse(window.localStorage.getItem("esrs_settings_v1"));
-  console.log("saved settings:", settings);
-  if (settings.newPerDay !== 10) throw new Error("Settings did not persist correctly");
+  const savedUser = JSON.parse(window.localStorage.getItem("esrs_user_v2"));
+  console.log("saved settings:", savedUser.settings);
+  if (savedUser.settings.new_per_day !== 10) throw new Error("Settings did not persist correctly");
+
+  console.log("\n=== COURSE MODEL ===");
+  byId("btn-all-cycles").click();
+  await new Promise((r) => setTimeout(r, 20));
+  if (doc.querySelectorAll(".cycle-row").length !== 38) throw new Error("Expected 38 cycle rows");
+  doc.querySelector(".cycle-row").click();
+  await new Promise((r) => setTimeout(r, 20));
+  if (!doc.querySelectorAll(".seg-line").length) throw new Error("Cycle has no segments");
+  console.log("cycle segments:", doc.querySelectorAll(".seg-line").length);
 
   console.log("\nALL TESTS PASSED");
 })().catch((err) => {

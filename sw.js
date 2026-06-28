@@ -1,10 +1,10 @@
-const CACHE_NAME = "esrs-cache-v1";
+const CACHE_NAME = "esrs-cache-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
-  "./data.json",
+  "./app_data_v2.json",
   "./manifest.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
