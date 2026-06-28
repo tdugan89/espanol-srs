@@ -138,8 +138,8 @@ function playCardAudio(card) {
 // ---------------------------------------------------------------------------
 const screens = {};
 function show(id) {
-  Object.values(screens).forEach(s => s.classList.add("hidden"));
-  screens[id].classList.remove("hidden");
+  Object.values(screens).forEach(s => s && s.classList.add("hidden"));
+  if (screens[id]) screens[id].classList.remove("hidden");
 }
 
 // ---------------------------------------------------------------------------
