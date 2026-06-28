@@ -4,12 +4,12 @@
    ========================================================================== */
 
 const LS_PROGRESS = "esrs_progress_v1";   // { [cardId]: {reps, interval, ef, due, lapses} }
-const LS_SETTINGS = "esrs_settings_v1";   // { newPerDay, direction }
+const LS_SETTINGS = "esrs_settings_v1";   // { newPerDay }
 const LS_STATS    = "esrs_stats_v1";      // { streak, lastStudyDay, totalReviews, history: {date: count} }
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-const defaultSettings = { newPerDay: 20, direction: "es-en" };
+const defaultSettings = { newPerDay: 20 };
 
 // ---------------------------------------------------------------------------
 // Storage helpers
@@ -166,6 +166,31 @@ function getTodayNewCount() {
 }
 
 // ---------------------------------------------------------------------------
+// Audio playback
+// ---------------------------------------------------------------------------
+let audioEl = null;
+let audioStopAt = null;
+
+function playCardAudio(card) {
+  if (!card.cycle || card.audio_start == null) return;
+  const src = `audio/Cycle ${card.cycle}.mp3`;
+  if (!audioEl || audioEl.dataset.src !== src) {
+    if (audioEl) audioEl.pause();
+    audioEl = new Audio(src);
+    audioEl.dataset.src = src;
+    audioEl.addEventListener("timeupdate", () => {
+      if (audioStopAt != null && audioEl.currentTime >= audioStopAt) {
+        audioEl.pause();
+        audioStopAt = null;
+      }
+    });
+  }
+  audioStopAt = card.audio_end + 0.3;
+  audioEl.currentTime = card.audio_start;
+  audioEl.play();
+}
+
+// ---------------------------------------------------------------------------
 // App state / navigation
 // ---------------------------------------------------------------------------
 const screens = {};
@@ -173,7 +198,6 @@ let currentQueue = [];
 let currentIndex = 0;
 let currentCard = null;
 let sessionReviewed = 0;
-let cardDirection = "es-en"; // resolved per-card direction for mixed mode
 
 function show(screenId) {
   Object.values(screens).forEach(s => s.classList.add("hidden"));
@@ -220,18 +244,12 @@ function startSession() {
   nextCard();
 }
 
-function pickDirection() {
-  if (settings.direction === "mixed") return Math.random() < 0.5 ? "es-en" : "en-es";
-  return settings.direction;
-}
-
 function nextCard() {
   if (currentIndex >= currentQueue.length) {
     finishSession();
     return;
   }
   currentCard = currentQueue[currentIndex];
-  cardDirection = pickDirection();
   renderCard(currentCard);
   updateReviewProgress();
 }
@@ -242,21 +260,20 @@ function renderCard(card) {
   $("rating-row").classList.add("hidden");
   $("tap-hint").classList.remove("hidden");
 
-  const isEsEn = cardDirection === "es-en";
-  const frontText = isEsEn ? card.es : card.en;
-  const backText = isEsEn ? card.en : card.es;
-
   $("card-cat").textContent = card.cat;
   $("card-cat-back").textContent = card.cat;
-  $("card-term").textContent = frontText;
-  $("card-translation").textContent = backText;
+  $("card-term").textContent = card.es;
+  $("card-emoji").textContent = card.emoji || "";
+  $("card-definition").textContent = card.def || "";
+  $("card-example").textContent = card.x || "";
 
-  if (card.x) {
-    $("card-example").textContent = card.x;
-    $("card-example-en").textContent = card.y || "";
-  } else {
-    $("card-example").textContent = "";
-    $("card-example-en").textContent = "";
+  const imgLink = $("card-image-link");
+  imgLink.href = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(card.es);
+  imgLink.classList.toggle("hidden", !!card.emoji);
+
+  const audioBtn = $("card-audio-btn");
+  if (audioBtn) {
+    audioBtn.classList.toggle("hidden", !card.audio_start);
   }
 
   const iv = previewIntervals(card.id);
@@ -368,12 +385,10 @@ function escapeHtml(s) {
 // ---------------------------------------------------------------------------
 function renderSettings() {
   $("setting-new-per-day").value = settings.newPerDay;
-  $("setting-direction").value = settings.direction;
 }
 
 function saveSettings() {
   settings.newPerDay = parseInt($("setting-new-per-day").value, 10) || defaultSettings.newPerDay;
-  settings.direction = $("setting-direction").value;
   saveJSON(LS_SETTINGS, settings);
 }
 
@@ -404,6 +419,10 @@ async function init() {
     });
   });
   $("btn-done-home").addEventListener("click", () => { show("screen-home"); renderHome(); });
+  $("card-audio-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    playCardAudio(currentCard);
+  });
 
   $("btn-browse").addEventListener("click", () => {
     show("screen-browse");
@@ -420,7 +439,6 @@ async function init() {
     renderHome();
   });
   $("setting-new-per-day").addEventListener("change", saveSettings);
-  $("setting-direction").addEventListener("change", saveSettings);
 
   $("btn-reset-progress").addEventListener("click", () => {
     if (confirm("Reset all progress? This cannot be undone.")) {

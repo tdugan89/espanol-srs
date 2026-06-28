@@ -216,22 +216,41 @@ html, body {
   color: var(--text-dim);
   margin-top: 18px;
 }
-.card-translation {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 14px;
+.card-emoji {
+  font-size: 48px;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+.card-definition {
+  font-size: 16px;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 .card-example {
   font-size: 15px;
-  color: var(--text);
+  color: var(--text-dim);
   font-style: italic;
   margin-top: 6px;
 }
-.card-example-en {
+.card-audio-btn {
+  background: rgba(96,165,250,0.15);
+  color: var(--blue);
+  border: none;
+  border-radius: 10px;
+  padding: 7px 16px;
+  font-size: 13px;
+  margin: 6px 0;
+}
+.card-audio-btn.hidden { display: none; }
+.card-image-link {
+  display: inline-block;
+  margin-top: 8px;
   font-size: 13px;
   color: var(--text-dim);
-  margin-top: 4px;
+  text-decoration: none;
 }
+.card-image-link.hidden { display: none; }
 
 .tap-hint {
   text-align: center;
