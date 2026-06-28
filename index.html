@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
 <title>Español SRS</title>
-<meta name="theme-color" content="#1f2937">
+<meta name="theme-color" content="#14171c">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,10 +13,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div id="app">
 
-  <!-- ===================== HOME SCREEN ===================== -->
+  <!-- ===================== HOME ===================== -->
   <section id="screen-home" class="screen">
     <header class="topbar">
       <h1>Español <span class="accent">SRS</span></h1>
@@ -45,6 +44,12 @@
     <button id="btn-start" class="btn-primary btn-big">Start Review</button>
     <button id="btn-browse" class="btn-secondary">Browse all words</button>
 
+    <div class="section-header">
+      <span class="section-label">Course</span>
+      <button id="btn-all-cycles" class="section-link">All 38 cycles →</button>
+    </div>
+    <div id="current-cycle-card" class="cycle-card-home"></div>
+
     <div class="progress-wrap">
       <div class="progress-label">
         <span>Overall progress</span>
@@ -54,7 +59,7 @@
     </div>
   </section>
 
-  <!-- ===================== REVIEW SCREEN ===================== -->
+  <!-- ===================== REVIEW ===================== -->
   <section id="screen-review" class="screen hidden">
     <header class="topbar">
       <button id="btn-exit-review" class="icon-btn" aria-label="Close">✕</button>
@@ -99,7 +104,7 @@
     <div id="tap-hint" class="tap-hint">Tap the card to flip</div>
   </section>
 
-  <!-- ===================== SESSION DONE SCREEN ===================== -->
+  <!-- ===================== SESSION DONE ===================== -->
   <section id="screen-done" class="screen hidden">
     <div class="done-wrap">
       <div class="done-emoji">🎉</div>
@@ -109,7 +114,52 @@
     </div>
   </section>
 
-  <!-- ===================== BROWSE SCREEN ===================== -->
+  <!-- ===================== CYCLES LIST ===================== -->
+  <section id="screen-cycles" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-cycles-back" class="icon-btn" aria-label="Back">←</button>
+      <h1>Ciclos</h1>
+      <div style="width:40px"></div>
+    </header>
+    <div id="cycles-list" class="cycles-list"></div>
+  </section>
+
+  <!-- ===================== CYCLE DETAIL ===================== -->
+  <section id="screen-cycle-detail" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-cycle-back" class="icon-btn" aria-label="Back">←</button>
+      <h1 id="cycle-detail-title">Ciclo</h1>
+      <div style="width:40px"></div>
+    </header>
+
+    <div class="cycle-player">
+      <button id="cycle-play-btn" class="cycle-play-btn">▶</button>
+      <div class="cycle-progress-wrap">
+        <div class="cycle-progress-bar">
+          <div id="cycle-progress-fill" class="cycle-progress-fill"></div>
+        </div>
+        <div class="cycle-time-row">
+          <span id="cycle-time-current">0:00</span>
+          <span id="cycle-time-total">0:00</span>
+        </div>
+      </div>
+    </div>
+    <p class="cycle-player-hint">Solo español · toca para revelar el texto</p>
+
+    <button id="btn-reveal-text" class="btn-secondary">Revelar texto</button>
+
+    <div id="cycle-text-wrap" class="cycle-text-wrap hidden">
+      <div id="cycle-text" class="cycle-text"></div>
+    </div>
+
+    <div class="section-header" style="margin-top:18px">
+      <span class="section-label">Vocabulario</span>
+      <span id="cycle-vocab-count" class="section-hint"></span>
+    </div>
+    <div id="cycle-vocab-list" class="cycle-vocab-list"></div>
+  </section>
+
+  <!-- ===================== BROWSE ===================== -->
   <section id="screen-browse" class="screen hidden">
     <header class="topbar">
       <button id="btn-browse-back" class="icon-btn" aria-label="Back">←</button>
@@ -121,7 +171,7 @@
     <div id="browse-list" class="browse-list"></div>
   </section>
 
-  <!-- ===================== SETTINGS SCREEN ===================== -->
+  <!-- ===================== SETTINGS ===================== -->
   <section id="screen-settings" class="screen hidden">
     <header class="topbar">
       <button id="btn-settings-back" class="icon-btn" aria-label="Back">←</button>
@@ -134,7 +184,7 @@
       <input id="setting-new-per-day" type="number" min="5" max="100" step="5" class="settings-input">
     </div>
 
-<div class="settings-group">
+    <div class="settings-group">
       <button id="btn-reset-progress" class="btn-danger">Reset all progress</button>
       <p class="settings-note">This permanently clears your review history and starts over from card one.</p>
     </div>
@@ -145,7 +195,6 @@
   </section>
 
 </div>
-
 <script src="app.js"></script>
 </body>
 </html>
