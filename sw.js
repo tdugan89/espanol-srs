@@ -1,4 +1,4 @@
-const CACHE_NAME = "esrs-cache-v6";
+const CACHE_NAME = "esrs-cache-v7";
 const ASSETS = [
   "./",
   "./index.html",

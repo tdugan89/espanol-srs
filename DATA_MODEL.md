@@ -44,6 +44,8 @@ Browser state is stored under `esrs_user_v2`:
   },
   "review_events": [],
   "hint_events": [],
+  "audio_events": [],
+  "quiz_events": [],
   "lesson_progress": {},
   "settings": {"new_per_day": 20},
   "stats": {},
@@ -52,8 +54,9 @@ Browser state is stored under `esrs_user_v2`:
 ```
 
 Deck membership and scheduling state are distinct. A card can be in the deck
-without having been reviewed. Review history is append-only and capped in the
-browser runtime to avoid exceeding localStorage limits.
+without having been reviewed. Review, hint, audio, and cloze-quiz histories are
+append-only. Cloze results also create review events with `mode: "cloze"` so
+typed recall feeds the same scheduler as flashcard ratings.
 
 On first v2 launch, the app migrates the original v1 localStorage keys using
 each card's retained `source.legacy_id`. The old keys remain untouched as a

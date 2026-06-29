@@ -48,6 +48,7 @@
     <div id="home-category-chips" class="home-category-grid"></div>
 
     <button id="btn-start" class="btn-primary btn-big">Start Review</button>
+    <button id="btn-quiz" class="btn-quiz-home">Practice recall · 5 blanks</button>
     <div class="home-btn-row">
       <button id="btn-browse" class="btn-half">Browse words</button>
       <button id="btn-all-cycles" class="btn-half">Courses</button>
@@ -67,6 +68,34 @@
       </div>
       <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
     </div>
+  </section>
+
+  <!-- ===================== CLOZE QUIZ ===================== -->
+  <section id="screen-quiz" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-quiz-exit" class="icon-btn" aria-label="Close">✕</button>
+      <div class="review-progress"><div id="quiz-progress-fill" class="review-progress-fill"></div></div>
+      <div class="review-count"><span id="quiz-position">1</span>/5</div>
+    </header>
+
+    <div class="quiz-card">
+      <span class="quiz-kicker">Completa la frase</span>
+      <div id="quiz-visual" class="card-visual card-visual-small hidden"></div>
+      <p id="quiz-sentence" class="quiz-sentence"></p>
+      <button id="btn-quiz-audio" class="card-audio-btn hidden">▶ Escuchar</button>
+      <label class="quiz-answer-label" for="quiz-answer">Di la respuesta y después escríbela</label>
+      <input id="quiz-answer" class="quiz-answer" type="text" lang="es" inputmode="text"
+             autocomplete="off" autocapitalize="none" spellcheck="false">
+      <p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p>
+      <p id="quiz-exact-answer" class="quiz-exact-answer hidden"></p>
+    </div>
+
+    <div class="quiz-actions">
+      <button id="btn-quiz-hint" class="btn-secondary">Pista</button>
+      <button id="btn-quiz-check" class="btn-primary">Comprobar</button>
+      <button id="btn-quiz-next" class="btn-primary hidden">Siguiente</button>
+    </div>
+    <p id="quiz-hint-text" class="quiz-hint-text"></p>
   </section>
 
   <!-- ===================== PROGRESS ===================== -->
@@ -108,6 +137,7 @@
       <span class="section-label">Learning signals</span>
       <div class="signal-row"><span>English hints</span><strong id="progress-hints">0</strong></div>
       <div class="signal-row"><span>Audio examples played</span><strong id="progress-audio">0</strong></div>
+      <div class="signal-row"><span>Cloze answers</span><strong id="progress-quizzes">0</strong></div>
       <div class="signal-row"><span>Current streak</span><strong id="progress-streak">0 days</strong></div>
     </div>
 

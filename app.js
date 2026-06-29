@@ -50,6 +50,7 @@ let currentCycleNum = parseInt((user.current_lesson_id || "lesson:fsi:03").split
 if (!Array.isArray(user.review_events)) user.review_events = [];
 if (!Array.isArray(user.hint_events)) user.hint_events = [];
 if (!Array.isArray(user.audio_events)) user.audio_events = [];
+if (!Array.isArray(user.quiz_events)) user.quiz_events = [];
 
 function saveUser() {
   user.cards = progress;
@@ -103,7 +104,7 @@ function nextInterval(st, quality) {
   if (quality === "easy") newInterval *= 1.3;
   return { reps: reps + 1, interval: newInterval, ease_factor: newEf };
 }
-function applyRating(id, quality) {
+function applyRating(id, quality, eventDetails = {}) {
   const st = getCardState(id);
   const result = nextInterval(st, quality);
   const dueOffset = quality === "again" ? 10 * 60 * 1000 : result.interval * DAY_MS;
@@ -126,6 +127,8 @@ function applyRating(id, quality) {
     english_hint_used: currentCardUsedEnglish,
     response_ms: currentCardShownAt ? reviewedAt - currentCardShownAt : null,
     audio_plays: currentCardAudioPlays,
+    mode: eventDetails.mode || "flashcard",
+    ...eventDetails,
   });
   stats.total_reviews += 1;
   const t = todayStr();
@@ -294,6 +297,10 @@ function renderHome() {
   $("btn-start").disabled = (due + newAvail) === 0;
   const scope = reviewCategory === "all" ? "" : `: ${reviewCategory}`;
   $("btn-start").textContent = (due + newAvail) === 0 ? "All caught up! 🎉" : `Start review${scope}`;
+  const learnedQuizCount = getClozeCandidates(true).length;
+  $("btn-quiz").textContent = learnedQuizCount
+    ? `Practice recall · ${Math.min(5, learnedQuizCount)} blank${learnedQuizCount === 1 ? "" : "s"}`
+    : "Try sentence recall · 5 blanks";
   renderHomeCategoryChips();
   renderCurrentCycleCard();
 }
@@ -438,6 +445,149 @@ function updateReviewProgress() {
 function finishSession() {
   $("done-summary").textContent = `You reviewed ${sessionReviewed} card${sessionReviewed === 1 ? "" : "s"}. ¡Buen trabajo!`;
   show("screen-done");
+}
+
+// ---------------------------------------------------------------------------
+// Spanish sentence cloze quiz
+// ---------------------------------------------------------------------------
+let quizQueue = [];
+let quizIndex = 0;
+let quizCard = null;
+let quizHintLevel = 0;
+let quizAnswered = false;
+let quizStartedAt = null;
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function clozePattern(term) {
+  return new RegExp(`(^|[^\\p{L}\\p{N}])(${escapeRegExp(term)})(?=$|[^\\p{L}\\p{N}])`, "iu");
+}
+
+function makeCloze(card) {
+  if (!card || !card.x || !card.es) return null;
+  const pattern = clozePattern(card.es);
+  if (!pattern.test(card.x)) return null;
+  return card.x.replace(pattern, (_, prefix) => `${prefix}_____`);
+}
+
+function getClozeCandidates(learnedOnly = false) {
+  return DATA.filter(card => {
+    if (!isInDeck(card) || !makeCloze(card)) return false;
+    return !learnedOnly || getCardState(card.id).reps > 0;
+  });
+}
+
+function normalizeAnswer(value, keepAccents = false) {
+  let normalized = String(value || "").trim().toLocaleLowerCase("es");
+  normalized = normalized.replace(/[¿?¡!.,;:()[\]{}"“”'’]/g, "").replace(/\s+/g, " ");
+  if (!keepAccents) normalized = normalized.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return normalized;
+}
+
+function startQuiz() {
+  const learned = shuffle(getClozeCandidates(true));
+  const learnedIds = new Set(learned.map(card => card.id));
+  const practice = shuffle(getClozeCandidates(false).filter(card => !learnedIds.has(card.id)));
+  quizQueue = learned.concat(practice).slice(0, 5);
+  if (!quizQueue.length) return;
+  quizIndex = 0;
+  show("screen-quiz");
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  if (quizIndex >= quizQueue.length) {
+    $("done-summary").textContent = `Completaste ${quizQueue.length} frase${quizQueue.length === 1 ? "" : "s"}. Los resultados ya están en tu repaso.`;
+    show("screen-done");
+    return;
+  }
+  quizCard = quizQueue[quizIndex];
+  quizHintLevel = 0;
+  quizAnswered = false;
+  quizStartedAt = Date.now();
+  currentCard = quizCard;
+  currentCardShownAt = quizStartedAt;
+  currentCardUsedEnglish = false;
+  currentCardAudioPlays = 0;
+  $("quiz-sentence").textContent = makeCloze(quizCard);
+  renderVisualCue($("quiz-visual"), quizCard.visual_cue);
+  $("quiz-answer").value = "";
+  $("quiz-answer").disabled = false;
+  $("quiz-feedback").textContent = "";
+  $("quiz-feedback").className = "quiz-feedback";
+  $("quiz-exact-answer").textContent = "";
+  $("quiz-exact-answer").classList.add("hidden");
+  $("quiz-hint-text").textContent = "";
+  $("btn-quiz-hint").classList.remove("hidden");
+  $("btn-quiz-check").classList.remove("hidden");
+  $("btn-quiz-next").classList.add("hidden");
+  $("btn-quiz-audio").classList.toggle("hidden", quizCard.audio_start == null);
+  $("quiz-position").textContent = quizIndex + 1;
+  $("quiz-progress-fill").style.width = `${quizIndex / quizQueue.length * 100}%`;
+  prepareCardAudio(quizCard);
+  $("quiz-answer").focus();
+}
+
+function showQuizHint() {
+  if (!quizCard || quizAnswered) return;
+  quizHintLevel += 1;
+  const answer = quizCard.es;
+  if (quizHintLevel === 1) {
+    $("quiz-hint-text").textContent = `Empieza con “${answer.charAt(0)}”`;
+  } else if (quizHintLevel === 2) {
+    const letters = Array.from(answer).map(char => /\p{L}/u.test(char) ? "•" : char).join(" ");
+    $("quiz-hint-text").textContent = letters;
+  } else if (quizHintLevel === 3 && quizCard.audio_start != null) {
+    $("quiz-hint-text").textContent = "Escucha la frase completa.";
+    playCardAudio(quizCard);
+  } else {
+    $("quiz-hint-text").textContent = answer;
+    $("btn-quiz-hint").classList.add("hidden");
+  }
+}
+
+function checkQuizAnswer() {
+  if (!quizCard || quizAnswered) return;
+  const typed = $("quiz-answer").value;
+  if (!typed.trim()) {
+    $("quiz-feedback").textContent = "Escribe una respuesta o pide una pista.";
+    return;
+  }
+  const exact = normalizeAnswer(typed, true) === normalizeAnswer(quizCard.es, true);
+  const accentMatch = normalizeAnswer(typed) === normalizeAnswer(quizCard.es);
+  const correct = exact || accentMatch;
+  const rating = correct ? (quizHintLevel ? "hard" : "good") : "again";
+  const answeredAt = Date.now();
+  user.quiz_events.push({
+    card_id: quizCard.id,
+    answered_at: answeredAt,
+    answer: typed,
+    expected: quizCard.es,
+    correct,
+    accent_exact: exact,
+    hints_used: quizHintLevel,
+    response_ms: answeredAt - quizStartedAt,
+  });
+  applyRating(quizCard.id, rating, {
+    mode: "cloze",
+    typed_answer: typed,
+    correct,
+    accent_exact: exact,
+    hints_used: quizHintLevel,
+  });
+  quizAnswered = true;
+  $("quiz-answer").disabled = true;
+  $("quiz-feedback").className = `quiz-feedback ${correct ? "correct" : "incorrect"}`;
+  $("quiz-feedback").textContent = correct
+    ? (exact ? "¡Correcto!" : "Correcto — revisa el acento.")
+    : "Todavía no.";
+  $("quiz-exact-answer").textContent = quizCard.es;
+  $("quiz-exact-answer").classList.remove("hidden");
+  $("btn-quiz-hint").classList.add("hidden");
+  $("btn-quiz-check").classList.add("hidden");
+  $("btn-quiz-next").classList.remove("hidden");
 }
 
 // ---------------------------------------------------------------------------
@@ -834,6 +984,7 @@ function renderProgress() {
   $("progress-lessons").textContent = startedLessons.size;
   $("progress-hints").textContent = user.hint_events.length;
   $("progress-audio").textContent = user.audio_events.length;
+  $("progress-quizzes").textContent = user.quiz_events.length;
   $("progress-streak").textContent = `${stats.streak || 0} day${stats.streak === 1 ? "" : "s"}`;
 
   const days = recentDayKeys(7);
@@ -1036,6 +1187,7 @@ async function init() {
   screens["screen-word-detail"]  = $("screen-word-detail");
   screens["screen-settings"]     = $("screen-settings");
   screens["screen-progress"]     = $("screen-progress");
+  screens["screen-quiz"]         = $("screen-quiz");
 
   const contentRes = await fetch("app_data_v2.json");
   buildRuntimeViews(await contentRes.json());
@@ -1045,6 +1197,7 @@ async function init() {
 
   // Home
   $("btn-start").addEventListener("click", startSession);
+  $("btn-quiz").addEventListener("click", startQuiz);
   $("btn-all-cycles").addEventListener("click", openCyclesList);
   $("btn-course-list-link").addEventListener("click", openCyclesList);
   $("btn-browse").addEventListener("click", () => { show("screen-browse"); renderCategoryChips(); renderBrowseList(); });
@@ -1132,6 +1285,9 @@ async function init() {
       stats = { streak: 0, last_study_day: null, total_reviews: 0, history: {} };
       user.cards = progress;
       user.review_events = [];
+      user.hint_events = [];
+      user.audio_events = [];
+      user.quiz_events = [];
       user.lesson_progress = {};
       saveUser();
       show("screen-home");
@@ -1146,6 +1302,22 @@ async function init() {
   $("input-import-progress").addEventListener("change", event => {
     importProgress(event.target.files && event.target.files[0]);
     event.target.value = "";
+  });
+
+  // Cloze quiz
+  $("btn-quiz-exit").addEventListener("click", () => { show("screen-home"); renderHome(); });
+  $("btn-quiz-audio").addEventListener("click", () => playCardAudio(quizCard));
+  $("btn-quiz-hint").addEventListener("click", showQuizHint);
+  $("btn-quiz-check").addEventListener("click", checkQuizAnswer);
+  $("quiz-answer").addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      checkQuizAnswer();
+    }
+  });
+  $("btn-quiz-next").addEventListener("click", () => {
+    quizIndex += 1;
+    renderQuizQuestion();
   });
 
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

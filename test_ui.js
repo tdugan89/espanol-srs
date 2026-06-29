@@ -166,6 +166,31 @@ const path = require("path");
     throw new Error("Progress is not keyed by stable card IDs");
   }
 
+  console.log("\n=== CLOZE QUIZ ===");
+  byId("btn-quiz").click();
+  await new Promise((r) => setTimeout(r, 20));
+  if (byId("screen-quiz").classList.contains("hidden")) {
+    throw new Error("Cloze quiz did not open");
+  }
+  if (!byId("quiz-sentence").textContent.includes("_____")) {
+    throw new Error("Quiz sentence does not contain a blank");
+  }
+  byId("btn-quiz-hint").click();
+  if (!byId("quiz-hint-text").textContent) throw new Error("Quiz hint did not appear");
+  byId("quiz-answer").value = "respuesta incorrecta";
+  byId("btn-quiz-check").click();
+  await new Promise((r) => setTimeout(r, 10));
+  if (byId("quiz-exact-answer").classList.contains("hidden")) {
+    throw new Error("Quiz did not reveal the exact answer");
+  }
+  const quizzedUser = JSON.parse(window.localStorage.getItem("esrs_user_v2"));
+  if (quizzedUser.quiz_events.length !== 1) throw new Error("Quiz event was not recorded");
+  const quizReview = quizzedUser.review_events[quizzedUser.review_events.length - 1];
+  if (quizReview.mode !== "cloze" || quizReview.rating !== "again") {
+    throw new Error("Cloze result did not feed back into SRS");
+  }
+  byId("btn-quiz-exit").click();
+
   console.log("\n=== BROWSE SCREEN ===");
   byId("btn-browse").click();
   await new Promise((r) => setTimeout(r, 20));
