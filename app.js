@@ -868,9 +868,51 @@ function addWordToDeck(word, row) {
 }
 
 // ---------------------------------------------------------------------------
+// Categories
+// ---------------------------------------------------------------------------
+function openCategoriesScreen() {
+  const list = $("categories-list");
+  list.innerHTML = "";
+  const cats = [...new Set(DATA.map(c => c.cat))].sort();
+  cats.forEach(cat => {
+    const words = DATA.filter(c => c.cat === cat);
+    const learned = words.filter(c => getCardState(c.id).reps >= 1).length;
+    const pct = Math.round(learned / words.length * 100);
+    const card = document.createElement("div");
+    card.className = "cat-card";
+    card.innerHTML = `
+      <div class="cat-card-header">
+        <span class="cat-card-name">${escapeHtml(cat)}</span>
+        <span class="cat-card-count">${words.length} words</span>
+      </div>
+      <div class="cat-bar-wrap"><div class="cat-bar" style="width:${pct}%"></div></div>
+      <div class="cat-card-meta">${learned} learned · ${pct}%</div>
+      <div class="cat-card-actions">
+        <button class="cat-btn-browse">Browse</button>
+        <button class="cat-btn-study">Study ${words.length} words</button>
+      </div>
+    `;
+    card.querySelector(".cat-btn-browse").addEventListener("click", () => {
+      browseReturnScreen = "screen-categories";
+      activeCategory = cat;
+      show("screen-browse");
+      renderCategoryChips();
+      renderBrowseList();
+    });
+    card.querySelector(".cat-btn-study").addEventListener("click", () => {
+      reviewCategory = cat;
+      startCategoryDrill();
+    });
+    list.appendChild(card);
+  });
+  show("screen-categories");
+}
+
+// ---------------------------------------------------------------------------
 // Browse
 // ---------------------------------------------------------------------------
 let activeCategory = "all";
+let browseReturnScreen = "screen-home";
 
 function cardStatus(card) {
   const p = getCardState(card.id);
@@ -1302,6 +1344,7 @@ async function init() {
   screens["screen-settings"]     = $("screen-settings");
   screens["screen-progress"]     = $("screen-progress");
   screens["screen-quiz"]         = $("screen-quiz");
+  screens["screen-categories"]   = $("screen-categories");
 
   const contentRes = await fetch("app_data_v2.json");
   buildRuntimeViews(await contentRes.json());
@@ -1315,7 +1358,9 @@ async function init() {
   $("btn-quiz").addEventListener("click", startQuiz);
   $("btn-all-cycles").addEventListener("click", openCyclesList);
   $("btn-course-list-link").addEventListener("click", openCyclesList);
-  $("btn-browse").addEventListener("click", () => { show("screen-browse"); renderCategoryChips(); renderBrowseList(); });
+  $("btn-categories").addEventListener("click", openCategoriesScreen);
+  $("btn-categories-back").addEventListener("click", () => { show("screen-home"); renderHome(); });
+  $("btn-browse").addEventListener("click", () => { browseReturnScreen = "screen-home"; show("screen-browse"); renderCategoryChips(); renderBrowseList(); });
   $("btn-progress").addEventListener("click", () => { renderProgress(); show("screen-progress"); });
   $("btn-settings").addEventListener("click", () => {
     renderSettings();
@@ -1361,7 +1406,14 @@ async function init() {
   });
 
   // Browse
-  $("btn-browse-back").addEventListener("click", () => { show("screen-home"); renderHome(); });
+  $("btn-browse-back").addEventListener("click", () => {
+    if (browseReturnScreen === "screen-categories") {
+      openCategoriesScreen();
+    } else {
+      show("screen-home");
+      renderHome();
+    }
+  });
   $("browse-search").addEventListener("input", renderBrowseList);
 
   // Word detail

@@ -50,8 +50,9 @@
     <button id="btn-start" class="btn-primary btn-big">Start Review</button>
     <button id="btn-study-category" class="btn-secondary btn-big hidden">Study all words</button>
     <button id="btn-quiz" class="btn-quiz-home">Practice recall · 5 blanks</button>
-    <div class="home-btn-row">
-      <button id="btn-browse" class="btn-half">Browse words</button>
+    <div class="home-btn-row home-btn-row-3">
+      <button id="btn-browse" class="btn-half">Browse</button>
+      <button id="btn-categories" class="btn-half">Categories</button>
       <button id="btn-all-cycles" class="btn-half">Courses</button>
     </div>
     <button id="btn-progress" class="btn-secondary home-progress-btn">Progress & backup</button>
@@ -318,6 +319,16 @@
       <button id="btn-practice-word" class="btn-primary">Practice this word</button>
       <button id="btn-detail-english" class="btn-secondary">Show English</button>
     </div>
+  </section>
+
+  <!-- ===================== CATEGORIES ===================== -->
+  <section id="screen-categories" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-categories-back" class="icon-btn" aria-label="Back">←</button>
+      <h1>Categories</h1>
+      <div style="width:40px"></div>
+    </header>
+    <div id="categories-list" class="categories-list"></div>
   </section>
 
   <!-- ===================== SETTINGS ===================== -->
