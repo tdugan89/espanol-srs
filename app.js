@@ -25,6 +25,11 @@ let DATA = [];
 let CYCLES_META = [];
 let CYCLE_DATA = { segments: {}, words: {} };
 let CONTENT = null;
+let LEXEME_BY_ID = new Map();
+let OCCURRENCE_BY_ID = new Map();
+let LESSON_BY_ID = new Map();
+let SEGMENT_BY_ID = new Map();
+let VISUAL_BY_LEXEME = new Map();
 const existingUser = loadJSON(LS_USER, null);
 let user = existingUser || {
   schema_version: 2,
@@ -42,6 +47,9 @@ let stats = Object.assign(
   user.stats || {}
 );
 let currentCycleNum = parseInt((user.current_lesson_id || "lesson:fsi:03").split(":").pop(), 10) || 3;
+if (!Array.isArray(user.review_events)) user.review_events = [];
+if (!Array.isArray(user.hint_events)) user.hint_events = [];
+if (!Array.isArray(user.audio_events)) user.audio_events = [];
 
 function saveUser() {
   user.cards = progress;
@@ -115,8 +123,10 @@ function applyRating(id, quality) {
     rating: quality,
     previous_interval: st.interval || 0,
     new_interval: result.interval,
+    english_hint_used: currentCardUsedEnglish,
+    response_ms: currentCardShownAt ? reviewedAt - currentCardShownAt : null,
+    audio_plays: currentCardAudioPlays,
   });
-  if (user.review_events.length > 5000) user.review_events = user.review_events.slice(-5000);
   stats.total_reviews += 1;
   const t = todayStr();
   stats.history[t] = (stats.history[t] || 0) + 1;
@@ -143,24 +153,27 @@ function isInDeck(card) {
   const state = progress[card.id];
   return state ? state.in_deck !== false : card.default_in_deck !== false;
 }
-function getDueCards() {
+function inCategory(card, category) {
+  return category === "all" || card.cat === category;
+}
+function getDueCards(category = "all") {
   const now = Date.now();
   return DATA.filter(c => {
     const state = progress[c.id];
-    return isInDeck(c) && state && state.reps > 0 && state.due_at <= now;
+    return inCategory(c, category) && isInDeck(c) && state && state.reps > 0 && state.due_at <= now;
   });
 }
-function getNewCards() {
-  return DATA.filter(c => isInDeck(c) && getCardState(c.id).reps === 0);
+function getNewCards(category = "all") {
+  return DATA.filter(c => inCategory(c, category) && isInDeck(c) && getCardState(c.id).reps === 0);
 }
 function getTodayNewCount() {
   const t = todayStr();
   return Object.values(progress).filter(p => p.first_seen_on === t).length;
 }
-function buildSession() {
-  const due = shuffle(getDueCards());
+function buildSession(category = "all") {
+  const due = shuffle(getDueCards(category));
   const budget = Math.max(0, settings.new_per_day - getTodayNewCount());
-  const newCards = shuffle(getNewCards()).slice(0, budget);
+  const newCards = shuffle(getNewCards(category)).slice(0, budget);
   const queue = [];
   let di = 0, ni = 0;
   while (di < due.length || ni < newCards.length) {
@@ -175,13 +188,15 @@ function buildSession() {
 // ---------------------------------------------------------------------------
 let cardAudio = null;
 let cardAudioStop = null;
+let cardAudioLoadToken = 0;
 
-function playCardAudio(card) {
-  if (!card || !card.audio_path || card.audio_start == null) return;
+function prepareCardAudio(card) {
+  if (!card || !card.audio_path || card.audio_start == null) return null;
   const src = card.audio_path;
   if (!cardAudio || cardAudio.dataset.src !== src) {
     if (cardAudio) cardAudio.pause();
     cardAudio = new Audio(src);
+    cardAudio.preload = "auto";
     cardAudio.dataset.src = src;
     cardAudio.addEventListener("timeupdate", () => {
       if (cardAudioStop != null && cardAudio.currentTime >= cardAudioStop) {
@@ -189,10 +204,38 @@ function playCardAudio(card) {
         cardAudioStop = null;
       }
     });
+    cardAudio.load();
   }
+  return cardAudio;
+}
+
+function playCardAudio(card) {
+  const audio = prepareCardAudio(card);
+  if (!audio) return;
+  const token = ++cardAudioLoadToken;
   cardAudioStop = card.audio_end + 0.3;
-  cardAudio.currentTime = card.audio_start;
-  cardAudio.play();
+  const seekAndPlay = () => {
+    if (token !== cardAudioLoadToken || audio !== cardAudio) return;
+    const upperBound = Number.isFinite(audio.duration)
+      ? Math.max(0, audio.duration - 0.05)
+      : card.audio_start;
+    audio.currentTime = Math.min(card.audio_start, upperBound);
+    audio.play().then(() => {
+      if (card === currentCard) currentCardAudioPlays += 1;
+      user.audio_events = Array.isArray(user.audio_events) ? user.audio_events : [];
+      user.audio_events.push({
+        card_id: card.id,
+        played_at: Date.now(),
+        lesson_id: card.lesson_id || null,
+      });
+      saveUser();
+    }).catch(() => {});
+  };
+  if (audio.readyState >= 1) {
+    seekAndPlay();
+  } else {
+    audio.addEventListener("loadedmetadata", seekAndPlay, { once: true });
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -207,10 +250,39 @@ function show(id) {
 // ---------------------------------------------------------------------------
 // Home
 // ---------------------------------------------------------------------------
+let reviewCategory = "all";
+
+function commonCategories() {
+  const counts = new Map();
+  DATA.forEach(card => counts.set(card.cat, (counts.get(card.cat) || 0) + 1));
+  return Array.from(counts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([category]) => category);
+}
+
+function renderHomeCategoryChips() {
+  const categories = ["all", ...commonCategories()];
+  const wrap = $("home-category-chips");
+  wrap.innerHTML = "";
+  categories.forEach(category => {
+    const button = document.createElement("button");
+    button.className = "home-category-chip" + (category === reviewCategory ? " active" : "");
+    button.dataset.category = category;
+    button.textContent = category === "all" ? "All words" : category;
+    button.addEventListener("click", () => {
+      reviewCategory = category;
+      renderHome();
+    });
+    wrap.appendChild(button);
+  });
+  $("home-filter-label").textContent = reviewCategory === "all" ? "All words" : reviewCategory;
+}
+
 function renderHome() {
-  const due = getDueCards().length;
+  const due = getDueCards(reviewCategory).length;
   const budget = Math.max(0, settings.new_per_day - getTodayNewCount());
-  const newAvail = Math.min(getNewCards().length, budget);
+  const newAvail = Math.min(getNewCards(reviewCategory).length, budget);
   $("stat-due").textContent = due;
   $("stat-new").textContent = newAvail;
   $("stat-streak").textContent = stats.streak || 0;
@@ -220,7 +292,10 @@ function renderHome() {
   $("progress-pct").textContent = pct + "%";
   $("progress-fill").style.width = pct + "%";
   $("btn-start").disabled = (due + newAvail) === 0;
-  $("btn-start").textContent = (due + newAvail) === 0 ? "All caught up! 🎉" : "Start Review";
+  const scope = reviewCategory === "all" ? "" : `: ${reviewCategory}`;
+  $("btn-start").textContent = (due + newAvail) === 0 ? "All caught up! 🎉" : `Start review${scope}`;
+  renderHomeCategoryChips();
+  renderCurrentCycleCard();
 }
 
 function cycleProgress(num) {
@@ -250,12 +325,24 @@ function renderCurrentCycleCard() {
 // Review
 // ---------------------------------------------------------------------------
 let currentQueue = [], currentIndex = 0, currentCard = null, sessionReviewed = 0;
+let currentCardUsedEnglish = false;
+let currentCardShownAt = null;
+let currentCardAudioPlays = 0;
 
 function startSession() {
-  currentQueue = buildSession();
+  currentQueue = buildSession(reviewCategory);
   currentIndex = 0;
   sessionReviewed = 0;
   if (!currentQueue.length) { renderHome(); return; }
+  show("screen-review");
+  nextCard();
+}
+
+function startFocusedSession(card) {
+  currentQueue = [card];
+  currentIndex = 0;
+  sessionReviewed = 0;
+  currentCard = null;
   show("screen-review");
   nextCard();
 }
@@ -268,24 +355,63 @@ function nextCard() {
 }
 
 function renderCard(card) {
+  currentCardUsedEnglish = false;
+  currentCardShownAt = Date.now();
+  currentCardAudioPlays = 0;
   $("card").classList.remove("flipped");
   $("rating-row").classList.add("hidden");
   $("tap-hint").classList.remove("hidden");
   $("card-cat").textContent = card.cat;
   $("card-cat-back").textContent = card.cat;
-  $("card-term").textContent = card.es;
-  $("card-emoji").textContent = card.emoji || "";
-  $("card-definition").textContent = card.def || card.en;
+  const hasVisual = Boolean(card.visual_cue);
+  $("card-term").textContent = hasVisual ? "" : card.es;
+  $("card-front-task").textContent = hasVisual ? "Say it in Spanish" : "Recall the meaning";
+  renderVisualCue($("card-front-visual"), card.visual_cue);
+  renderVisualCue($("card-back-visual"), hasVisual ? card.visual_cue : null);
+  $("card-definition").textContent = hasVisual ? card.es : (card.x || card.es);
   $("card-example").textContent = card.x || "";
-  const imgLink = $("card-image-link");
-  imgLink.href = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(card.es);
-  imgLink.classList.toggle("hidden", !!card.emoji);
+  $("card-example").classList.toggle("hidden", !card.x || (!hasVisual && card.x === $("card-definition").textContent));
+  $("card-english").textContent = card.en;
+  $("card-english").classList.add("hidden");
+  $("card-english-btn").textContent = "Show English";
   $("card-audio-btn").classList.toggle("hidden", card.audio_start == null);
+  prepareCardAudio(card);
   const iv = previewIntervals(card.id);
   $("iv-again").textContent = iv.again;
   $("iv-hard").textContent = iv.hard;
   $("iv-good").textContent = iv.good;
   $("iv-easy").textContent = iv.easy;
+}
+
+function renderVisualCue(element, cue) {
+  element.innerHTML = "";
+  element.classList.remove("emoji", "image");
+  element.classList.toggle("hidden", !cue);
+  if (!cue) return;
+  element.classList.add(cue.kind);
+  element.setAttribute("role", "img");
+  element.setAttribute("aria-label", cue.alt_es);
+  if (cue.kind === "emoji") {
+    element.textContent = cue.value;
+  } else if (cue.kind === "image") {
+    const image = document.createElement("img");
+    image.src = cue.asset_path;
+    image.alt = cue.alt_es;
+    image.loading = "lazy";
+    element.appendChild(image);
+  }
+}
+
+function revealEnglish(card, context) {
+  if (!card) return;
+  user.hint_events.push({
+    card_id: card.id,
+    used_at: Date.now(),
+    kind: "english",
+    context,
+  });
+  if (card === currentCard) currentCardUsedEnglish = true;
+  saveUser();
 }
 
 function flipCard() {
@@ -352,6 +478,7 @@ let cycleSegs = [];       // Spanish segments for current cycle
 let cycleSegIdx = 0;      // which segment we're on
 let cycleSegPlayed = 0;   // cumulative seconds of Spanish played (for progress)
 let cycleTotalSpanish = 0; // total seconds of Spanish content
+let cycleSingleSegmentMode = false;
 
 function openCycleDetail(num) {
   currentDetailCycle = num;
@@ -374,8 +501,18 @@ function openCycleDetail(num) {
 
   const textEl = $("cycle-text");
   textEl.innerHTML = cycleSegs.map((s, i) =>
-    `<span class="seg-line" data-idx="${i}" data-start="${s.s}" data-end="${s.e}">${escapeHtml(s.t)}</span>`
+    `<span class="seg-line" role="button" tabindex="0" data-idx="${i}" data-start="${s.s}" data-end="${s.e}" aria-label="Play: ${escapeHtml(s.t)}">${escapeHtml(s.t)}</span>`
   ).join("\n");
+  textEl.querySelectorAll(".seg-line").forEach(line => {
+    const play = () => playCycleSegment(Number(line.dataset.idx));
+    line.addEventListener("click", play);
+    line.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        play();
+      }
+    });
+  });
 
   const words = CYCLE_DATA.words[String(num)] || [];
   const vocabList = $("cycle-vocab-list");
@@ -393,7 +530,13 @@ function openCycleDetail(num) {
         ${inDeck ? "In deck" : "+ Add"}
       </button>
     `;
-    row.querySelector("button").addEventListener("click", () => addWordToDeck(w, row));
+    row.addEventListener("click", () => {
+      if (card) openWordDetail(card, "screen-cycle-detail");
+    });
+    row.querySelector("button").addEventListener("click", event => {
+      event.stopPropagation();
+      addWordToDeck(w, row);
+    });
     vocabList.appendChild(row);
   });
 
@@ -407,6 +550,7 @@ function stopCycleAudio() {
   $("cycle-play-btn").textContent = "▶";
   cycleSegIdx = 0;
   cycleSegPlayed = 0;
+  cycleSingleSegmentMode = false;
 }
 
 function toggleCyclePlay() {
@@ -419,6 +563,7 @@ function toggleCyclePlay() {
     return;
   }
 
+  cycleSingleSegmentMode = false;
   if (!cycleAudio) {
     cycleAudio = new Audio(`audio/Cycle ${currentDetailCycle}.mp3`);
     cycleAudio.addEventListener("timeupdate", onCycleTimeUpdate);
@@ -436,6 +581,28 @@ function toggleCyclePlay() {
   tickCycleProgress();
 }
 
+function ensureCycleAudio() {
+  if (cycleAudio) return;
+  cycleAudio = new Audio(`audio/Cycle ${currentDetailCycle}.mp3`);
+  cycleAudio.addEventListener("timeupdate", onCycleTimeUpdate);
+  cycleAudio.addEventListener("ended", onCycleEnded);
+}
+
+function playCycleSegment(index) {
+  if (!cycleSegs[index]) return;
+  ensureCycleAudio();
+  cycleSegIdx = index;
+  cycleSingleSegmentMode = true;
+  cycleSegPlayed = cycleSegs
+    .slice(0, index)
+    .reduce((sum, segment) => sum + (segment.e - segment.s), 0);
+  cycleAudio.currentTime = cycleSegs[index].s;
+  cycleAudio.play();
+  $("cycle-play-btn").textContent = "⏸";
+  highlightActiveSeg(cycleAudio.currentTime);
+  tickCycleProgress();
+}
+
 function onCycleTimeUpdate() {
   if (!cycleAudio || !cycleSegs.length) return;
   const cur = cycleAudio.currentTime;
@@ -444,6 +611,13 @@ function onCycleTimeUpdate() {
 
   // If we've gone past the end of this segment, jump to next
   if (cur >= seg.e + 0.1) {
+    if (cycleSingleSegmentMode) {
+      cycleAudio.pause();
+      cycleSingleSegmentMode = false;
+      $("cycle-play-btn").textContent = "▶";
+      highlightActiveSeg(-1);
+      return;
+    }
     // Accumulate played time for this segment
     cycleSegPlayed += (seg.e - seg.s);
     cycleSegIdx++;
@@ -553,14 +727,171 @@ function renderBrowseList() {
     return true;
   }).slice(0, 300).forEach(c => {
     const status = cardStatus(c);
-    const item = document.createElement("div");
+    const item = document.createElement("button");
+    item.type = "button";
     item.className = "browse-item";
+    item.setAttribute("aria-label", `Open ${c.es}`);
     item.innerHTML = `
       <div><div class="b-es">${escapeHtml(c.es)}</div><div class="b-en">${escapeHtml(c.en)}</div></div>
       <div class="browse-status ${status.cls}">${status.label}</div>
     `;
+    item.addEventListener("click", () => openWordDetail(c, "screen-browse"));
     list.appendChild(item);
   });
+}
+
+// ---------------------------------------------------------------------------
+// Word detail
+// ---------------------------------------------------------------------------
+let selectedDetailCard = null;
+let detailReturnScreen = "screen-browse";
+
+function detailSourceText(card) {
+  if (!card.lesson_id) return "Example from the core deck";
+  const lesson = LESSON_BY_ID.get(card.lesson_id);
+  const manual = card.manual_reference;
+  const parts = [`FSI Cycle ${lesson ? lesson.number : ""}`.trim()];
+  if (manual && manual.pdf_page) parts.push(`manual PDF p. ${manual.pdf_page}`);
+  return parts.join(" · ");
+}
+
+function renderDetailDeckButton() {
+  const inDeck = selectedDetailCard && isInDeck(selectedDetailCard);
+  const button = $("btn-detail-deck");
+  button.textContent = inDeck ? "✓" : "+";
+  button.classList.toggle("off", !inDeck);
+  button.setAttribute("aria-label", inDeck ? "Remove from deck" : "Add to deck");
+}
+
+function openWordDetail(card, returnScreen = "screen-browse") {
+  selectedDetailCard = card;
+  detailReturnScreen = returnScreen;
+  const status = cardStatus(card);
+  $("detail-word").textContent = card.es;
+  $("detail-pos").textContent = `${card.pos} · ${card.cat}`;
+  $("detail-translation").textContent = card.en;
+  $("detail-meaning-panel").classList.add("hidden");
+  $("btn-detail-english").textContent = "Show English";
+  $("detail-definition").textContent = card.def || "";
+  $("detail-definition").classList.toggle("hidden", !card.def);
+  renderVisualCue($("detail-visual"), card.visual_cue);
+  $("detail-visual-panel").classList.toggle("hidden", !card.visual_cue);
+  $("detail-visual-alt").textContent = card.visual_cue ? card.visual_cue.alt_es : "";
+  $("detail-example-es").textContent = card.x || "No contextual example yet.";
+  $("detail-example-en").textContent = card.y || "";
+  $("detail-example-en").classList.add("hidden");
+  $("detail-example-panel").classList.toggle("hidden", !card.x && card.audio_start == null);
+  $("btn-detail-audio").classList.toggle("hidden", card.audio_start == null);
+  prepareCardAudio(card);
+  $("detail-source").textContent = detailSourceText(card);
+  const statusEl = $("detail-status");
+  statusEl.className = `browse-status ${status.cls}`;
+  statusEl.textContent = status.label;
+  renderDetailDeckButton();
+  show("screen-word-detail");
+}
+
+function toggleDetailDeck() {
+  if (!selectedDetailCard) return;
+  const state = getCardState(selectedDetailCard.id);
+  progress[selectedDetailCard.id] = Object.assign({}, state, {
+    in_deck: !isInDeck(selectedDetailCard),
+  });
+  saveUser();
+  renderDetailDeckButton();
+  const status = cardStatus(selectedDetailCard);
+  $("detail-status").className = `browse-status ${status.cls}`;
+  $("detail-status").textContent = status.label;
+}
+
+// ---------------------------------------------------------------------------
+// Progress and portable backup
+// ---------------------------------------------------------------------------
+function recentDayKeys(count) {
+  const days = [];
+  for (let offset = count - 1; offset >= 0; offset--) {
+    days.push(new Date(Date.now() - offset * DAY_MS).toISOString().slice(0, 10));
+  }
+  return days;
+}
+
+function renderProgress() {
+  const sevenDaysAgo = Date.now() - 7 * DAY_MS;
+  const recentReviews = user.review_events.filter(event => event.reviewed_at >= sevenDaysAgo);
+  const recalled = recentReviews.filter(event => event.rating !== "again").length;
+  $("progress-retention").textContent = recentReviews.length
+    ? `${Math.round(recalled / recentReviews.length * 100)}%`
+    : "—";
+  $("progress-reviews").textContent = user.review_events.length;
+  $("progress-mature").textContent = Object.values(progress)
+    .filter(state => state.reps >= 2 && state.interval >= 21).length;
+
+  const startedLessons = new Set();
+  DATA.forEach(card => {
+    const state = progress[card.id];
+    if (card.lesson_id && state && state.reps > 0) startedLessons.add(card.lesson_id);
+  });
+  $("progress-lessons").textContent = startedLessons.size;
+  $("progress-hints").textContent = user.hint_events.length;
+  $("progress-audio").textContent = user.audio_events.length;
+  $("progress-streak").textContent = `${stats.streak || 0} day${stats.streak === 1 ? "" : "s"}`;
+
+  const days = recentDayKeys(7);
+  const totals = days.map(day => user.review_events
+    .filter(event => new Date(event.reviewed_at).toISOString().slice(0, 10) === day).length);
+  const max = Math.max(1, ...totals);
+  $("progress-week-total").textContent = `${totals.reduce((sum, n) => sum + n, 0)} reviews`;
+  $("progress-week-chart").innerHTML = days.map((day, index) => {
+    const height = Math.max(totals[index] ? 12 : 3, Math.round(totals[index] / max * 82));
+    const label = new Date(`${day}T12:00:00`).toLocaleDateString(undefined, { weekday: "narrow" });
+    return `<div class="week-day">
+      <span class="week-value">${totals[index] || ""}</span>
+      <div class="week-bar" style="height:${height}px"></div>
+      <span class="week-label">${label}</span>
+    </div>`;
+  }).join("");
+}
+
+function exportProgress() {
+  saveUser();
+  const backup = {
+    format: "espanol-srs-backup",
+    version: 1,
+    exported_at: new Date().toISOString(),
+    user,
+  };
+  const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = `espanol-srs-backup-${todayStr()}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(link.href);
+  $("backup-status").textContent = "Backup exported.";
+}
+
+function importProgress(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const backup = JSON.parse(reader.result);
+      if (backup.format !== "espanol-srs-backup" || !backup.user || backup.user.schema_version !== 2) {
+        throw new Error("This is not a valid Español SRS backup.");
+      }
+      if (!backup.user.cards || !Array.isArray(backup.user.review_events)) {
+        throw new Error("The backup is missing progress data.");
+      }
+      saveJSON(LS_USER, backup.user);
+      $("backup-status").textContent = "Progress restored. Reloading…";
+      setTimeout(() => location.reload(), 400);
+    } catch (error) {
+      $("backup-status").textContent = error.message || "Could not restore this backup.";
+    }
+  };
+  reader.onerror = () => { $("backup-status").textContent = "Could not read this backup."; };
+  reader.readAsText(file);
 }
 
 // ---------------------------------------------------------------------------
@@ -613,19 +944,27 @@ function migrateV1UserState() {
 function buildRuntimeViews(bundle) {
   CONTENT = bundle;
   const entities = bundle.entities;
-  const lexemeById = new Map(entities.lexemes.map(row => [row.id, row]));
-  const occurrenceById = new Map(entities.occurrences.map(row => [row.id, row]));
-  const lessonById = new Map(entities.lessons.map(row => [row.id, row]));
+  LEXEME_BY_ID = new Map(entities.lexemes.map(row => [row.id, row]));
+  OCCURRENCE_BY_ID = new Map(entities.occurrences.map(row => [row.id, row]));
+  LESSON_BY_ID = new Map(entities.lessons.map(row => [row.id, row]));
+  SEGMENT_BY_ID = new Map(entities.segments.map(row => [row.id, row]));
+  VISUAL_BY_LEXEME = new Map();
+  (entities.visual_cues || []).forEach(cue => {
+    if (!VISUAL_BY_LEXEME.has(cue.lexeme_id)) VISUAL_BY_LEXEME.set(cue.lexeme_id, cue);
+  });
   const cardByLexeme = new Map();
   entities.cards.forEach(card => {
     if (!cardByLexeme.has(card.lexeme_id)) cardByLexeme.set(card.lexeme_id, card);
   });
 
   DATA = entities.cards.map(card => {
-    const lexeme = lexemeById.get(card.lexeme_id);
-    const occurrence = occurrenceById.get(card.example_occurrence_ids[0]);
+    const lexeme = LEXEME_BY_ID.get(card.lexeme_id);
+    const occurrence = OCCURRENCE_BY_ID.get(card.example_occurrence_ids[0]);
     const lesson = occurrence && occurrence.lesson_id
-      ? lessonById.get(occurrence.lesson_id)
+      ? LESSON_BY_ID.get(occurrence.lesson_id)
+      : null;
+    const sourceSegment = occurrence && occurrence.segment_ids.length
+      ? SEGMENT_BY_ID.get(occurrence.segment_ids[0])
       : null;
     return {
       id: card.id,
@@ -637,6 +976,10 @@ function buildRuntimeViews(bundle) {
       def: lexeme.definition_es,
       x: occurrence ? occurrence.text_es : "",
       y: occurrence ? occurrence.text_en : "",
+      occurrence_id: occurrence ? occurrence.id : null,
+      lesson_id: occurrence ? occurrence.lesson_id : null,
+      manual_reference: sourceSegment ? sourceSegment.manual_reference : null,
+      visual_cue: VISUAL_BY_LEXEME.get(lexeme.id) || null,
       default_in_deck: card.default_in_deck,
       audio_path: lesson ? lesson.audio_asset.path : null,
       audio_start: occurrence && occurrence.audio_clip ? occurrence.audio_clip.start_seconds : null,
@@ -671,7 +1014,7 @@ function buildRuntimeViews(bundle) {
     CYCLE_DATA.words[String(meta.num)] = entities.lesson_vocabulary
       .filter(link => link.lesson_id === lessonId)
       .map(link => {
-        const lexeme = lexemeById.get(link.lexeme_id);
+        const lexeme = LEXEME_BY_ID.get(link.lexeme_id);
         const card = cardByLexeme.get(link.lexeme_id);
         return {
           id: card.id,
@@ -690,7 +1033,9 @@ async function init() {
   screens["screen-cycles"]       = $("screen-cycles");
   screens["screen-cycle-detail"] = $("screen-cycle-detail");
   screens["screen-browse"]       = $("screen-browse");
+  screens["screen-word-detail"]  = $("screen-word-detail");
   screens["screen-settings"]     = $("screen-settings");
+  screens["screen-progress"]     = $("screen-progress");
 
   const contentRes = await fetch("app_data_v2.json");
   buildRuntimeViews(await contentRes.json());
@@ -701,16 +1046,36 @@ async function init() {
   // Home
   $("btn-start").addEventListener("click", startSession);
   $("btn-all-cycles").addEventListener("click", openCyclesList);
+  $("btn-course-list-link").addEventListener("click", openCyclesList);
   $("btn-browse").addEventListener("click", () => { show("screen-browse"); renderCategoryChips(); renderBrowseList(); });
-  $("btn-settings").addEventListener("click", () => { renderSettings(); show("screen-settings"); });
+  $("btn-progress").addEventListener("click", () => { renderProgress(); show("screen-progress"); });
+  $("btn-settings").addEventListener("click", () => {
+    renderSettings();
+    $("settings-content-count").textContent = `${DATA.length} words & phrases · SM-2 spaced repetition`;
+    show("screen-settings");
+  });
 
   // Review
   $("btn-exit-review").addEventListener("click", () => { show("screen-home"); renderHome(); });
   $("card").addEventListener("click", () => { if (!$("card").classList.contains("flipped")) flipCard(); });
+  $("card").addEventListener("keydown", event => {
+    if ((event.key === "Enter" || event.key === " ") && !$("card").classList.contains("flipped")) {
+      event.preventDefault();
+      flipCard();
+    }
+  });
   document.querySelectorAll(".rate-btn").forEach(btn => {
     btn.addEventListener("click", e => { e.stopPropagation(); rate(btn.dataset.q); });
   });
   $("card-audio-btn").addEventListener("click", e => { e.stopPropagation(); playCardAudio(currentCard); });
+  $("card-english-btn").addEventListener("click", event => {
+    event.stopPropagation();
+    const panel = $("card-english");
+    const revealing = panel.classList.contains("hidden");
+    panel.classList.toggle("hidden", !revealing);
+    $("card-english-btn").textContent = revealing ? "Hide English" : "Show English";
+    if (revealing) revealEnglish(currentCard, "review");
+  });
 
   // Done
   $("btn-done-home").addEventListener("click", () => { show("screen-home"); renderHome(); });
@@ -731,6 +1096,33 @@ async function init() {
   $("btn-browse-back").addEventListener("click", () => { show("screen-home"); renderHome(); });
   $("browse-search").addEventListener("input", renderBrowseList);
 
+  // Word detail
+  $("btn-detail-back").addEventListener("click", () => {
+    if (detailReturnScreen === "screen-browse") {
+      show("screen-browse");
+      renderCategoryChips();
+      renderBrowseList();
+    } else {
+      show(detailReturnScreen);
+    }
+  });
+  $("btn-detail-deck").addEventListener("click", toggleDetailDeck);
+  $("btn-detail-audio").addEventListener("click", () => playCardAudio(selectedDetailCard));
+  $("btn-practice-word").addEventListener("click", () => {
+    if (!selectedDetailCard) return;
+    if (!isInDeck(selectedDetailCard)) toggleDetailDeck();
+    startFocusedSession(selectedDetailCard);
+  });
+  $("btn-detail-english").addEventListener("click", () => {
+    if (!selectedDetailCard) return;
+    const panel = $("detail-meaning-panel");
+    const revealing = panel.classList.contains("hidden");
+    panel.classList.toggle("hidden", !revealing);
+    $("detail-example-en").classList.toggle("hidden", !revealing || !selectedDetailCard.y);
+    $("btn-detail-english").textContent = revealing ? "Hide English" : "Show English";
+    if (revealing) revealEnglish(selectedDetailCard, "word_detail");
+  });
+
   // Settings
   $("btn-settings-back").addEventListener("click", () => { saveSettings(); show("screen-home"); renderHome(); });
   $("setting-new-per-day").addEventListener("change", saveSettings);
@@ -745,6 +1137,15 @@ async function init() {
       show("screen-home");
       renderHome();
     }
+  });
+
+  // Progress and backup
+  $("btn-progress-back").addEventListener("click", () => { show("screen-home"); renderHome(); });
+  $("btn-export-progress").addEventListener("click", exportProgress);
+  $("btn-import-progress").addEventListener("click", () => $("input-import-progress").click());
+  $("input-import-progress").addEventListener("change", event => {
+    importProgress(event.target.files && event.target.files[0]);
+    event.target.value = "";
   });
 
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

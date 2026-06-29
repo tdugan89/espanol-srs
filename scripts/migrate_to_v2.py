@@ -157,6 +157,8 @@ def migrate(root: Path, structured_dir: Optional[Path]) -> None:
     legacy_cards = read_json(root / "data.json")
     legacy_lessons = read_json(root / "cycles.json")
     legacy_course = read_json(root / "cycle_data.json")
+    visual_source = root / "content-source" / "visual_cues.json"
+    visual_cues = read_json(visual_source) if visual_source.exists() else []
     structured = structured_cycles(structured_dir)
 
     lexemes: List[Dict[str, Any]] = []
@@ -311,6 +313,14 @@ def migrate(root: Path, structured_dir: Optional[Path]) -> None:
             for segment in segments_by_cycle[int(cycle)]
             if segment["start_seconds"] < end and segment["end_seconds"] > start
         ]
+        if occurrence["segment_ids"]:
+            occurrence["source"]["legacy_text_es"] = occurrence["text_es"]
+            linked_ids = set(occurrence["segment_ids"])
+            occurrence["text_es"] = " ".join(
+                segment["text"]
+                for segment in segments_by_cycle[int(cycle)]
+                if segment["id"] in linked_ids
+            )
 
     vocabulary: List[Dict[str, Any]] = []
     for cycle_key, words in legacy_course["words"].items():
@@ -339,6 +349,15 @@ def migrate(root: Path, structured_dir: Optional[Path]) -> None:
             )
 
     validate(lexemes, cards, lessons, segments, occurrences, vocabulary)
+    lexeme_ids = {row["id"] for row in lexemes}
+    visual_ids = [row["id"] for row in visual_cues]
+    if len(visual_ids) != len(set(visual_ids)):
+        raise ValueError("Duplicate visual cue IDs")
+    if any(cue["lexeme_id"] not in lexeme_ids for cue in visual_cues):
+        raise ValueError("Visual cue references a missing lexeme")
+    for cue in visual_cues:
+        if cue["kind"] == "image" and not (root / cue["asset_path"]).exists():
+            raise ValueError(f"Missing visual asset: {cue['asset_path']}")
 
     output = root / "content-v2"
     entities = {
@@ -348,6 +367,7 @@ def migrate(root: Path, structured_dir: Optional[Path]) -> None:
         "segments": segments,
         "occurrences": occurrences,
         "lesson_vocabulary": vocabulary,
+        "visual_cues": visual_cues,
     }
     for name, rows in entities.items():
         write_json(output / f"{name}.json", rows)
@@ -403,4 +423,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

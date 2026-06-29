@@ -41,11 +41,24 @@
       </div>
     </div>
 
+    <div class="section-header compact-header">
+      <span class="section-label">Practice by category</span>
+      <span id="home-filter-label" class="section-hint">All words</span>
+    </div>
+    <div id="home-category-chips" class="home-category-grid"></div>
+
     <button id="btn-start" class="btn-primary btn-big">Start Review</button>
     <div class="home-btn-row">
       <button id="btn-browse" class="btn-half">Browse words</button>
       <button id="btn-all-cycles" class="btn-half">Courses</button>
     </div>
+    <button id="btn-progress" class="btn-secondary home-progress-btn">Progress & backup</button>
+
+    <div class="section-header compact-header">
+      <span class="section-label">Continue course</span>
+      <button id="btn-course-list-link" class="section-link">All cycles</button>
+    </div>
+    <div id="current-cycle-card" class="cycle-card-home"></div>
 
     <div class="progress-wrap">
       <div class="progress-label">
@@ -53,6 +66,60 @@
         <span id="progress-pct">0%</span>
       </div>
       <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+    </div>
+  </section>
+
+  <!-- ===================== PROGRESS ===================== -->
+  <section id="screen-progress" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-progress-back" class="icon-btn" aria-label="Back">←</button>
+      <h1>Progress</h1>
+      <div style="width:40px"></div>
+    </header>
+
+    <div class="progress-summary-grid">
+      <div class="stat-card">
+        <div class="stat-num" id="progress-retention">—</div>
+        <div class="stat-label">7-day retention</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="progress-reviews">0</div>
+        <div class="stat-label">Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="progress-mature">0</div>
+        <div class="stat-label">Mature words</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="progress-lessons">0</div>
+        <div class="stat-label">Cycles started</div>
+      </div>
+    </div>
+
+    <div class="progress-panel">
+      <div class="section-header compact-header">
+        <span class="section-label">Last 7 days</span>
+        <span id="progress-week-total" class="section-hint"></span>
+      </div>
+      <div id="progress-week-chart" class="week-chart"></div>
+    </div>
+
+    <div class="progress-panel">
+      <span class="section-label">Learning signals</span>
+      <div class="signal-row"><span>English hints</span><strong id="progress-hints">0</strong></div>
+      <div class="signal-row"><span>Audio examples played</span><strong id="progress-audio">0</strong></div>
+      <div class="signal-row"><span>Current streak</span><strong id="progress-streak">0 days</strong></div>
+    </div>
+
+    <div class="progress-panel">
+      <span class="section-label">Keep your progress safe</span>
+      <p class="settings-note">Your learning history lives on this device. Export a backup occasionally so it can be restored on another device.</p>
+      <div class="backup-actions">
+        <button id="btn-export-progress" class="btn-primary">Export backup</button>
+        <button id="btn-import-progress" class="btn-secondary">Restore backup</button>
+        <input id="input-import-progress" class="hidden" type="file" accept="application/json,.json">
+      </div>
+      <p id="backup-status" class="settings-note backup-status" aria-live="polite"></p>
     </div>
   </section>
 
@@ -65,20 +132,23 @@
     </header>
 
     <div class="card-area">
-      <div id="card" class="flip-card">
+      <div id="card" class="flip-card" role="button" tabindex="0" aria-label="Flashcard; reveal answer">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <div class="card-cat" id="card-cat"></div>
+            <div id="card-front-visual" class="card-visual hidden"></div>
             <div class="card-term" id="card-term"></div>
-            <div class="card-hint">Tap to reveal</div>
+            <div id="card-front-task" class="card-task">What does this mean?</div>
+            <div class="card-hint">Recall first, then tap</div>
           </div>
           <div class="flip-card-back">
             <div class="card-cat" id="card-cat-back"></div>
-            <div class="card-emoji" id="card-emoji"></div>
+            <div id="card-back-visual" class="card-visual card-visual-small hidden"></div>
             <div class="card-definition" id="card-definition"></div>
             <button id="card-audio-btn" class="card-audio-btn hidden">▶ Escuchar</button>
             <div class="card-example" id="card-example"></div>
-            <a id="card-image-link" class="card-image-link hidden" target="_blank" rel="noopener">🔍 Buscar imagen</a>
+            <button id="card-english-btn" class="english-hint-btn">Show English</button>
+            <div id="card-english" class="english-hint hidden"></div>
           </div>
         </div>
       </div>
@@ -168,6 +238,47 @@
     <div id="browse-list" class="browse-list"></div>
   </section>
 
+  <!-- ===================== WORD DETAIL ===================== -->
+  <section id="screen-word-detail" class="screen hidden">
+    <header class="topbar">
+      <button id="btn-detail-back" class="icon-btn" aria-label="Back">←</button>
+      <h1>Word detail</h1>
+      <button id="btn-detail-deck" class="icon-btn detail-deck-btn" aria-label="Toggle deck">✓</button>
+    </header>
+
+    <div class="word-detail-hero">
+      <div>
+        <h2 id="detail-word"></h2>
+        <span id="detail-pos" class="detail-pos"></span>
+      </div>
+      <div id="detail-status" class="browse-status"></div>
+    </div>
+
+    <div id="detail-visual-panel" class="detail-panel detail-visual-panel hidden">
+      <div id="detail-visual" class="detail-visual"></div>
+      <p id="detail-visual-alt" class="detail-visual-alt"></p>
+    </div>
+
+    <div id="detail-meaning-panel" class="detail-panel hidden">
+      <span class="detail-kicker">English check</span>
+      <p id="detail-translation" class="detail-translation"></p>
+      <p id="detail-definition" class="detail-definition hidden"></p>
+    </div>
+
+    <div id="detail-example-panel" class="detail-panel">
+      <span class="detail-kicker">In context</span>
+      <p id="detail-example-es" class="detail-example-es"></p>
+      <p id="detail-example-en" class="detail-example-en"></p>
+      <button id="btn-detail-audio" class="btn-audio-wide hidden">▶ Hear the FSI example</button>
+      <div id="detail-source" class="detail-source"></div>
+    </div>
+
+    <div class="detail-actions">
+      <button id="btn-practice-word" class="btn-primary">Practice this word</button>
+      <button id="btn-detail-english" class="btn-secondary">Show English</button>
+    </div>
+  </section>
+
   <!-- ===================== SETTINGS ===================== -->
   <section id="screen-settings" class="screen hidden">
     <header class="topbar">
@@ -187,7 +298,7 @@
     </div>
 
     <div class="settings-group">
-      <p class="settings-note app-info">912 words & phrases · SM-2 spaced repetition</p>
+      <p id="settings-content-count" class="settings-note app-info">Words & phrases · SM-2 spaced repetition</p>
     </div>
   </section>
 

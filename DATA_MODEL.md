@@ -17,6 +17,8 @@ the static PWA.
   lesson segments and an audio clip.
 - **LessonVocabulary**: the many-to-many relationship between lessons and
   lexemes, including occurrences, role, priority, provenance, and confidence.
+- **VisualCue**: a curated emoji or local image attached to one specific
+  lexeme/sense, with Spanish alt text and source provenance.
 
 IDs are stable strings. Migrated IDs retain their legacy identity, such as
 `lexeme:legacy:0042`; future imports should use generated UUIDs and must never
@@ -41,6 +43,7 @@ Browser state is stored under `esrs_user_v2`:
     }
   },
   "review_events": [],
+  "hint_events": [],
   "lesson_progress": {},
   "settings": {"new_per_day": 20},
   "stats": {},
@@ -65,4 +68,3 @@ python3 scripts/migrate_to_v2.py \
 
 Without `--structured-course`, the model is still generated, but manual section
 and PDF-alignment fields remain empty.
-

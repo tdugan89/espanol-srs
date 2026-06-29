@@ -1,0 +1,434 @@
+[
+  {
+    "id": "visual:manzana:emoji",
+    "lexeme_id": "lexeme:legacy:0425",
+    "kind": "emoji",
+    "value": "🍎",
+    "alt_es": "una manzana",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:pan:emoji",
+    "lexeme_id": "lexeme:legacy:0410",
+    "kind": "emoji",
+    "value": "🍞",
+    "alt_es": "una barra de pan",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:agua:emoji",
+    "lexeme_id": "lexeme:legacy:0403",
+    "kind": "emoji",
+    "value": "💧",
+    "alt_es": "una gota de agua",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:cafe:emoji",
+    "lexeme_id": "lexeme:legacy:0404",
+    "kind": "emoji",
+    "value": "☕",
+    "alt_es": "una taza de café",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:leche:emoji",
+    "lexeme_id": "lexeme:legacy:0406",
+    "kind": "emoji",
+    "value": "🥛",
+    "alt_es": "un vaso de leche",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:huevo:emoji",
+    "lexeme_id": "lexeme:legacy:0413",
+    "kind": "emoji",
+    "value": "🥚",
+    "alt_es": "un huevo",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:arroz:emoji",
+    "lexeme_id": "lexeme:legacy:0414",
+    "kind": "emoji",
+    "value": "🍚",
+    "alt_es": "un plato de arroz",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:pescado:emoji",
+    "lexeme_id": "lexeme:legacy:0422",
+    "kind": "emoji",
+    "value": "🐟",
+    "alt_es": "un pescado",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:carne:emoji",
+    "lexeme_id": "lexeme:legacy:0418",
+    "kind": "emoji",
+    "value": "🥩",
+    "alt_es": "un trozo de carne",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:pollo:emoji",
+    "lexeme_id": "lexeme:legacy:0419",
+    "kind": "emoji",
+    "value": "🍗",
+    "alt_es": "pollo cocinado",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:comer:emoji",
+    "lexeme_id": "lexeme:legacy:0271",
+    "kind": "emoji",
+    "value": "🍽️",
+    "alt_es": "comer una comida",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:beber:emoji",
+    "lexeme_id": "lexeme:legacy:0272",
+    "kind": "emoji",
+    "value": "🥤",
+    "alt_es": "beber de un vaso",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:dormir:emoji",
+    "lexeme_id": "lexeme:legacy:0264",
+    "kind": "emoji",
+    "value": "😴",
+    "alt_es": "una persona durmiendo",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:caminar:emoji",
+    "lexeme_id": "lexeme:legacy:0262",
+    "kind": "emoji",
+    "value": "🚶",
+    "alt_es": "una persona caminando",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:correr:emoji",
+    "lexeme_id": "lexeme:legacy:0263",
+    "kind": "emoji",
+    "value": "🏃",
+    "alt_es": "una persona corriendo",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:nadar:emoji",
+    "lexeme_id": "lexeme:legacy:0280",
+    "kind": "emoji",
+    "value": "🏊",
+    "alt_es": "una persona nadando",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:bailar:emoji",
+    "lexeme_id": "lexeme:legacy:0281",
+    "kind": "emoji",
+    "value": "💃",
+    "alt_es": "una persona bailando",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:leer:emoji",
+    "lexeme_id": "lexeme:legacy:0230",
+    "kind": "emoji",
+    "value": "📖",
+    "alt_es": "leer un libro",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:escribir:emoji",
+    "lexeme_id": "lexeme:legacy:0229",
+    "kind": "emoji",
+    "value": "✍️",
+    "alt_es": "escribir con un lápiz",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:escuchar:emoji",
+    "lexeme_id": "lexeme:legacy:0253",
+    "kind": "emoji",
+    "value": "👂",
+    "alt_es": "escuchar con el oído",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:hotel:scene",
+    "lexeme_id": "lexeme:legacy:0528",
+    "kind": "image",
+    "asset_path": "assets/visuals/hotel-checkin.png",
+    "alt_es": "un viajero recibe la llave de su habitación en la recepción de un hotel",
+    "source": "generated",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:habitacion:emoji",
+    "lexeme_id": "lexeme:legacy:0463",
+    "kind": "emoji",
+    "value": "🛏️",
+    "alt_es": "una habitación con una cama",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:restaurante:emoji",
+    "lexeme_id": "lexeme:legacy:0446",
+    "kind": "emoji",
+    "value": "🍽️",
+    "alt_es": "una mesa de restaurante",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:hospital:emoji",
+    "lexeme_id": "lexeme:legacy:0522",
+    "kind": "emoji",
+    "value": "🏥",
+    "alt_es": "un hospital",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:taxi:emoji",
+    "lexeme_id": "lexeme:legacy:0547",
+    "kind": "emoji",
+    "value": "🚕",
+    "alt_es": "un taxi",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:aeropuerto:emoji",
+    "lexeme_id": "lexeme:legacy:0529",
+    "kind": "emoji",
+    "value": "🛫",
+    "alt_es": "un avión saliendo de un aeropuerto",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:autobus:emoji",
+    "lexeme_id": "lexeme:legacy:0542",
+    "kind": "emoji",
+    "value": "🚌",
+    "alt_es": "un autobús",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:tren:emoji",
+    "lexeme_id": "lexeme:legacy:0543",
+    "kind": "emoji",
+    "value": "🚆",
+    "alt_es": "un tren",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:coche:emoji",
+    "lexeme_id": "lexeme:legacy:0540",
+    "kind": "emoji",
+    "value": "🚗",
+    "alt_es": "un coche",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:casa:emoji",
+    "lexeme_id": "lexeme:legacy:0461",
+    "kind": "emoji",
+    "value": "🏠",
+    "alt_es": "una casa",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:telefono:emoji",
+    "lexeme_id": "lexeme:legacy:0486",
+    "kind": "emoji",
+    "value": "☎️",
+    "alt_es": "un teléfono",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:llave:emoji",
+    "lexeme_id": "lexeme:legacy:0476",
+    "kind": "emoji",
+    "value": "🔑",
+    "alt_es": "una llave",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:dinero:emoji",
+    "lexeme_id": "lexeme:legacy:0734",
+    "kind": "emoji",
+    "value": "💵",
+    "alt_es": "dinero en efectivo",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:tarjeta:emoji",
+    "lexeme_id": "lexeme:legacy:0496",
+    "kind": "emoji",
+    "value": "💳",
+    "alt_es": "una tarjeta de crédito",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:bano:emoji",
+    "lexeme_id": "lexeme:legacy:0465",
+    "kind": "emoji",
+    "value": "🚻",
+    "alt_es": "un baño",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:silla:emoji",
+    "lexeme_id": "lexeme:legacy:0471",
+    "kind": "emoji",
+    "value": "🪑",
+    "alt_es": "una silla",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:libro:emoji",
+    "lexeme_id": "lexeme:legacy:0490",
+    "kind": "emoji",
+    "value": "📕",
+    "alt_es": "un libro",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:perro:emoji",
+    "lexeme_id": "lexeme:legacy:0581",
+    "kind": "emoji",
+    "value": "🐕",
+    "alt_es": "un perro",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:gato:emoji",
+    "lexeme_id": "lexeme:legacy:0582",
+    "kind": "emoji",
+    "value": "🐈",
+    "alt_es": "un gato",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:sol:emoji",
+    "lexeme_id": "lexeme:legacy:0560",
+    "kind": "emoji",
+    "value": "☀️",
+    "alt_es": "el sol",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:lluvia:emoji",
+    "lexeme_id": "lexeme:legacy:0565",
+    "kind": "emoji",
+    "value": "🌧️",
+    "alt_es": "la lluvia",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:fuego:emoji",
+    "lexeme_id": "lexeme:legacy:0577",
+    "kind": "emoji",
+    "value": "🔥",
+    "alt_es": "el fuego",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:medico:emoji",
+    "lexeme_id": "lexeme:legacy:0741",
+    "kind": "emoji",
+    "value": "🧑‍⚕️",
+    "alt_es": "un médico",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:familia:emoji",
+    "lexeme_id": "lexeme:legacy:0343",
+    "kind": "emoji",
+    "value": "👪",
+    "alt_es": "una familia",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:amigo:emoji",
+    "lexeme_id": "lexeme:legacy:0341",
+    "kind": "emoji",
+    "value": "🧑‍🤝‍🧑",
+    "alt_es": "dos amigos",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:maleta:emoji",
+    "lexeme_id": "lexeme:legacy:0552",
+    "kind": "emoji",
+    "value": "🧳",
+    "alt_es": "una maleta",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:mapa:emoji",
+    "lexeme_id": "lexeme:legacy:0556",
+    "kind": "emoji",
+    "value": "🗺️",
+    "alt_es": "un mapa",
+    "source": "unicode",
+    "confidence": "curated"
+  },
+  {
+    "id": "visual:playa:emoji",
+    "lexeme_id": "lexeme:legacy:0531",
+    "kind": "emoji",
+    "value": "🏖️",
+    "alt_es": "una playa",
+    "source": "unicode",
+    "confidence": "curated"
+  }
+]
