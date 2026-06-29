@@ -16,6 +16,13 @@ function $(id) { return document.getElementById(id); }
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 }
+function cleanFsiExample(text) {
+  if (!text) return "";
+  const cleaned = text.replace(/^[Nn]úmero\s+\w+[.,]?\s*/u, "").trim();
+  // Chained comprehension prompts contain a second "Número N" in the remainder
+  if (/[Nn]úmero\s+\w/u.test(cleaned)) return "";
+  return cleaned;
+}
 function fmtTime(secs) {
   const m = Math.floor(secs / 60), s = Math.floor(secs % 60);
   return m + ":" + String(s).padStart(2, "0");
@@ -297,6 +304,14 @@ function renderHome() {
   $("btn-start").disabled = (due + newAvail) === 0;
   const scope = reviewCategory === "all" ? "" : `: ${reviewCategory}`;
   $("btn-start").textContent = (due + newAvail) === 0 ? "All caught up! 🎉" : `Start review${scope}`;
+  const studyBtn = $("btn-study-category");
+  if (reviewCategory !== "all") {
+    const total = DATA.filter(c => inCategory(c, reviewCategory)).length;
+    studyBtn.textContent = `Study all ${total} ${reviewCategory} words`;
+    studyBtn.classList.remove("hidden");
+  } else {
+    studyBtn.classList.add("hidden");
+  }
   const learnedQuizCount = getClozeCandidates(true).length;
   $("btn-quiz").textContent = learnedQuizCount
     ? `Practice recall · ${Math.min(5, learnedQuizCount)} blank${learnedQuizCount === 1 ? "" : "s"}`
@@ -345,6 +360,18 @@ function startSession() {
   nextCard();
 }
 
+function startCategoryDrill() {
+  const all = DATA.filter(c => inCategory(c, reviewCategory));
+  const unlearned = shuffle(all.filter(c => getCardState(c.id).reps === 0));
+  const learned = shuffle(all.filter(c => getCardState(c.id).reps > 0));
+  currentQueue = unlearned.concat(learned);
+  currentIndex = 0;
+  sessionReviewed = 0;
+  if (!currentQueue.length) return;
+  show("screen-review");
+  nextCard();
+}
+
 function startFocusedSession(card) {
   currentQueue = [card];
   currentIndex = 0;
@@ -372,12 +399,11 @@ function renderCard(card) {
   $("card-cat-back").textContent = card.cat;
   const hasVisual = Boolean(card.visual_cue);
   $("card-term").textContent = hasVisual ? "" : card.es;
-  $("card-front-task").textContent = hasVisual ? "Say it in Spanish" : "Recall the meaning";
   renderVisualCue($("card-front-visual"), card.visual_cue);
   renderVisualCue($("card-back-visual"), hasVisual ? card.visual_cue : null);
-  $("card-definition").textContent = hasVisual ? card.es : (card.x || card.es);
-  $("card-example").textContent = card.x || "";
-  $("card-example").classList.toggle("hidden", !card.x || (!hasVisual && card.x === $("card-definition").textContent));
+  $("card-definition").textContent = hasVisual ? card.es : (card.x || card.def || card.es);
+  $("card-example").textContent = hasVisual ? (card.x || "") : "";
+  $("card-example").classList.toggle("hidden", !hasVisual || !card.x);
   $("card-english").textContent = card.en;
   $("card-english").classList.add("hidden");
   $("card-english-btn").textContent = "Show English";
@@ -1125,7 +1151,7 @@ function buildRuntimeViews(bundle) {
       pos: lexeme.part_of_speech,
       cat: lexeme.categories[0] || "uncategorized",
       def: lexeme.definition_es,
-      x: occurrence ? occurrence.text_es : "",
+      x: cleanFsiExample(occurrence ? occurrence.text_es : ""),
       y: occurrence ? occurrence.text_en : "",
       occurrence_id: occurrence ? occurrence.id : null,
       lesson_id: occurrence ? occurrence.lesson_id : null,
@@ -1197,6 +1223,7 @@ async function init() {
 
   // Home
   $("btn-start").addEventListener("click", startSession);
+  $("btn-study-category").addEventListener("click", startCategoryDrill);
   $("btn-quiz").addEventListener("click", startQuiz);
   $("btn-all-cycles").addEventListener("click", openCyclesList);
   $("btn-course-list-link").addEventListener("click", openCyclesList);
