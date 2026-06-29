@@ -354,17 +354,16 @@
       "segment:fsi:06:0017",
       "segment:fsi:06:0018"
     ],
-    "text_es": "Número tres, ¿qué pueden hacer los niños hasta las nueve? Número cuatro, ¿qué hacen los niños a las nueve?",
-    "text_en": "See you later.",
+    "text_es": "Maneja hasta Msisna.",
+    "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:06",
       "start_seconds": 91.22,
       "end_seconds": 98.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 17,
-      "legacy_text_es": "Hasta luego."
+      "kind": "tatoeba",
+      "tatoeba_id": "11018567"
     }
   },
   {
@@ -825,12 +824,12 @@
     "lexeme_id": "lexeme:legacy:0040",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Hablas de nosotras?",
+    "text_en": "Do you talk about us?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 40
+      "kind": "tatoeba",
+      "tatoeba_id": "10211703"
     }
   },
   {
@@ -838,12 +837,12 @@
     "lexeme_id": "lexeme:legacy:0041",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Canto para vosotros.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 41
+      "kind": "tatoeba",
+      "tatoeba_id": "12003147"
     }
   },
   {
@@ -1014,17 +1013,16 @@
       "segment:fsi:21:0034",
       "segment:fsi:21:0035"
     ],
-    "text_es": "Número cuatro. ¿Qué le explica usted a la persona que contesta el teléfono? Número cinco.",
-    "text_en": "",
+    "text_es": "¿No le echas azúcar?",
+    "text_en": "You don't take sugar?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:21",
       "start_seconds": 129.18,
       "end_seconds": 133.34
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 50,
-      "legacy_text_es": "¿Qué le pasa?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10003117"
     }
   },
   {
@@ -1135,12 +1133,12 @@
     "lexeme_id": "lexeme:legacy:0056",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El sombrero es tuyo.",
+    "text_en": "The hat is yours.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 56
+      "kind": "tatoeba",
+      "tatoeba_id": "1063316"
     }
   },
   {
@@ -1560,17 +1558,16 @@
       "segment:fsi:27:0082",
       "segment:fsi:27:0083"
     ],
-    "text_es": "Entonces voy a pagar en efectivo, pero solo tengo dólares. Número cuatro.",
-    "text_en": "",
+    "text_es": "¿Por qué estás solo?",
+    "text_en": "Why are you alone?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:27",
       "start_seconds": 375.41,
       "end_seconds": 380.11
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 77,
-      "legacy_text_es": "Entonces voy a pagar en efectivo, pero solo tengo dólares."
+      "kind": "tatoeba",
+      "tatoeba_id": "10065240"
     }
   },
   {
@@ -1653,12 +1650,12 @@
     "lexeme_id": "lexeme:legacy:0082",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El mal a veces gana.",
+    "text_en": "Evil sometimes wins.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 82
+      "kind": "tatoeba",
+      "tatoeba_id": "1292150"
     }
   },
   {
@@ -1823,12 +1820,12 @@
     "lexeme_id": "lexeme:legacy:0091",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Saque mal la cuenta.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 91
+      "kind": "tatoeba",
+      "tatoeba_id": "10986488"
     }
   },
   {
@@ -2046,17 +2043,16 @@
       "segment:fsi:21:0034",
       "segment:fsi:21:0035"
     ],
-    "text_es": "Número cuatro. ¿Qué le explica usted a la persona que contesta el teléfono? Número cinco.",
-    "text_en": "What time is it?",
+    "text_es": "¿A que no me pillas?",
+    "text_en": "Try and catch me!",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:21",
       "start_seconds": 129.18,
       "end_seconds": 133.34
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 102,
-      "legacy_text_es": "¿Qué hora es?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10009317"
     }
   },
   {
@@ -2068,17 +2064,16 @@
       "segment:fsi:07:0016",
       "segment:fsi:07:0017"
     ],
-    "text_es": "Número 1. En esta conversación, ¿quién llama a la Sección Económica? Número 2.",
-    "text_en": "Who is she?",
+    "text_es": "¿Con quién habló él?",
+    "text_en": "With whom did he speak?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:07",
       "start_seconds": 61.86,
       "end_seconds": 67.83
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 103,
-      "legacy_text_es": "¿Quién es ella?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10082618"
     }
   },
   {
@@ -2150,17 +2145,16 @@
       "segment:fsi:38:0018",
       "segment:fsi:38:0019"
     ],
-    "text_es": "¡Cuestion! Número 1, ¿por qué no pudo asistir usted a una reunión ayer?",
-    "text_en": "Why aren't you coming?",
+    "text_es": "¿Por qué estás solo?",
+    "text_en": "Why are you alone?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:38",
       "start_seconds": 124.38,
       "end_seconds": 130.38
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 107,
-      "legacy_text_es": "¿Por qué no vienes?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10065240"
     }
   },
   {
@@ -2251,12 +2245,12 @@
     "lexeme_id": "lexeme:legacy:0112",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tiene cero calorias.",
+    "text_en": "This has zero calories.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 112
+      "kind": "tatoeba",
+      "tatoeba_id": "10308210"
     }
   },
   {
@@ -2349,17 +2343,16 @@
       "segment:fsi:06:0019",
       "segment:fsi:06:0020"
     ],
-    "text_es": "Número cinco, ¿qué pueden hacer los niños si tienen hambre? Número seis, ¿qué quiere usted que los niños hagan antes de acostarse?",
-    "text_en": "",
+    "text_es": "¿Tienes cinco pavos?",
+    "text_en": "Do you have 5 bucks?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:06",
       "start_seconds": 104.22,
       "end_seconds": 110.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 117,
-      "legacy_text_es": "Número cinco, ¿qué pueden hacer los niños si tienen hambre?"
+      "kind": "tatoeba",
+      "tatoeba_id": "13698944"
     }
   },
   {
@@ -2431,7 +2424,7 @@
       "segment:fsi:06:0017",
       "segment:fsi:06:0018"
     ],
-    "text_es": "Número tres, ¿qué pueden hacer los niños hasta las nueve? Número cuatro, ¿qué hacen los niños a las nueve?",
+    "text_es": "Tenemos nueve hijos.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:06",
@@ -2439,9 +2432,8 @@
       "end_seconds": 98.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 121,
-      "legacy_text_es": "Quiero que coman a las nueve."
+      "kind": "tatoeba",
+      "tatoeba_id": "12527914"
     }
   },
   {
@@ -2473,17 +2465,16 @@
       "segment:fsi:19:0092",
       "segment:fsi:19:0093"
     ],
-    "text_es": "Sí, el domingo, como a las once. Número dos.",
-    "text_en": "",
+    "text_es": "Él tiene once hijos.",
+    "text_en": "He has eleven children.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:19",
       "start_seconds": 500.9,
       "end_seconds": 505.02
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 123,
-      "legacy_text_es": "Sí, el domingo, como a las once."
+      "kind": "tatoeba",
+      "tatoeba_id": "1392531"
     }
   },
   {
@@ -2512,12 +2503,12 @@
     "lexeme_id": "lexeme:legacy:0125",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Feliz dos mil trece.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 125
+      "kind": "tatoeba",
+      "tatoeba_id": "2082411"
     }
   },
   {
@@ -2525,12 +2516,12 @@
     "lexeme_id": "lexeme:legacy:0126",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Dos por siete es catorce.",
+    "text_en": "Two times seven is fourteen.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 126
+      "kind": "tatoeba",
+      "tatoeba_id": "1279177"
     }
   },
   {
@@ -2559,12 +2550,12 @@
     "lexeme_id": "lexeme:legacy:0128",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tengo dieciséis años.",
+    "text_en": "I am sixteen years old.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 128
+      "kind": "tatoeba",
+      "tatoeba_id": "536304"
     }
   },
   {
@@ -2572,12 +2563,12 @@
     "lexeme_id": "lexeme:legacy:0129",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tiene diecisiete años.",
+    "text_en": "She's seventeen.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 129
+      "kind": "tatoeba",
+      "tatoeba_id": "3100064"
     }
   },
   {
@@ -2587,17 +2578,16 @@
     "segment_ids": [
       "segment:fsi:10:0048"
     ],
-    "text_es": "Está en el séptimo piso, número setecientos dieciocho.",
-    "text_en": "",
+    "text_es": "Tengo dieciocho años.",
+    "text_en": "I am eighteen years old.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:10",
       "start_seconds": 271.22,
       "end_seconds": 274.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 130,
-      "legacy_text_es": "Está en el séptimo piso, número setecientos dieciocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "631763"
     }
   },
   {
@@ -2605,12 +2595,12 @@
     "lexeme_id": "lexeme:legacy:0131",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tengo diecinueve años.",
+    "text_en": "I am 19 years old.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 131
+      "kind": "tatoeba",
+      "tatoeba_id": "2149081"
     }
   },
   {
@@ -2721,12 +2711,12 @@
     "lexeme_id": "lexeme:legacy:0137",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ya han pasado setenta años.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 137
+      "kind": "tatoeba",
+      "tatoeba_id": "12888163"
     }
   },
   {
@@ -2899,17 +2889,16 @@
       "segment:fsi:30:0055",
       "segment:fsi:30:0056"
     ],
-    "text_es": "¿Quién decidió usted con respecto al segundo apartamento? Número 10",
-    "text_en": "",
+    "text_es": "Tom terminó segundo.",
+    "text_en": "Tom finished second.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:30",
       "start_seconds": 263.21,
       "end_seconds": 268.21
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 146,
-      "legacy_text_es": "Está en el segundo piso."
+      "kind": "tatoeba",
+      "tatoeba_id": "1475366"
     }
   },
   {
@@ -2917,12 +2906,12 @@
     "lexeme_id": "lexeme:legacy:0147",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Era el tercero de la cola.",
+    "text_en": "I was third in line.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 147
+      "kind": "tatoeba",
+      "tatoeba_id": "5864189"
     }
   },
   {
@@ -3157,17 +3146,16 @@
       "segment:fsi:38:0018",
       "segment:fsi:38:0019"
     ],
-    "text_es": "¡Cuestion! Número 1, ¿por qué no pudo asistir usted a una reunión ayer?",
-    "text_en": "",
+    "text_es": "¿Fuiste a Roma ayer?",
+    "text_en": "Did you go to Rome yesterday?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:38",
       "start_seconds": 124.38,
       "end_seconds": 130.38
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 159,
-      "legacy_text_es": "¿Por qué no vino usted ayer?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10065325"
     }
   },
   {
@@ -3179,17 +3167,16 @@
       "segment:fsi:15:0048",
       "segment:fsi:15:0049"
     ],
-    "text_es": "Número uno. Si tú quieres, yo puedo presentarte la mañana a las cinco. Número dos.",
-    "text_en": "",
+    "text_es": "La fiesta es mañana.",
+    "text_en": "The party's tomorrow.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:15",
       "start_seconds": 333.98,
       "end_seconds": 338.34
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 160,
-      "legacy_text_es": "Consular mañana por la mañana."
+      "kind": "tatoeba",
+      "tatoeba_id": "10227208"
     }
   },
   {
@@ -3283,7 +3270,7 @@
       "segment:fsi:28:0093",
       "segment:fsi:28:0094"
     ],
-    "text_es": "bien dm dos boletos para el domingo por favor número cuatro muy bien dm un boleto para lunes por favor número cinco muy bien dm tres boletos para el miércoles por la mañana por favor please turn to dialogue number two cycle 28",
+    "text_es": "Tomás vino el lunes.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:28",
@@ -3291,9 +3278,8 @@
       "end_seconds": 583.94
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 165,
-      "legacy_text_es": "boleto para lunes por favor número cinco muy bien dm tres boletos para el"
+      "kind": "tatoeba",
+      "tatoeba_id": "11993766"
     }
   },
   {
@@ -3405,17 +3391,16 @@
       "segment:fsi:28:0091",
       "segment:fsi:28:0092"
     ],
-    "text_es": "dos muy bien dm cuatro boletos para pasado mañana por favor número tres muy bien dm dos boletos para el domingo por favor número cuatro muy bien dm un",
-    "text_en": "",
+    "text_es": "Te llamo el domingo.",
+    "text_en": "I'll call you on Sunday.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:28",
       "start_seconds": 573.06,
       "end_seconds": 578.58
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 171,
-      "legacy_text_es": "¿José viene hoy o el domingo?"
+      "kind": "tatoeba",
+      "tatoeba_id": "1600064"
     }
   },
   {
@@ -3426,17 +3411,16 @@
       "segment:fsi:21:0091",
       "segment:fsi:21:0092"
     ],
-    "text_es": "Para mí solamente, por un mes a partir del 15 de enero. Número cinco.",
-    "text_en": "",
+    "text_es": "Hoy es dos de enero.",
+    "text_en": "Today is the second of January.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:21",
       "start_seconds": 437.15,
       "end_seconds": 441.31
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 172,
-      "legacy_text_es": "Para mí solamente, por un mes a partir del 15 de enero."
+      "kind": "tatoeba",
+      "tatoeba_id": "1563693"
     }
   },
   {
@@ -3444,12 +3428,12 @@
     "lexeme_id": "lexeme:legacy:0173",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Cumplo años en febrero.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 173
+      "kind": "tatoeba",
+      "tatoeba_id": "12443489"
     }
   },
   {
@@ -3457,12 +3441,12 @@
     "lexeme_id": "lexeme:legacy:0174",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ya estamos en marzo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 174
+      "kind": "tatoeba",
+      "tatoeba_id": "10191142"
     }
   },
   {
@@ -3470,12 +3454,12 @@
     "lexeme_id": "lexeme:legacy:0175",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "En abril, aguas mil.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 175
+      "kind": "tatoeba",
+      "tatoeba_id": "856649"
     }
   },
   {
@@ -3483,12 +3467,12 @@
     "lexeme_id": "lexeme:legacy:0176",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Mañana es 1 de mayo.",
+    "text_en": "Tomorrow is May first.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 176
+      "kind": "tatoeba",
+      "tatoeba_id": "13447196"
     }
   },
   {
@@ -3570,12 +3554,12 @@
     "lexeme_id": "lexeme:legacy:0181",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Hoy es 20 de octubre.",
+    "text_en": "Today is the twentieth of October.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 181
+      "kind": "tatoeba",
+      "tatoeba_id": "7966058"
     }
   },
   {
@@ -3603,12 +3587,12 @@
     "lexeme_id": "lexeme:legacy:0183",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Hay 31 días en diciembre.",
+    "text_en": "There are 31 days in December.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 183
+      "kind": "tatoeba",
+      "tatoeba_id": "853614"
     }
   },
   {
@@ -3717,12 +3701,12 @@
     "lexeme_id": "lexeme:legacy:0189",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él olvidó mi cumpleaños.",
+    "text_en": "He forgot my birthday.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 189
+      "kind": "tatoeba",
+      "tatoeba_id": "2117318"
     }
   },
   {
@@ -3992,17 +3976,16 @@
       "segment:fsi:19:0124",
       "segment:fsi:19:0125"
     ],
-    "text_es": "No se preocupe. El cónsul puede pasar por usted. Número cinco.",
-    "text_en": "What's happening?",
+    "text_es": "¿Qué acaba de pasar?",
+    "text_en": "What just happened?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:19",
       "start_seconds": 577.85,
       "end_seconds": 580.81
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 203,
-      "legacy_text_es": "¿Qué pasa?"
+      "kind": "tatoeba",
+      "tatoeba_id": "2097544"
     }
   },
   {
@@ -4305,12 +4288,12 @@
     "lexeme_id": "lexeme:legacy:0221",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I'm very sorry.",
+    "text_es": "Me hace sentir viejo.",
+    "text_en": "It makes me feel old.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 221
+      "kind": "tatoeba",
+      "tatoeba_id": "6469853"
     }
   },
   {
@@ -4485,12 +4468,12 @@
     "lexeme_id": "lexeme:legacy:0232",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I don't understand.",
+    "text_es": "¡Ayúdame a entender!",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 232
+      "kind": "tatoeba",
+      "tatoeba_id": "3177201"
     }
   },
   {
@@ -4531,12 +4514,12 @@
     "lexeme_id": "lexeme:legacy:0235",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I don't remember his name.",
+    "text_es": "¿La váis a recordar?",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 235
+      "kind": "tatoeba",
+      "tatoeba_id": "11938451"
     }
   },
   {
@@ -4738,12 +4721,12 @@
     "lexeme_id": "lexeme:legacy:0248",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I'm going to ask the teacher.",
+    "text_es": "Es mejor no preguntar.",
+    "text_en": "It's better not to ask.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 248
+      "kind": "tatoeba",
+      "tatoeba_id": "10274484"
     }
   },
   {
@@ -4859,12 +4842,12 @@
     "lexeme_id": "lexeme:legacy:0255",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I like chocolate.",
+    "text_es": "Esto te va a gustar.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 255
+      "kind": "tatoeba",
+      "tatoeba_id": "12207918"
     }
   },
   {
@@ -4902,17 +4885,16 @@
       "segment:fsi:29:0015",
       "segment:fsi:29:0016"
     ],
-    "text_es": "Número dos, ¿hay un partido de fútbol este fin de semana? Número tres, ¿qué hay que hacer para conseguir entradas? Número cuatro, ¿cuánto tiempo tiene que hacer cola?",
-    "text_en": "I got the job.",
+    "text_es": "Te puedo conseguir eso.",
+    "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:29",
       "start_seconds": 91.47,
       "end_seconds": 97.94
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 258,
-      "legacy_text_es": "Conseguí el trabajo."
+      "kind": "tatoeba",
+      "tatoeba_id": "12039751"
     }
   },
   {
@@ -4920,12 +4902,12 @@
     "lexeme_id": "lexeme:legacy:0259",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "Class begins at eight.",
+    "text_es": "Me gustaría comenzar.",
+    "text_en": "I would like to start.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 259
+      "kind": "tatoeba",
+      "tatoeba_id": "5029022"
     }
   },
   {
@@ -5005,12 +4987,12 @@
     "lexeme_id": "lexeme:legacy:0265",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I wake up at six.",
+    "text_es": "No quiero despertar.",
+    "text_en": "I don't want to wake up.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 265
+      "kind": "tatoeba",
+      "tatoeba_id": "13724489"
     }
   },
   {
@@ -5018,12 +5000,12 @@
     "lexeme_id": "lexeme:legacy:0266",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I get up early.",
+    "text_es": "Tiene que levantarse.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 266
+      "kind": "tatoeba",
+      "tatoeba_id": "12706051"
     }
   },
   {
@@ -5051,12 +5033,12 @@
     "lexeme_id": "lexeme:legacy:0268",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I bathe at night.",
+    "text_es": "Tom debería bañarse.",
+    "text_en": "Tom should take a shower.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 268
+      "kind": "tatoeba",
+      "tatoeba_id": "10349175"
     }
   },
   {
@@ -5064,12 +5046,12 @@
     "lexeme_id": "lexeme:legacy:0269",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I get dressed quickly.",
+    "text_es": "Ayudó su hijo a vestirse.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 269
+      "kind": "tatoeba",
+      "tatoeba_id": "11604846"
     }
   },
   {
@@ -5077,12 +5059,12 @@
     "lexeme_id": "lexeme:legacy:0270",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I shower every morning.",
+    "text_es": "Es hora de ducharse.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 270
+      "kind": "tatoeba",
+      "tatoeba_id": "6591677"
     }
   },
   {
@@ -5130,12 +5112,12 @@
     "lexeme_id": "lexeme:legacy:0273",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I like to cook.",
+    "text_es": "No le gusta cocinar.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 273
+      "kind": "tatoeba",
+      "tatoeba_id": "10571515"
     }
   },
   {
@@ -5210,12 +5192,12 @@
     "lexeme_id": "lexeme:legacy:0278",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I love to travel.",
+    "text_es": "Voy a viajar mañana.",
+    "text_en": "I'm going to travel tomorrow.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 278
+      "kind": "tatoeba",
+      "tatoeba_id": "2036150"
     }
   },
   {
@@ -5223,12 +5205,12 @@
     "lexeme_id": "lexeme:legacy:0279",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "The plane flies high.",
+    "text_es": "Además, puedo volar.",
+    "text_en": "Also, I can fly.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 279
+      "kind": "tatoeba",
+      "tatoeba_id": "3210938"
     }
   },
   {
@@ -5291,12 +5273,12 @@
     "lexeme_id": "lexeme:legacy:0283",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "It makes me laugh.",
+    "text_es": "Te podés reír de mí.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 283
+      "kind": "tatoeba",
+      "tatoeba_id": "1305858"
     }
   },
   {
@@ -5304,12 +5286,12 @@
     "lexeme_id": "lexeme:legacy:0284",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "The baby cries a lot.",
+    "text_es": "Casi me hizo llorar.",
+    "text_en": "It almost drove me to tears.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 284
+      "kind": "tatoeba",
+      "tatoeba_id": "10065300"
     }
   },
   {
@@ -5330,12 +5312,12 @@
     "lexeme_id": "lexeme:legacy:0286",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "Don't shout.",
+    "text_es": "Tom empezó a gritar.",
+    "text_en": "Tom began to shout.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 286
+      "kind": "tatoeba",
+      "tatoeba_id": "13930682"
     }
   },
   {
@@ -5369,12 +5351,12 @@
     "lexeme_id": "lexeme:legacy:0289",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "Children grow up fast.",
+    "text_es": "El árbol paró de crecer.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 289
+      "kind": "tatoeba",
+      "tatoeba_id": "2700746"
     }
   },
   {
@@ -5382,12 +5364,12 @@
     "lexeme_id": "lexeme:legacy:0290",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "Don't move.",
+    "text_es": "No puedo mover esto.",
+    "text_en": "I can't move this.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 290
+      "kind": "tatoeba",
+      "tatoeba_id": "4631702"
     }
   },
   {
@@ -5428,12 +5410,12 @@
     "lexeme_id": "lexeme:legacy:0293",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I dropped my phone.",
+    "text_es": "Te lo ha hecho caer.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 293
+      "kind": "tatoeba",
+      "tatoeba_id": "10351854"
     }
   },
   {
@@ -5467,12 +5449,12 @@
     "lexeme_id": "lexeme:legacy:0296",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "The glass broke.",
+    "text_es": "Tom va a romper con Mary.",
+    "text_en": "Tom is going to break up with Mary.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 296
+      "kind": "tatoeba",
+      "tatoeba_id": "1412020"
     }
   },
   {
@@ -5483,17 +5465,16 @@
       "segment:fsi:38:0121",
       "segment:fsi:38:0122"
     ],
-    "text_es": "para que vinieran a arreglar el desperfecto, número cinco, ay no me lo recuerdes,",
-    "text_en": "I'm going to fix the car.",
+    "text_es": "Puedo arreglar esto.",
+    "text_en": "I can fix this.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:38",
       "start_seconds": 1135.61,
       "end_seconds": 1137.61
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 297,
-      "legacy_text_es": "para que vinieran a arreglar el desperfecto,"
+      "kind": "tatoeba",
+      "tatoeba_id": "2300766"
     }
   },
   {
@@ -5501,12 +5482,12 @@
     "lexeme_id": "lexeme:legacy:0298",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "They're going to build a building.",
+    "text_es": "¿Qué deberían construir?",
+    "text_en": "What should they build?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 298
+      "kind": "tatoeba",
+      "tatoeba_id": "8315721"
     }
   },
   {
@@ -5540,12 +5521,12 @@
     "lexeme_id": "lexeme:legacy:0301",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "The sign indicates the exit.",
+    "text_es": "¿Me puede indicar el camino?",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 301
+      "kind": "tatoeba",
+      "tatoeba_id": "878689"
     }
   },
   {
@@ -5553,12 +5534,12 @@
     "lexeme_id": "lexeme:legacy:0302",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I invite you to dinner.",
+    "text_es": "¿A quién vas a invitar?",
+    "text_en": "Who are you going to invite?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 302
+      "kind": "tatoeba",
+      "tatoeba_id": "9696285"
     }
   },
   {
@@ -5618,12 +5599,12 @@
     "lexeme_id": "lexeme:legacy:0307",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I'm going to try it.",
+    "text_es": "Tom lo va a intentar.",
+    "text_en": "Tom will try.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 307
+      "kind": "tatoeba",
+      "tatoeba_id": "10009158"
     }
   },
   {
@@ -5677,12 +5658,12 @@
     "lexeme_id": "lexeme:legacy:0311",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I always support you.",
+    "text_es": "¿A quién debo apoyar?",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 311
+      "kind": "tatoeba",
+      "tatoeba_id": "13882061"
     }
   },
   {
@@ -5742,12 +5723,12 @@
     "lexeme_id": "lexeme:legacy:0316",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I love you.",
+    "text_es": "Yo quería amar a Tom.",
+    "text_en": "I wanted to love Tom.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 316
+      "kind": "tatoeba",
+      "tatoeba_id": "2102042"
     }
   },
   {
@@ -5755,12 +5736,12 @@
     "lexeme_id": "lexeme:legacy:0317",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "They kissed.",
+    "text_es": "Vete a besar a otro.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 317
+      "kind": "tatoeba",
+      "tatoeba_id": "2117313"
     }
   },
   {
@@ -5781,12 +5762,12 @@
     "lexeme_id": "lexeme:legacy:0319",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "They got married in June.",
+    "text_es": "Ella quiere casarse.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 319
+      "kind": "tatoeba",
+      "tatoeba_id": "10949545"
     }
   },
   {
@@ -5794,12 +5775,12 @@
     "lexeme_id": "lexeme:legacy:0320",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ella quiso divorciarse.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 320
+      "kind": "tatoeba",
+      "tatoeba_id": "1199722"
     }
   },
   {
@@ -5852,17 +5833,16 @@
       "segment:fsi:27:0082",
       "segment:fsi:27:0083"
     ],
-    "text_es": "Entonces voy a pagar en efectivo, pero solo tengo dólares. Número cuatro.",
-    "text_en": "How would you like to pay?",
+    "text_es": "Se fueron sin pagar.",
+    "text_en": "They left without paying.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:27",
       "start_seconds": 375.41,
       "end_seconds": 380.11
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 323,
-      "legacy_text_es": "¿Cómo quiere pagar?"
+      "kind": "tatoeba",
+      "tatoeba_id": "13033545"
     }
   },
   {
@@ -5968,12 +5948,12 @@
     "lexeme_id": "lexeme:legacy:0331",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "I'm going to respond soon.",
+    "text_es": "Era fácil responder.",
+    "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 331
+      "kind": "tatoeba",
+      "tatoeba_id": "2242037"
     }
   },
   {
@@ -6039,7 +6019,7 @@
       "segment:fsi:21:0034",
       "segment:fsi:21:0035"
     ],
-    "text_es": "Número cuatro. ¿Qué le explica usted a la persona que contesta el teléfono? Número cinco.",
+    "text_es": "La persona comió ostras.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:21",
@@ -6047,9 +6027,8 @@
       "end_seconds": 133.34
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 335,
-      "legacy_text_es": "¿Qué le explica usted a la persona que contesta el teléfono?"
+      "kind": "tatoeba",
+      "tatoeba_id": "8117068"
     }
   },
   {
@@ -6077,12 +6056,12 @@
     "lexeme_id": "lexeme:legacy:0337",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La mujer es pequeña.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 337
+      "kind": "tatoeba",
+      "tatoeba_id": "13123436"
     }
   },
   {
@@ -6111,12 +6090,12 @@
     "lexeme_id": "lexeme:legacy:0339",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La niña tiene razón.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 339
+      "kind": "tatoeba",
+      "tatoeba_id": "2187957"
     }
   },
   {
@@ -6124,12 +6103,12 @@
     "lexeme_id": "lexeme:legacy:0340",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El bebé es una niña.",
+    "text_en": "The baby is a girl.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 340
+      "kind": "tatoeba",
+      "tatoeba_id": "11143026"
     }
   },
   {
@@ -6239,12 +6218,12 @@
     "lexeme_id": "lexeme:legacy:0346",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Los padres escuchan.",
+    "text_en": "The parents are listening.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 346
+      "kind": "tatoeba",
+      "tatoeba_id": "3380513"
     }
   },
   {
@@ -6252,12 +6231,12 @@
     "lexeme_id": "lexeme:legacy:0347",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él es su único hijo.",
+    "text_en": "He's their only child.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 347
+      "kind": "tatoeba",
+      "tatoeba_id": "1741740"
     }
   },
   {
@@ -6265,12 +6244,12 @@
     "lexeme_id": "lexeme:legacy:0348",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Amo la hija de ella.",
+    "text_en": "I love her daughter.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 348
+      "kind": "tatoeba",
+      "tatoeba_id": "3947547"
     }
   },
   {
@@ -6298,12 +6277,12 @@
     "lexeme_id": "lexeme:legacy:0350",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy la hermana de Tom.",
+    "text_en": "I'm Tom's sister.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 350
+      "kind": "tatoeba",
+      "tatoeba_id": "2456642"
     }
   },
   {
@@ -6311,12 +6290,12 @@
     "lexeme_id": "lexeme:legacy:0351",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El abuelo se resfrió.",
+    "text_en": "Grandfather has caught a cold.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 351
+      "kind": "tatoeba",
+      "tatoeba_id": "2217058"
     }
   },
   {
@@ -6324,12 +6303,12 @@
     "lexeme_id": "lexeme:legacy:0352",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Mary es la abuela de Tom.",
+    "text_en": "Mary is Tom's grandmother.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 352
+      "kind": "tatoeba",
+      "tatoeba_id": "2139078"
     }
   },
   {
@@ -6337,12 +6316,12 @@
     "lexeme_id": "lexeme:legacy:0353",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡El tío está majara!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 353
+      "kind": "tatoeba",
+      "tatoeba_id": "7850817"
     }
   },
   {
@@ -6350,12 +6329,12 @@
     "lexeme_id": "lexeme:legacy:0354",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Mary es la tía de Tom.",
+    "text_en": "Mary is Tom's aunt.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 354
+      "kind": "tatoeba",
+      "tatoeba_id": "1737195"
     }
   },
   {
@@ -6363,12 +6342,12 @@
     "lexeme_id": "lexeme:legacy:0355",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy el primo de Tom.",
+    "text_en": "I'm Tom's cousin.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 355
+      "kind": "tatoeba",
+      "tatoeba_id": "2624615"
     }
   },
   {
@@ -6376,12 +6355,12 @@
     "lexeme_id": "lexeme:legacy:0356",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy la prima de Tom.",
+    "text_en": "I'm Tom's cousin.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 356
+      "kind": "tatoeba",
+      "tatoeba_id": "2429822"
     }
   },
   {
@@ -6429,12 +6408,12 @@
     "lexeme_id": "lexeme:legacy:0359",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Eres el novio ideal.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 359
+      "kind": "tatoeba",
+      "tatoeba_id": "12935103"
     }
   },
   {
@@ -6442,12 +6421,12 @@
     "lexeme_id": "lexeme:legacy:0360",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡Aquí viene la novia!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 360
+      "kind": "tatoeba",
+      "tatoeba_id": "4616733"
     }
   },
   {
@@ -6455,12 +6434,12 @@
     "lexeme_id": "lexeme:legacy:0361",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom es el sobrino de Mary.",
+    "text_en": "Tom is Mary's nephew.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 361
+      "kind": "tatoeba",
+      "tatoeba_id": "1434217"
     }
   },
   {
@@ -6468,12 +6447,12 @@
     "lexeme_id": "lexeme:legacy:0362",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La sobrina decía lo mismo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 362
+      "kind": "tatoeba",
+      "tatoeba_id": "9287463"
     }
   },
   {
@@ -6481,12 +6460,12 @@
     "lexeme_id": "lexeme:legacy:0363",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom es el suegro de Mary.",
+    "text_en": "Tom is Mary's father-in-law.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 363
+      "kind": "tatoeba",
+      "tatoeba_id": "1434189"
     }
   },
   {
@@ -6494,12 +6473,12 @@
     "lexeme_id": "lexeme:legacy:0364",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Rita es la nuera de Dan.",
+    "text_en": "Rita is Dan's daughter-in-law.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 364
+      "kind": "tatoeba",
+      "tatoeba_id": "4153547"
     }
   },
   {
@@ -6507,12 +6486,12 @@
     "lexeme_id": "lexeme:legacy:0365",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy el vecino de Tom.",
+    "text_en": "I'm Tom's neighbor.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 365
+      "kind": "tatoeba",
+      "tatoeba_id": "2456643"
     }
   },
   {
@@ -6582,12 +6561,12 @@
     "lexeme_id": "lexeme:legacy:0369",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Es el sueño de todo adolescente.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 369
+      "kind": "tatoeba",
+      "tatoeba_id": "12986587"
     }
   },
   {
@@ -6595,12 +6574,12 @@
     "lexeme_id": "lexeme:legacy:0370",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El anciano se sentó.",
+    "text_en": "The old man sat down.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 370
+      "kind": "tatoeba",
+      "tatoeba_id": "2452895"
     }
   },
   {
@@ -6670,12 +6649,12 @@
     "lexeme_id": "lexeme:legacy:0374",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él me dobla la edad.",
+    "text_en": "He is twice as old as I am.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 374
+      "kind": "tatoeba",
+      "tatoeba_id": "2620589"
     }
   },
   {
@@ -6683,12 +6662,12 @@
     "lexeme_id": "lexeme:legacy:0375",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Le hirieron el cuerpo.",
+    "text_en": "He was wounded in the body.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 375
+      "kind": "tatoeba",
+      "tatoeba_id": "1451767"
     }
   },
   {
@@ -6738,12 +6717,12 @@
     "lexeme_id": "lexeme:legacy:0378",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él me pegó en el ojo.",
+    "text_en": "He hit me in the eye.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 378
+      "kind": "tatoeba",
+      "tatoeba_id": "2343434"
     }
   },
   {
@@ -6751,12 +6730,12 @@
     "lexeme_id": "lexeme:legacy:0379",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Nos sangra la nariz.",
+    "text_en": "Our noses are bleeding.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 379
+      "kind": "tatoeba",
+      "tatoeba_id": "5018705"
     }
   },
   {
@@ -6764,12 +6743,12 @@
     "lexeme_id": "lexeme:legacy:0380",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Comemos con la boca.",
+    "text_en": "We eat with our mouths.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 380
+      "kind": "tatoeba",
+      "tatoeba_id": "1131038"
     }
   },
   {
@@ -6777,12 +6756,12 @@
     "lexeme_id": "lexeme:legacy:0381",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Te está sangrando la oreja.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 381
+      "kind": "tatoeba",
+      "tatoeba_id": "2975781"
     }
   },
   {
@@ -6790,12 +6769,12 @@
     "lexeme_id": "lexeme:legacy:0382",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No te tiñas el pelo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 382
+      "kind": "tatoeba",
+      "tatoeba_id": "10072437"
     }
   },
   {
@@ -6803,12 +6782,12 @@
     "lexeme_id": "lexeme:legacy:0383",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Se rompió el cuello.",
+    "text_en": "He broke his neck.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 383
+      "kind": "tatoeba",
+      "tatoeba_id": "13570396"
     }
   },
   {
@@ -6816,12 +6795,12 @@
     "lexeme_id": "lexeme:legacy:0384",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Se dislocó el hombro.",
+    "text_en": "He dislocated his shoulder.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 384
+      "kind": "tatoeba",
+      "tatoeba_id": "10908994"
     }
   },
   {
@@ -6871,12 +6850,12 @@
     "lexeme_id": "lexeme:legacy:0387",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom se cortó el dedo.",
+    "text_en": "Tom cut his finger.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 387
+      "kind": "tatoeba",
+      "tatoeba_id": "10572805"
     }
   },
   {
@@ -6888,17 +6867,16 @@
       "segment:fsi:37:0125",
       "segment:fsi:37:0126"
     ],
-    "text_es": "Número tres. La secretaria se cayó y se quebró la pierna. Número cuatro.",
-    "text_en": "",
+    "text_es": "Me quemé en la pierna.",
+    "text_en": "I burnt myself on the leg.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:37",
       "start_seconds": 591.85,
       "end_seconds": 595.61
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 388,
-      "legacy_text_es": "La secretaria se cayó y se quebró la pierna."
+      "kind": "tatoeba",
+      "tatoeba_id": "1601184"
     }
   },
   {
@@ -6906,12 +6884,12 @@
     "lexeme_id": "lexeme:legacy:0389",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Se me durmió el pie.",
+    "text_en": "My foot fell asleep.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 389
+      "kind": "tatoeba",
+      "tatoeba_id": "1562284"
     }
   },
   {
@@ -6919,12 +6897,12 @@
     "lexeme_id": "lexeme:legacy:0390",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No le dé la espalda.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 390
+      "kind": "tatoeba",
+      "tatoeba_id": "5657139"
     }
   },
   {
@@ -6952,12 +6930,12 @@
     "lexeme_id": "lexeme:legacy:0392",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me dolía el corazón.",
+    "text_en": "My heart ached.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 392
+      "kind": "tatoeba",
+      "tatoeba_id": "13009338"
     }
   },
   {
@@ -6986,12 +6964,12 @@
     "lexeme_id": "lexeme:legacy:0394",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me astillé el diente.",
+    "text_en": "I chipped my tooth.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 394
+      "kind": "tatoeba",
+      "tatoeba_id": "8377971"
     }
   },
   {
@@ -7020,12 +6998,12 @@
     "lexeme_id": "lexeme:legacy:0396",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El lobo se comió el hueso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 396
+      "kind": "tatoeba",
+      "tatoeba_id": "10499486"
     }
   },
   {
@@ -7033,12 +7011,12 @@
     "lexeme_id": "lexeme:legacy:0397",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me raspé la rodilla.",
+    "text_en": "I scraped my knee.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 397
+      "kind": "tatoeba",
+      "tatoeba_id": "10323643"
     }
   },
   {
@@ -7046,12 +7024,12 @@
     "lexeme_id": "lexeme:legacy:0398",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ha levantado la voz.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 398
+      "kind": "tatoeba",
+      "tatoeba_id": "10799295"
     }
   },
   {
@@ -7080,12 +7058,12 @@
     "lexeme_id": "lexeme:legacy:0400",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom hizo el desayuno.",
+    "text_en": "Tom made breakfast.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 400
+      "kind": "tatoeba",
+      "tatoeba_id": "5540517"
     }
   },
   {
@@ -7097,7 +7075,7 @@
       "segment:fsi:28:0077",
       "segment:fsi:28:0078"
     ],
-    "text_es": "tibuacán pero eso se paga parte número uno no señor el almuerzo lo paga cada uno aparte número dos sí señor el almuerzo está incluido en la excursión diaria número tres en parte sí almorzamos en un restaurante cerca de las",
+    "text_es": "Preparó el almuerzo.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:28",
@@ -7105,9 +7083,8 @@
       "end_seconds": 488.02
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 401,
-      "legacy_text_es": "aparte número dos sí señor el almuerzo está incluido en la excursión"
+      "kind": "tatoeba",
+      "tatoeba_id": "9711605"
     }
   },
   {
@@ -7176,12 +7153,12 @@
     "lexeme_id": "lexeme:legacy:0405",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No te tiñas el pelo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 405
+      "kind": "tatoeba",
+      "tatoeba_id": "10072437"
     }
   },
   {
@@ -7270,12 +7247,12 @@
     "lexeme_id": "lexeme:legacy:0410",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Habéis olido el pan.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 410
+      "kind": "tatoeba",
+      "tatoeba_id": "10346667"
     }
   },
   {
@@ -7303,12 +7280,12 @@
     "lexeme_id": "lexeme:legacy:0412",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El perro come queso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 412
+      "kind": "tatoeba",
+      "tatoeba_id": "13370460"
     }
   },
   {
@@ -7316,12 +7293,12 @@
     "lexeme_id": "lexeme:legacy:0413",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡Coge el huevo dorado!",
+    "text_en": "Grab the golden egg.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 413
+      "kind": "tatoeba",
+      "tatoeba_id": "1001485"
     }
   },
   {
@@ -7332,7 +7309,7 @@
       "segment:fsi:26:0086",
       "segment:fsi:26:0087"
     ],
-    "text_es": "¿El arroz con pollo es su especialidad? Número 2",
+    "text_es": "Se me quemó el arroz.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:26",
@@ -7340,9 +7317,8 @@
       "end_seconds": 549.84
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 414,
-      "legacy_text_es": "¿El arroz con pollo es su especialidad?"
+      "kind": "tatoeba",
+      "tatoeba_id": "4364418"
     }
   },
   {
@@ -7350,12 +7326,12 @@
     "lexeme_id": "lexeme:legacy:0415",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Cociné demasiado la pasta.",
+    "text_en": "I overcooked the pasta.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 415
+      "kind": "tatoeba",
+      "tatoeba_id": "4431971"
     }
   },
   {
@@ -7407,7 +7383,7 @@
       "segment:fsi:26:0088",
       "segment:fsi:26:0089"
     ],
-    "text_es": "¿La carne asada es su especialidad? Número 3",
+    "text_es": "La sopa tiene carne.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:26",
@@ -7415,9 +7391,8 @@
       "end_seconds": 553.84
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 418,
-      "legacy_text_es": "¿La carne asada es su especialidad?"
+      "kind": "tatoeba",
+      "tatoeba_id": "10458610"
     }
   },
   {
@@ -7446,12 +7421,12 @@
     "lexeme_id": "lexeme:legacy:0420",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me encanta la carne de res.",
+    "text_en": "I love beef.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 420
+      "kind": "tatoeba",
+      "tatoeba_id": "9443871"
     }
   },
   {
@@ -7483,17 +7458,16 @@
       "segment:fsi:26:0092",
       "segment:fsi:26:0093"
     ],
-    "text_es": "¿El pescado es su especialidad? Número 5",
-    "text_en": "",
+    "text_es": "Me gusta el pescado.",
+    "text_en": "I like fish.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:26",
       "start_seconds": 559.84,
       "end_seconds": 561.84
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 422,
-      "legacy_text_es": "¿El pescado es su especialidad?"
+      "kind": "tatoeba",
+      "tatoeba_id": "750504"
     }
   },
   {
@@ -7501,12 +7475,12 @@
     "lexeme_id": "lexeme:legacy:0423",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Yo no cato el marisco.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 423
+      "kind": "tatoeba",
+      "tatoeba_id": "7591225"
     }
   },
   {
@@ -7555,12 +7529,12 @@
     "lexeme_id": "lexeme:legacy:0426",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El plátano es dulce.",
+    "text_en": "The banana is sweet.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 426
+      "kind": "tatoeba",
+      "tatoeba_id": "2902532"
     }
   },
   {
@@ -7588,12 +7562,12 @@
     "lexeme_id": "lexeme:legacy:0428",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Me encanta la uva moscatel.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 428
+      "kind": "tatoeba",
+      "tatoeba_id": "13469391"
     }
   },
   {
@@ -7601,12 +7575,12 @@
     "lexeme_id": "lexeme:legacy:0429",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La neta Mary es fresa, wey.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 429
+      "kind": "tatoeba",
+      "tatoeba_id": "3680660"
     }
   },
   {
@@ -7635,12 +7609,12 @@
     "lexeme_id": "lexeme:legacy:0431",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La berenjena es una verdura.",
+    "text_en": "The aubergine is a vegetable.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 431
+      "kind": "tatoeba",
+      "tatoeba_id": "12690339"
     }
   },
   {
@@ -7648,12 +7622,12 @@
     "lexeme_id": "lexeme:legacy:0432",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Ya está la cena, papá.",
+    "text_en": "Dinner is ready, Father.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 432
+      "kind": "tatoeba",
+      "tatoeba_id": "340226"
     }
   },
   {
@@ -7682,12 +7656,12 @@
     "lexeme_id": "lexeme:legacy:0434",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La cebolla es deliciosa.",
+    "text_en": "Onions are delicious.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 434
+      "kind": "tatoeba",
+      "tatoeba_id": "13282040"
     }
   },
   {
@@ -7695,12 +7669,12 @@
     "lexeme_id": "lexeme:legacy:0435",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Machacad bien el ajo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 435
+      "kind": "tatoeba",
+      "tatoeba_id": "11686130"
     }
   },
   {
@@ -7728,12 +7702,12 @@
     "lexeme_id": "lexeme:legacy:0437",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Te hace bien la zanahoria?",
+    "text_en": "Is carrot good for you?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 437
+      "kind": "tatoeba",
+      "tatoeba_id": "10844595"
     }
   },
   {
@@ -7741,12 +7715,12 @@
     "lexeme_id": "lexeme:legacy:0438",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Bebo el té sin azúcar.",
+    "text_en": "I drink tea without sugar.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 438
+      "kind": "tatoeba",
+      "tatoeba_id": "1825019"
     }
   },
   {
@@ -7754,12 +7728,12 @@
     "lexeme_id": "lexeme:legacy:0439",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Me pasarías la sal?",
+    "text_en": "Would you pass me the salt?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 439
+      "kind": "tatoeba",
+      "tatoeba_id": "1405531"
     }
   },
   {
@@ -7767,12 +7741,12 @@
     "lexeme_id": "lexeme:legacy:0440",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Te gusta la pimienta?",
+    "text_en": "Do you like pepper?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 440
+      "kind": "tatoeba",
+      "tatoeba_id": "8786465"
     }
   },
   {
@@ -7780,12 +7754,12 @@
     "lexeme_id": "lexeme:legacy:0441",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Dame el aceite de oliva.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 441
+      "kind": "tatoeba",
+      "tatoeba_id": "6001632"
     }
   },
   {
@@ -7816,7 +7790,7 @@
       "segment:fsi:20:0114",
       "segment:fsi:20:0115"
     ],
-    "text_es": "Entonces un poquito más de pastel. Número tres.",
+    "text_es": "He quemado el pastel.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:20",
@@ -7824,9 +7798,8 @@
       "end_seconds": 633.33
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 443,
-      "legacy_text_es": "Entonces un poquito más de pastel."
+      "kind": "tatoeba",
+      "tatoeba_id": "6156774"
     }
   },
   {
@@ -7837,17 +7810,16 @@
       "segment:fsi:20:0116",
       "segment:fsi:20:0117"
     ],
-    "text_es": "Entonces un poquito más de helado. Número cuatro.",
-    "text_en": "",
+    "text_es": "El postre es helado.",
+    "text_en": "The dessert is ice cream.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:20",
       "start_seconds": 635.33,
       "end_seconds": 637.83
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 444,
-      "legacy_text_es": "Entonces un poquito más de helado."
+      "kind": "tatoeba",
+      "tatoeba_id": "11130032"
     }
   },
   {
@@ -7855,12 +7827,12 @@
     "lexeme_id": "lexeme:legacy:0445",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El plátano es dulce.",
+    "text_en": "The banana is sweet.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 445
+      "kind": "tatoeba",
+      "tatoeba_id": "2902532"
     }
   },
   {
@@ -7961,12 +7933,12 @@
     "lexeme_id": "lexeme:legacy:0451",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El vaso está limpio.",
+    "text_en": "The glass is clean.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 451
+      "kind": "tatoeba",
+      "tatoeba_id": "2002643"
     }
   },
   {
@@ -8015,12 +7987,12 @@
     "lexeme_id": "lexeme:legacy:0454",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El tenedor es pequeño.",
+    "text_en": "The fork is small.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 454
+      "kind": "tatoeba",
+      "tatoeba_id": "2471210"
     }
   },
   {
@@ -8028,12 +8000,12 @@
     "lexeme_id": "lexeme:legacy:0455",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom bajó la cuchara.",
+    "text_en": "Tom set down his spoon.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 455
+      "kind": "tatoeba",
+      "tatoeba_id": "3483627"
     }
   },
   {
@@ -8041,12 +8013,12 @@
     "lexeme_id": "lexeme:legacy:0456",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "También se ha volado la servilleta.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 456
+      "kind": "tatoeba",
+      "tatoeba_id": "7921562"
     }
   },
   {
@@ -8074,12 +8046,12 @@
     "lexeme_id": "lexeme:legacy:0458",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La sed secó sus labios.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 458
+      "kind": "tatoeba",
+      "tatoeba_id": "12678410"
     }
   },
   {
@@ -8087,12 +8059,12 @@
     "lexeme_id": "lexeme:legacy:0459",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Esto está delicioso.",
+    "text_en": "This is delicious.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 459
+      "kind": "tatoeba",
+      "tatoeba_id": "1173730"
     }
   },
   {
@@ -8100,12 +8072,12 @@
     "lexeme_id": "lexeme:legacy:0460",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Esto es tan sabroso.",
+    "text_en": "This is so tasty.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 460
+      "kind": "tatoeba",
+      "tatoeba_id": "1641788"
     }
   },
   {
@@ -8240,17 +8212,16 @@
       "segment:fsi:30:0105",
       "segment:fsi:30:0106"
     ],
-    "text_es": "El otro es de dos dormitorios con sala, comedor, cocina y un baño. Número 1",
-    "text_en": "",
+    "text_es": "¿Dónde está el comedor?",
+    "text_en": "Where's the dining room?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:30",
       "start_seconds": 591.05,
       "end_seconds": 597.05
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 467,
-      "legacy_text_es": "El otro es de dos dormitorios con sala, comedor, cocina y un baño."
+      "kind": "tatoeba",
+      "tatoeba_id": "4704807"
     }
   },
   {
@@ -8258,12 +8229,12 @@
     "lexeme_id": "lexeme:legacy:0468",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Ella tocó la puerta.",
+    "text_en": "She knocked on the door.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 468
+      "kind": "tatoeba",
+      "tatoeba_id": "1080443"
     }
   },
   {
@@ -8312,12 +8283,12 @@
     "lexeme_id": "lexeme:legacy:0471",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡Tome la otra silla!",
+    "text_en": "Take the other chair!",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 471
+      "kind": "tatoeba",
+      "tatoeba_id": "375838"
     }
   },
   {
@@ -8345,12 +8316,12 @@
     "lexeme_id": "lexeme:legacy:0473",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Me dormí en el sofá.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 473
+      "kind": "tatoeba",
+      "tatoeba_id": "12293607"
     }
   },
   {
@@ -8358,12 +8329,12 @@
     "lexeme_id": "lexeme:legacy:0474",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tom abrió el armario.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 474
+      "kind": "tatoeba",
+      "tatoeba_id": "4685027"
     }
   },
   {
@@ -8413,12 +8384,12 @@
     "lexeme_id": "lexeme:legacy:0477",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Mírate en el espejo.",
+    "text_en": "Look at yourself in the mirror.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 477
+      "kind": "tatoeba",
+      "tatoeba_id": "12148079"
     }
   },
   {
@@ -8426,12 +8397,12 @@
     "lexeme_id": "lexeme:legacy:0478",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No está en la pared.",
+    "text_en": "It's not on the wall.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 478
+      "kind": "tatoeba",
+      "tatoeba_id": "6627209"
     }
   },
   {
@@ -8439,12 +8410,12 @@
     "lexeme_id": "lexeme:legacy:0479",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No alcanzo el techo.",
+    "text_en": "I can't reach the ceiling.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 479
+      "kind": "tatoeba",
+      "tatoeba_id": "2115651"
     }
   },
   {
@@ -8452,12 +8423,12 @@
     "lexeme_id": "lexeme:legacy:0480",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Miraba por el suelo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 480
+      "kind": "tatoeba",
+      "tatoeba_id": "10954829"
     }
   },
   {
@@ -8465,12 +8436,12 @@
     "lexeme_id": "lexeme:legacy:0481",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom subió la escalera.",
+    "text_en": "Tom climbed the ladder.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 481
+      "kind": "tatoeba",
+      "tatoeba_id": "5861072"
     }
   },
   {
@@ -8478,12 +8449,12 @@
     "lexeme_id": "lexeme:legacy:0482",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El jardín es bonito.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 482
+      "kind": "tatoeba",
+      "tatoeba_id": "1918274"
     }
   },
   {
@@ -8511,12 +8482,12 @@
     "lexeme_id": "lexeme:legacy:0484",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cambiaste la almohada?",
+    "text_en": "Did you change the pillow?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 484
+      "kind": "tatoeba",
+      "tatoeba_id": "12062973"
     }
   },
   {
@@ -8524,12 +8495,12 @@
     "lexeme_id": "lexeme:legacy:0485",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ya no necesito la manta.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 485
+      "kind": "tatoeba",
+      "tatoeba_id": "7468932"
     }
   },
   {
@@ -8541,7 +8512,7 @@
       "segment:fsi:21:0034",
       "segment:fsi:21:0035"
     ],
-    "text_es": "Número cuatro. ¿Qué le explica usted a la persona que contesta el teléfono? Número cinco.",
+    "text_es": "No posó el teléfono.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:21",
@@ -8549,9 +8520,8 @@
       "end_seconds": 133.34
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 486,
-      "legacy_text_es": "¿Qué le explica usted a la persona que contesta el teléfono?"
+      "kind": "tatoeba",
+      "tatoeba_id": "11127017"
     }
   },
   {
@@ -8559,12 +8529,12 @@
     "lexeme_id": "lexeme:legacy:0487",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Prende la computadora.",
+    "text_en": "Turn on the computer.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 487
+      "kind": "tatoeba",
+      "tatoeba_id": "1244523"
     }
   },
   {
@@ -8572,12 +8542,12 @@
     "lexeme_id": "lexeme:legacy:0488",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Apagué el ordenador.",
+    "text_en": "I turned the computer off.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 488
+      "kind": "tatoeba",
+      "tatoeba_id": "7979681"
     }
   },
   {
@@ -8647,12 +8617,12 @@
     "lexeme_id": "lexeme:legacy:0492",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Te daré el bolígrafo.",
+    "text_en": "I'll give you the pen.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 492
+      "kind": "tatoeba",
+      "tatoeba_id": "1446614"
     }
   },
   {
@@ -8660,12 +8630,12 @@
     "lexeme_id": "lexeme:legacy:0493",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Se te cayó el lápiz.",
+    "text_en": "You dropped your pencil.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 493
+      "kind": "tatoeba",
+      "tatoeba_id": "1123135"
     }
   },
   {
@@ -8693,12 +8663,12 @@
     "lexeme_id": "lexeme:legacy:0495",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No vendí la mochila.",
+    "text_en": "I didn't sell the backpack.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 495
+      "kind": "tatoeba",
+      "tatoeba_id": "9719571"
     }
   },
   {
@@ -8768,12 +8738,12 @@
     "lexeme_id": "lexeme:legacy:0499",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Abróchate la camisa.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 499
+      "kind": "tatoeba",
+      "tatoeba_id": "7901053"
     }
   },
   {
@@ -8781,12 +8751,12 @@
     "lexeme_id": "lexeme:legacy:0500",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Se quitó el pantalón.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 500
+      "kind": "tatoeba",
+      "tatoeba_id": "12443363"
     }
   },
   {
@@ -8794,12 +8764,12 @@
     "lexeme_id": "lexeme:legacy:0501",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El vestido es verde.",
+    "text_en": "The dress is green.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 501
+      "kind": "tatoeba",
+      "tatoeba_id": "909258"
     }
   },
   {
@@ -8807,12 +8777,12 @@
     "lexeme_id": "lexeme:legacy:0502",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La falda roja es nueva.",
+    "text_en": "The red skirt is new.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 502
+      "kind": "tatoeba",
+      "tatoeba_id": "462895"
     }
   },
   {
@@ -8820,12 +8790,12 @@
     "lexeme_id": "lexeme:legacy:0503",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Atate el cordón del zapato.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 503
+      "kind": "tatoeba",
+      "tatoeba_id": "1651406"
     }
   },
   {
@@ -8833,12 +8803,12 @@
     "lexeme_id": "lexeme:legacy:0504",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él se quitó su abrigo.",
+    "text_en": "He took off his overcoat.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 504
+      "kind": "tatoeba",
+      "tatoeba_id": "1321808"
     }
   },
   {
@@ -8846,12 +8816,12 @@
     "lexeme_id": "lexeme:legacy:0505",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Te gusta la chaqueta?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 505
+      "kind": "tatoeba",
+      "tatoeba_id": "12517200"
     }
   },
   {
@@ -8859,12 +8829,12 @@
     "lexeme_id": "lexeme:legacy:0506",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El sombrero es tuyo.",
+    "text_en": "The hat is yours.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 506
+      "kind": "tatoeba",
+      "tatoeba_id": "1063316"
     }
   },
   {
@@ -8872,12 +8842,12 @@
     "lexeme_id": "lexeme:legacy:0507",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Ponte los calcetines.",
+    "text_en": "Put on your socks.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 507
+      "kind": "tatoeba",
+      "tatoeba_id": "9679154"
     }
   },
   {
@@ -8885,12 +8855,12 @@
     "lexeme_id": "lexeme:legacy:0508",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Aflójate la corbata.",
+    "text_en": "Loosen your tie.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 508
+      "kind": "tatoeba",
+      "tatoeba_id": "10032098"
     }
   },
   {
@@ -8898,12 +8868,12 @@
     "lexeme_id": "lexeme:legacy:0509",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Le compré el cinturón.",
+    "text_en": "I bought his belt.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 509
+      "kind": "tatoeba",
+      "tatoeba_id": "10756800"
     }
   },
   {
@@ -8911,12 +8881,12 @@
     "lexeme_id": "lexeme:legacy:0510",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me olvidé las gafas.",
+    "text_en": "I forgot my glasses.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 510
+      "kind": "tatoeba",
+      "tatoeba_id": "11937050"
     }
   },
   {
@@ -8945,12 +8915,12 @@
     "lexeme_id": "lexeme:legacy:0512",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él es de este pueblo.",
+    "text_en": "He is from this town.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 512
+      "kind": "tatoeba",
+      "tatoeba_id": "1317484"
     }
   },
   {
@@ -8978,12 +8948,12 @@
     "lexeme_id": "lexeme:legacy:0514",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El mundo es redondo.",
+    "text_en": "The world is round.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 514
+      "kind": "tatoeba",
+      "tatoeba_id": "12171984"
     }
   },
   {
@@ -9032,12 +9002,12 @@
     "lexeme_id": "lexeme:legacy:0517",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La plaza está desierta.",
+    "text_en": "The plaza is deserted.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 517
+      "kind": "tatoeba",
+      "tatoeba_id": "1185346"
     }
   },
   {
@@ -9045,12 +9015,12 @@
     "lexeme_id": "lexeme:legacy:0518",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Corren en el parque.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 518
+      "kind": "tatoeba",
+      "tatoeba_id": "1586773"
     }
   },
   {
@@ -9061,7 +9031,7 @@
       "segment:fsi:10:0098",
       "segment:fsi:10:0099"
     ],
-    "text_es": "¿Busco la tienda del regalo y no sé en qué piso está? Número dos.",
+    "text_es": "Dan cerró la tienda.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:10",
@@ -9069,9 +9039,8 @@
       "end_seconds": 504.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 519,
-      "legacy_text_es": "¿Nora. y lll1sa prefieren ir a la tienda de comestibles o al rercado?"
+      "kind": "tatoeba",
+      "tatoeba_id": "11900371"
     }
   },
   {
@@ -9103,7 +9072,7 @@
       "segment:fsi:31:0034",
       "segment:fsi:31:0035"
     ],
-    "text_es": "Número seis, ¿de qué hora a qué hora está abierto el supermercado? Número siete, ¿qué hace usted antes de despedirse?",
+    "text_es": "Estuve en el supermercado.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:31",
@@ -9111,9 +9080,8 @@
       "end_seconds": 174.95
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 521,
-      "legacy_text_es": "Número seis, ¿de qué hora a qué hora está abierto el supermercado?"
+      "kind": "tatoeba",
+      "tatoeba_id": "2188089"
     }
   },
   {
@@ -9222,12 +9190,12 @@
     "lexeme_id": "lexeme:legacy:0527",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La vi en la iglesia.",
+    "text_en": "I met her at the church.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 527
+      "kind": "tatoeba",
+      "tatoeba_id": "1691462"
     }
   },
   {
@@ -9309,12 +9277,12 @@
     "lexeme_id": "lexeme:legacy:0532",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La montaña es verde.",
+    "text_en": "The mountain is green.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 532
+      "kind": "tatoeba",
+      "tatoeba_id": "2137924"
     }
   },
   {
@@ -9322,12 +9290,12 @@
     "lexeme_id": "lexeme:legacy:0533",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El río se ha secado.",
+    "text_en": "The river has dried up.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 533
+      "kind": "tatoeba",
+      "tatoeba_id": "1021805"
     }
   },
   {
@@ -9335,12 +9303,12 @@
     "lexeme_id": "lexeme:legacy:0534",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Hay peces en el mar.",
+    "text_en": "There are fish in the sea.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 534
+      "kind": "tatoeba",
+      "tatoeba_id": "11252492"
     }
   },
   {
@@ -9348,12 +9316,12 @@
     "lexeme_id": "lexeme:legacy:0535",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El lago está helado.",
+    "text_en": "The lake is frozen.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 535
+      "kind": "tatoeba",
+      "tatoeba_id": "7951093"
     }
   },
   {
@@ -9361,12 +9329,12 @@
     "lexeme_id": "lexeme:legacy:0536",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Medito en el bosque.",
+    "text_en": "I meditate in the forest.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 536
+      "kind": "tatoeba",
+      "tatoeba_id": "12114550"
     }
   },
   {
@@ -9479,17 +9447,16 @@
       "segment:fsi:08:0072",
       "segment:fsi:08:0073"
     ],
-    "text_es": "Número cinco. Sí, en la parada de la esquina tome el autobús número cinco a.",
-    "text_en": "",
+    "text_es": "El autobús es lento.",
+    "text_en": "The bus is slow.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:08",
       "start_seconds": 344.58,
       "end_seconds": 348.58
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 542,
-      "legacy_text_es": "¿Cuánto dinero ha.v que darle para el autobús?"
+      "kind": "tatoeba",
+      "tatoeba_id": "2002666"
     }
   },
   {
@@ -9497,12 +9464,12 @@
     "lexeme_id": "lexeme:legacy:0543",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Dónde está el tren?",
+    "text_en": "Where is the train?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 543
+      "kind": "tatoeba",
+      "tatoeba_id": "1116478"
     }
   },
   {
@@ -9531,12 +9498,12 @@
     "lexeme_id": "lexeme:legacy:0545",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Cenamos en el barco.",
+    "text_en": "We have dinner on the boat.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 545
+      "kind": "tatoeba",
+      "tatoeba_id": "11841026"
     }
   },
   {
@@ -9544,12 +9511,12 @@
     "lexeme_id": "lexeme:legacy:0546",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La bicicleta es mía.",
+    "text_en": "The bike's mine.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 546
+      "kind": "tatoeba",
+      "tatoeba_id": "787266"
     }
   },
   {
@@ -9577,12 +9544,12 @@
     "lexeme_id": "lexeme:legacy:0548",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Cómo anda el metro?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 548
+      "kind": "tatoeba",
+      "tatoeba_id": "941836"
     }
   },
   {
@@ -9718,12 +9685,12 @@
     "lexeme_id": "lexeme:legacy:0556",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Dónde está el mapa?",
+    "text_en": "Where's the map?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 556
+      "kind": "tatoeba",
+      "tatoeba_id": "1993816"
     }
   },
   {
@@ -9734,17 +9701,16 @@
       "segment:fsi:10:0037",
       "segment:fsi:10:0038"
     ],
-    "text_es": "¿Dónde está la salida de emergencia? Número tres.",
-    "text_en": "",
+    "text_es": "Le mostré la salida.",
+    "text_en": "I showed him the exit.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:10",
       "start_seconds": 235.22,
       "end_seconds": 238.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 557,
-      "legacy_text_es": "¿Dónde está la salida de emergencia?"
+      "kind": "tatoeba",
+      "tatoeba_id": "7859482"
     }
   },
   {
@@ -9772,12 +9738,12 @@
     "lexeme_id": "lexeme:legacy:0559",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Cruzaron la frontera.",
+    "text_en": "They crossed the border.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 559
+      "kind": "tatoeba",
+      "tatoeba_id": "9706696"
     }
   },
   {
@@ -9805,12 +9771,12 @@
     "lexeme_id": "lexeme:legacy:0561",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡Baja ya de la luna!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 561
+      "kind": "tatoeba",
+      "tatoeba_id": "10186501"
     }
   },
   {
@@ -9818,12 +9784,12 @@
     "lexeme_id": "lexeme:legacy:0562",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Vos ves la estrella?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 562
+      "kind": "tatoeba",
+      "tatoeba_id": "1912299"
     }
   },
   {
@@ -9831,12 +9797,12 @@
     "lexeme_id": "lexeme:legacy:0563",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "En el séptimo cielo.",
+    "text_en": "On cloud seven.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 563
+      "kind": "tatoeba",
+      "tatoeba_id": "11948849"
     }
   },
   {
@@ -9844,12 +9810,12 @@
     "lexeme_id": "lexeme:legacy:0564",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Mira la nube por allá.",
+    "text_en": "Look at the cloud over there.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 564
+      "kind": "tatoeba",
+      "tatoeba_id": "1715790"
     }
   },
   {
@@ -9857,12 +9823,12 @@
     "lexeme_id": "lexeme:legacy:0565",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La lluvia me relaja.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 565
+      "kind": "tatoeba",
+      "tatoeba_id": "12009702"
     }
   },
   {
@@ -9870,12 +9836,12 @@
     "lexeme_id": "lexeme:legacy:0566",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La nieve se derrite.",
+    "text_en": "Snow melts.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 566
+      "kind": "tatoeba",
+      "tatoeba_id": "3793801"
     }
   },
   {
@@ -9883,12 +9849,12 @@
     "lexeme_id": "lexeme:legacy:0567",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Puedo oír el viento.",
+    "text_en": "I can hear the wind.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 567
+      "kind": "tatoeba",
+      "tatoeba_id": "10201656"
     }
   },
   {
@@ -9896,12 +9862,12 @@
     "lexeme_id": "lexeme:legacy:0568",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La tormenta fue mala.",
+    "text_en": "The storm was bad.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 568
+      "kind": "tatoeba",
+      "tatoeba_id": "13474422"
     }
   },
   {
@@ -9909,12 +9875,12 @@
     "lexeme_id": "lexeme:legacy:0569",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El calor es intenso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 569
+      "kind": "tatoeba",
+      "tatoeba_id": "2278629"
     }
   },
   {
@@ -9956,12 +9922,12 @@
     "lexeme_id": "lexeme:legacy:0572",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El árbol se tronchó.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 572
+      "kind": "tatoeba",
+      "tatoeba_id": "13680913"
     }
   },
   {
@@ -9969,12 +9935,12 @@
     "lexeme_id": "lexeme:legacy:0573",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La flor no es negra.",
+    "text_en": "The flower is not black.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 573
+      "kind": "tatoeba",
+      "tatoeba_id": "2199624"
     }
   },
   {
@@ -9982,12 +9948,12 @@
     "lexeme_id": "lexeme:legacy:0574",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Está en la planta baja.",
+    "text_en": "It's on the ground floor.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 574
+      "kind": "tatoeba",
+      "tatoeba_id": "11035145"
     }
   },
   {
@@ -9995,12 +9961,12 @@
     "lexeme_id": "lexeme:legacy:0575",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La hoja se decompuso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 575
+      "kind": "tatoeba",
+      "tatoeba_id": "12799655"
     }
   },
   {
@@ -10008,12 +9974,12 @@
     "lexeme_id": "lexeme:legacy:0576",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La tierra es marrón.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 576
+      "kind": "tatoeba",
+      "tatoeba_id": "3325840"
     }
   },
   {
@@ -10021,12 +9987,12 @@
     "lexeme_id": "lexeme:legacy:0577",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Él prendió un fuego.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 577
+      "kind": "tatoeba",
+      "tatoeba_id": "1767651"
     }
   },
   {
@@ -10034,12 +10000,12 @@
     "lexeme_id": "lexeme:legacy:0578",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El aire está húmedo.",
+    "text_en": "The air is damp.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 578
+      "kind": "tatoeba",
+      "tatoeba_id": "1905890"
     }
   },
   {
@@ -10047,12 +10013,12 @@
     "lexeme_id": "lexeme:legacy:0579",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La piedra está pesada.",
+    "text_en": "The stone is heavy.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 579
+      "kind": "tatoeba",
+      "tatoeba_id": "3191715"
     }
   },
   {
@@ -10060,12 +10026,12 @@
     "lexeme_id": "lexeme:legacy:0580",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El león es un animal.",
+    "text_en": "The lion is an animal.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 580
+      "kind": "tatoeba",
+      "tatoeba_id": "598209"
     }
   },
   {
@@ -10073,12 +10039,12 @@
     "lexeme_id": "lexeme:legacy:0581",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El perro es vuestro.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 581
+      "kind": "tatoeba",
+      "tatoeba_id": "10871417"
     }
   },
   {
@@ -10086,12 +10052,12 @@
     "lexeme_id": "lexeme:legacy:0582",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El gato es perezoso.",
+    "text_en": "The cat is lazy.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 582
+      "kind": "tatoeba",
+      "tatoeba_id": "10028824"
     }
   },
   {
@@ -10099,12 +10065,12 @@
     "lexeme_id": "lexeme:legacy:0583",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tom soltó el pájaro.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 583
+      "kind": "tatoeba",
+      "tatoeba_id": "3471034"
     }
   },
   {
@@ -10112,12 +10078,12 @@
     "lexeme_id": "lexeme:legacy:0584",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El caballo es negro.",
+    "text_en": "The horse is black.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 584
+      "kind": "tatoeba",
+      "tatoeba_id": "3677208"
     }
   },
   {
@@ -10125,12 +10091,12 @@
     "lexeme_id": "lexeme:legacy:0585",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Dónde está la vaca?",
+    "text_en": "Where is the cow?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 585
+      "kind": "tatoeba",
+      "tatoeba_id": "5227593"
     }
   },
   {
@@ -10138,12 +10104,12 @@
     "lexeme_id": "lexeme:legacy:0586",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El pez quiere nadar.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 586
+      "kind": "tatoeba",
+      "tatoeba_id": "1068616"
     }
   },
   {
@@ -10151,12 +10117,12 @@
     "lexeme_id": "lexeme:legacy:0587",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El gato cazó a un ratón.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 587
+      "kind": "tatoeba",
+      "tatoeba_id": "5019059"
     }
   },
   {
@@ -10164,12 +10130,12 @@
     "lexeme_id": "lexeme:legacy:0588",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La mosca es pequeña.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 588
+      "kind": "tatoeba",
+      "tatoeba_id": "3487750"
     }
   },
   {
@@ -10177,12 +10143,12 @@
     "lexeme_id": "lexeme:legacy:0589",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La araña está muerta.",
+    "text_en": "The spider is dead.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 589
+      "kind": "tatoeba",
+      "tatoeba_id": "1667979"
     }
   },
   {
@@ -10190,12 +10156,12 @@
     "lexeme_id": "lexeme:legacy:0590",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No pise la serpiente.",
+    "text_en": "Don't step on the snake.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 590
+      "kind": "tatoeba",
+      "tatoeba_id": "10216651"
     }
   },
   {
@@ -10203,12 +10169,12 @@
     "lexeme_id": "lexeme:legacy:0591",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El león es un animal.",
+    "text_en": "The lion is an animal.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 591
+      "kind": "tatoeba",
+      "tatoeba_id": "598209"
     }
   },
   {
@@ -10342,12 +10308,12 @@
     "lexeme_id": "lexeme:legacy:0598",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿ Qué tiene de malo?",
+    "text_en": "What's wrong with it?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 598
+      "kind": "tatoeba",
+      "tatoeba_id": "13142847"
     }
   },
   {
@@ -10419,12 +10385,12 @@
     "lexeme_id": "lexeme:legacy:0602",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy un hombre viejo.",
+    "text_en": "I'm an old man.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 602
+      "kind": "tatoeba",
+      "tatoeba_id": "10053651"
     }
   },
   {
@@ -10494,12 +10460,12 @@
     "lexeme_id": "lexeme:legacy:0606",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Pelo largo es mujer.",
+    "text_en": "Woman is when long hair.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 606
+      "kind": "tatoeba",
+      "tatoeba_id": "10463099"
     }
   },
   {
@@ -10528,12 +10494,12 @@
     "lexeme_id": "lexeme:legacy:0608",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El agujero es ancho.",
+    "text_en": "The hole is wide.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 608
+      "kind": "tatoeba",
+      "tatoeba_id": "2002645"
     }
   },
   {
@@ -10541,12 +10507,12 @@
     "lexeme_id": "lexeme:legacy:0609",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Es demasiado estrecho.",
+    "text_en": "It's too narrow.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 609
+      "kind": "tatoeba",
+      "tatoeba_id": "12821551"
     }
   },
   {
@@ -10554,12 +10520,12 @@
     "lexeme_id": "lexeme:legacy:0610",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él habla muy rápido.",
+    "text_en": "He speaks very fast.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 610
+      "kind": "tatoeba",
+      "tatoeba_id": "1084832"
     }
   },
   {
@@ -10567,12 +10533,12 @@
     "lexeme_id": "lexeme:legacy:0611",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El autobús es lento.",
+    "text_en": "The bus is slow.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 611
+      "kind": "tatoeba",
+      "tatoeba_id": "2002666"
     }
   },
   {
@@ -10643,7 +10609,7 @@
       "segment:fsi:20:0071",
       "segment:fsi:20:0072"
     ],
-    "text_es": "Es una ciudad sumamente interesante. Número tres.",
+    "text_es": "Vi algo interesante.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:20",
@@ -10651,9 +10617,8 @@
       "end_seconds": 493.93
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 615,
-      "legacy_text_es": "Es una ciudad sumamente interesante."
+      "kind": "tatoeba",
+      "tatoeba_id": "1082583"
     }
   },
   {
@@ -10661,12 +10626,12 @@
     "lexeme_id": "lexeme:legacy:0616",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿No te has aburrido?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 616
+      "kind": "tatoeba",
+      "tatoeba_id": "11016920"
     }
   },
   {
@@ -10674,12 +10639,12 @@
     "lexeme_id": "lexeme:legacy:0617",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡No seas tan bonito!",
+    "text_en": "Don't be so cute!",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 617
+      "kind": "tatoeba",
+      "tatoeba_id": "10363234"
     }
   },
   {
@@ -10687,12 +10652,12 @@
     "lexeme_id": "lexeme:legacy:0618",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ése es un feo gesto.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 618
+      "kind": "tatoeba",
+      "tatoeba_id": "10262277"
     }
   },
   {
@@ -10700,12 +10665,12 @@
     "lexeme_id": "lexeme:legacy:0619",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El islam es hermoso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 619
+      "kind": "tatoeba",
+      "tatoeba_id": "10025097"
     }
   },
   {
@@ -10713,12 +10678,12 @@
     "lexeme_id": "lexeme:legacy:0620",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Eres guapo y amable.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 620
+      "kind": "tatoeba",
+      "tatoeba_id": "2404994"
     }
   },
   {
@@ -10726,12 +10691,12 @@
     "lexeme_id": "lexeme:legacy:0621",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tom no juega limpio.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 621
+      "kind": "tatoeba",
+      "tatoeba_id": "10143405"
     }
   },
   {
@@ -10739,12 +10704,12 @@
     "lexeme_id": "lexeme:legacy:0622",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tom no estuvo sucio.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 622
+      "kind": "tatoeba",
+      "tatoeba_id": "10091157"
     }
   },
   {
@@ -10752,12 +10717,12 @@
     "lexeme_id": "lexeme:legacy:0623",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El barco está lleno.",
+    "text_en": "The boat is full.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 623
+      "kind": "tatoeba",
+      "tatoeba_id": "13906753"
     }
   },
   {
@@ -10765,12 +10730,12 @@
     "lexeme_id": "lexeme:legacy:0624",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Mi bolso está vacío.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 624
+      "kind": "tatoeba",
+      "tatoeba_id": "12041396"
     }
   },
   {
@@ -10839,12 +10804,12 @@
     "lexeme_id": "lexeme:legacy:0628",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom nunca fue pobre.",
+    "text_en": "Tom never was poor.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 628
+      "kind": "tatoeba",
+      "tatoeba_id": "11684551"
     }
   },
   {
@@ -10872,12 +10837,12 @@
     "lexeme_id": "lexeme:legacy:0630",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Aún estoy muy débil.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 630
+      "kind": "tatoeba",
+      "tatoeba_id": "12290927"
     }
   },
   {
@@ -10906,12 +10871,12 @@
     "lexeme_id": "lexeme:legacy:0632",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Es demasiado ligero.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 632
+      "kind": "tatoeba",
+      "tatoeba_id": "11917411"
     }
   },
   {
@@ -10919,12 +10884,12 @@
     "lexeme_id": "lexeme:legacy:0633",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El té está caliente.",
+    "text_en": "The tea is hot.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 633
+      "kind": "tatoeba",
+      "tatoeba_id": "462953"
     }
   },
   {
@@ -10953,12 +10918,12 @@
     "lexeme_id": "lexeme:legacy:0635",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "En un asunto así no se puede ser tibio.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 635
+      "kind": "tatoeba",
+      "tatoeba_id": "13526228"
     }
   },
   {
@@ -10966,12 +10931,12 @@
     "lexeme_id": "lexeme:legacy:0636",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom secó los platos.",
+    "text_en": "Tom dried the dishes.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 636
+      "kind": "tatoeba",
+      "tatoeba_id": "2033167"
     }
   },
   {
@@ -10979,12 +10944,12 @@
     "lexeme_id": "lexeme:legacy:0637",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Estoy frío y mojado.",
+    "text_en": "I'm cold and wet.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 637
+      "kind": "tatoeba",
+      "tatoeba_id": "2099806"
     }
   },
   {
@@ -10992,12 +10957,12 @@
     "lexeme_id": "lexeme:legacy:0638",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No parece muy feliz.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 638
+      "kind": "tatoeba",
+      "tatoeba_id": "10092174"
     }
   },
   {
@@ -11005,12 +10970,12 @@
     "lexeme_id": "lexeme:legacy:0639",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No estés tan triste.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 639
+      "kind": "tatoeba",
+      "tatoeba_id": "10954305"
     }
   },
   {
@@ -11018,12 +10983,12 @@
     "lexeme_id": "lexeme:legacy:0640",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No pareces contento.",
+    "text_en": "You don't seem to be happy.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 640
+      "kind": "tatoeba",
+      "tatoeba_id": "13309222"
     }
   },
   {
@@ -11031,12 +10996,12 @@
     "lexeme_id": "lexeme:legacy:0641",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él aún está enojado.",
+    "text_en": "He is still angry.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 641
+      "kind": "tatoeba",
+      "tatoeba_id": "3665964"
     }
   },
   {
@@ -11044,12 +11009,12 @@
     "lexeme_id": "lexeme:legacy:0642",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Debes estar cansado.",
+    "text_en": "You must be tired.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 642
+      "kind": "tatoeba",
+      "tatoeba_id": "10129416"
     }
   },
   {
@@ -11057,12 +11022,12 @@
     "lexeme_id": "lexeme:legacy:0643",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Estaba muy nervioso.",
+    "text_en": "He was very nervous.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 643
+      "kind": "tatoeba",
+      "tatoeba_id": "2008656"
     }
   },
   {
@@ -11090,12 +11055,12 @@
     "lexeme_id": "lexeme:legacy:0645",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Mezyan está ocupado.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 645
+      "kind": "tatoeba",
+      "tatoeba_id": "13195855"
     }
   },
   {
@@ -11145,12 +11110,12 @@
     "lexeme_id": "lexeme:legacy:0648",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom no es peligroso.",
+    "text_en": "Tom isn't dangerous.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 648
+      "kind": "tatoeba",
+      "tatoeba_id": "10363276"
     }
   },
   {
@@ -11179,12 +11144,12 @@
     "lexeme_id": "lexeme:legacy:0650",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Soy el más simpático.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 650
+      "kind": "tatoeba",
+      "tatoeba_id": "7305885"
     }
   },
   {
@@ -11192,12 +11157,12 @@
     "lexeme_id": "lexeme:legacy:0651",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El maestro es antipático.",
+    "text_en": "The teacher is unfriendly.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 651
+      "kind": "tatoeba",
+      "tatoeba_id": "2002678"
     }
   },
   {
@@ -11205,12 +11170,12 @@
     "lexeme_id": "lexeme:legacy:0652",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Judy es inteligente.",
+    "text_en": "Judy is smart.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 652
+      "kind": "tatoeba",
+      "tatoeba_id": "1266230"
     }
   },
   {
@@ -11218,12 +11183,12 @@
     "lexeme_id": "lexeme:legacy:0653",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡Oye! No seas tonto.",
+    "text_en": "Hey! Don't be silly.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 653
+      "kind": "tatoeba",
+      "tatoeba_id": "1210219"
     }
   },
   {
@@ -11231,12 +11196,12 @@
     "lexeme_id": "lexeme:legacy:0654",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Le parece gracioso?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 654
+      "kind": "tatoeba",
+      "tatoeba_id": "12021782"
     }
   },
   {
@@ -11244,12 +11209,12 @@
     "lexeme_id": "lexeme:legacy:0655",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No me tomo en serio.",
+    "text_en": "I don't take myself seriously.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 655
+      "kind": "tatoeba",
+      "tatoeba_id": "10352305"
     }
   },
   {
@@ -11257,12 +11222,12 @@
     "lexeme_id": "lexeme:legacy:0656",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Parecía ser honesto.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 656
+      "kind": "tatoeba",
+      "tatoeba_id": "2223615"
     }
   },
   {
@@ -11270,12 +11235,12 @@
     "lexeme_id": "lexeme:legacy:0657",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Es un famoso médico.",
+    "text_en": "He is famous as a doctor.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 657
+      "kind": "tatoeba",
+      "tatoeba_id": "1063240"
     }
   },
   {
@@ -11304,12 +11269,12 @@
     "lexeme_id": "lexeme:legacy:0659",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Luces tan diferente.",
+    "text_en": "You look so different.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 659
+      "kind": "tatoeba",
+      "tatoeba_id": "10061205"
     }
   },
   {
@@ -11317,12 +11282,12 @@
     "lexeme_id": "lexeme:legacy:0660",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom es igual que yo.",
+    "text_en": "Tom is just like me.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 660
+      "kind": "tatoeba",
+      "tatoeba_id": "1296929"
     }
   },
   {
@@ -11330,12 +11295,12 @@
     "lexeme_id": "lexeme:legacy:0661",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Sólo te ha parecido.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 661
+      "kind": "tatoeba",
+      "tatoeba_id": "7114839"
     }
   },
   {
@@ -11346,17 +11311,16 @@
       "segment:fsi:36:0058",
       "segment:fsi:36:0059"
     ],
-    "text_es": "Hoy sí es posible. Dígale que traiga su certificado de matrimonio. Número cinco.",
-    "text_en": "",
+    "text_es": "Es bastante posible.",
+    "text_en": "It's quite possible.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:36",
       "start_seconds": 300.94,
       "end_seconds": 305.24
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 662,
-      "legacy_text_es": "Hoy sí es posible. Dígale que traiga su certificado de matrimonio."
+      "kind": "tatoeba",
+      "tatoeba_id": "1281996"
     }
   },
   {
@@ -11388,7 +11352,7 @@
       "segment:fsi:22:0040",
       "segment:fsi:22:0041"
     ],
-    "text_es": "¿Por qué es necesario tener una cita para hablar con el embajador? Número 9.",
+    "text_es": "Iré si es necesario.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:22",
@@ -11396,9 +11360,8 @@
       "end_seconds": 199.42
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 664,
-      "legacy_text_es": "¿Por qué es necesario tener una cita para hablar con el embajador?"
+      "kind": "tatoeba",
+      "tatoeba_id": "4183983"
     }
   },
   {
@@ -11406,12 +11369,12 @@
     "lexeme_id": "lexeme:legacy:0665",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Su vuelo está listo.",
+    "text_en": "Your airplane is ready.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 665
+      "kind": "tatoeba",
+      "tatoeba_id": "1337659"
     }
   },
   {
@@ -11419,12 +11382,12 @@
     "lexeme_id": "lexeme:legacy:0666",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Todo está perfecto?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 666
+      "kind": "tatoeba",
+      "tatoeba_id": "10109358"
     }
   },
   {
@@ -11432,12 +11395,12 @@
     "lexeme_id": "lexeme:legacy:0667",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Sí, eso es correcto.",
+    "text_en": "Yes, that's correct.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 667
+      "kind": "tatoeba",
+      "tatoeba_id": "12015312"
     }
   },
   {
@@ -11445,12 +11408,12 @@
     "lexeme_id": "lexeme:legacy:0668",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Eso no es incorrecto.",
+    "text_en": "That's not wrong.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 668
+      "kind": "tatoeba",
+      "tatoeba_id": "12317728"
     }
   },
   {
@@ -11479,12 +11442,12 @@
     "lexeme_id": "lexeme:legacy:0670",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Ese acento es falso.",
+    "text_en": "That accent is fake.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 670
+      "kind": "tatoeba",
+      "tatoeba_id": "11853710"
     }
   },
   {
@@ -11512,12 +11475,12 @@
     "lexeme_id": "lexeme:legacy:0672",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tengo el pelo oscuro.",
+    "text_en": "I have dark hair.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 672
+      "kind": "tatoeba",
+      "tatoeba_id": "8281715"
     }
   },
   {
@@ -11525,12 +11488,12 @@
     "lexeme_id": "lexeme:legacy:0673",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Era demasiado suave.",
+    "text_en": "It was too soft.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 673
+      "kind": "tatoeba",
+      "tatoeba_id": "4554499"
     }
   },
   {
@@ -11538,12 +11501,12 @@
     "lexeme_id": "lexeme:legacy:0674",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El placer duró poco.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 674
+      "kind": "tatoeba",
+      "tatoeba_id": "1066885"
     }
   },
   {
@@ -11551,12 +11514,12 @@
     "lexeme_id": "lexeme:legacy:0675",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Ella es tan dulce...",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 675
+      "kind": "tatoeba",
+      "tatoeba_id": "10670271"
     }
   },
   {
@@ -11564,12 +11527,12 @@
     "lexeme_id": "lexeme:legacy:0676",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Esto está muy amargo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 676
+      "kind": "tatoeba",
+      "tatoeba_id": "7153322"
     }
   },
   {
@@ -11598,12 +11561,12 @@
     "lexeme_id": "lexeme:legacy:0678",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El pomelo está muy agrio.",
+    "text_en": "The grapefruit tastes very sour.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 678
+      "kind": "tatoeba",
+      "tatoeba_id": "4453794"
     }
   },
   {
@@ -11614,17 +11577,16 @@
       "segment:fsi:28:0080",
       "segment:fsi:28:0081"
     ],
-    "text_es": "cuatro no señor cada uno tiene que llevar su propio almuerzo número cinco bueno en el precio están incluidos dos sandwiches de jamón y un refresco",
-    "text_en": "",
+    "text_es": "Él es su propio amo.",
+    "text_en": "He is his own master.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:28",
       "start_seconds": 500.7,
       "end_seconds": 509.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 679,
-      "legacy_text_es": "cuatro no señor cada uno tiene que llevar su propio almuerzo número cinco bueno en"
+      "kind": "tatoeba",
+      "tatoeba_id": "1458248"
     }
   },
   {
@@ -11673,12 +11635,12 @@
     "lexeme_id": "lexeme:legacy:0682",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El diario es gratis.",
+    "text_en": "The newspaper is free.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 682
+      "kind": "tatoeba",
+      "tatoeba_id": "1519982"
     }
   },
   {
@@ -11706,12 +11668,12 @@
     "lexeme_id": "lexeme:legacy:0684",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Es su actual esposa.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 684
+      "kind": "tatoeba",
+      "tatoeba_id": "10795634"
     }
   },
   {
@@ -11719,12 +11681,12 @@
     "lexeme_id": "lexeme:legacy:0685",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Yo lo vi el día anterior.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 685
+      "kind": "tatoeba",
+      "tatoeba_id": "1209091"
     }
   },
   {
@@ -11752,12 +11714,12 @@
     "lexeme_id": "lexeme:legacy:0687",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Lo ha comido entero.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 687
+      "kind": "tatoeba",
+      "tatoeba_id": "11035344"
     }
   },
   {
@@ -11847,12 +11809,12 @@
     "lexeme_id": "lexeme:legacy:0692",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No es ningún idiota.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 692
+      "kind": "tatoeba",
+      "tatoeba_id": "2287040"
     }
   },
   {
@@ -11860,12 +11822,12 @@
     "lexeme_id": "lexeme:legacy:0693",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Entonces es cierto?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 693
+      "kind": "tatoeba",
+      "tatoeba_id": "11248085"
     }
   },
   {
@@ -11876,17 +11838,16 @@
       "segment:fsi:30:0091",
       "segment:fsi:30:0092"
     ],
-    "text_es": "Señora, hay algún apartamento disponible. Número 2",
-    "text_en": "",
+    "text_es": "Tom está disponible.",
+    "text_en": "Tom is available.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:30",
       "start_seconds": 549.05,
       "end_seconds": 552.05
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 694,
-      "legacy_text_es": "Señora, hay algún apartamento disponible."
+      "kind": "tatoeba",
+      "tatoeba_id": "1542378"
     }
   },
   {
@@ -11915,12 +11876,12 @@
     "lexeme_id": "lexeme:legacy:0696",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El loro está muerto.",
+    "text_en": "The parrot is dead.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 696
+      "kind": "tatoeba",
+      "tatoeba_id": "1125890"
     }
   },
   {
@@ -11928,12 +11889,12 @@
     "lexeme_id": "lexeme:legacy:0697",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Sabía que no era sano.",
+    "text_en": "I knew it was unhealthy.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 697
+      "kind": "tatoeba",
+      "tatoeba_id": "2467956"
     }
   },
   {
@@ -11941,12 +11902,12 @@
     "lexeme_id": "lexeme:legacy:0698",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Quién está enfermo?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 698
+      "kind": "tatoeba",
+      "tatoeba_id": "1011495"
     }
   },
   {
@@ -11954,12 +11915,12 @@
     "lexeme_id": "lexeme:legacy:0699",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Este mono es cómodo.",
+    "text_en": "These overalls are comfortable.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 699
+      "kind": "tatoeba",
+      "tatoeba_id": "10559682"
     }
   },
   {
@@ -11967,12 +11928,12 @@
     "lexeme_id": "lexeme:legacy:0700",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El sofá es incómodo.",
+    "text_en": "The sofa is uncomfortable.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 700
+      "kind": "tatoeba",
+      "tatoeba_id": "2002646"
     }
   },
   {
@@ -11980,12 +11941,12 @@
     "lexeme_id": "lexeme:legacy:0701",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tengo un coche rojo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 701
+      "kind": "tatoeba",
+      "tatoeba_id": "12531835"
     }
   },
   {
@@ -11993,12 +11954,12 @@
     "lexeme_id": "lexeme:legacy:0702",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tiene un coche azul.",
+    "text_en": "He has a blue car.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 702
+      "kind": "tatoeba",
+      "tatoeba_id": "10740773"
     }
   },
   {
@@ -12006,12 +11967,12 @@
     "lexeme_id": "lexeme:legacy:0703",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El brócoli es verde.",
+    "text_en": "Broccoli is green.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 703
+      "kind": "tatoeba",
+      "tatoeba_id": "11996066"
     }
   },
   {
@@ -12019,12 +11980,12 @@
     "lexeme_id": "lexeme:legacy:0704",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El queso es amarillo.",
+    "text_en": "The cheese is yellow.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 704
+      "kind": "tatoeba",
+      "tatoeba_id": "11600470"
     }
   },
   {
@@ -12032,12 +11993,12 @@
     "lexeme_id": "lexeme:legacy:0705",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Qué perro es negro?",
+    "text_en": "Which dog is black?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 705
+      "kind": "tatoeba",
+      "tatoeba_id": "10941134"
     }
   },
   {
@@ -12045,12 +12006,12 @@
     "lexeme_id": "lexeme:legacy:0706",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Tu perro es blanco?",
+    "text_en": "Is your dog white?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 706
+      "kind": "tatoeba",
+      "tatoeba_id": "10274600"
     }
   },
   {
@@ -12058,12 +12019,12 @@
     "lexeme_id": "lexeme:legacy:0707",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Está muy gris fuera.",
+    "text_en": "It's very gray outside.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 707
+      "kind": "tatoeba",
+      "tatoeba_id": "864573"
     }
   },
   {
@@ -12071,12 +12032,12 @@
     "lexeme_id": "lexeme:legacy:0708",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El conejo es marrón.",
+    "text_en": "The rabbit is brown.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 708
+      "kind": "tatoeba",
+      "tatoeba_id": "11524214"
     }
   },
   {
@@ -12084,12 +12045,12 @@
     "lexeme_id": "lexeme:legacy:0709",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Estoy como una rosa.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 709
+      "kind": "tatoeba",
+      "tatoeba_id": "11111840"
     }
   },
   {
@@ -12097,12 +12058,12 @@
     "lexeme_id": "lexeme:legacy:0710",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tengo un ojo morado.",
+    "text_en": "I have a black eye.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 710
+      "kind": "tatoeba",
+      "tatoeba_id": "1545505"
     }
   },
   {
@@ -12130,12 +12091,12 @@
     "lexeme_id": "lexeme:legacy:0712",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡Coge el huevo dorado!",
+    "text_en": "Grab the golden egg.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 712
+      "kind": "tatoeba",
+      "tatoeba_id": "1001485"
     }
   },
   {
@@ -12143,12 +12104,12 @@
     "lexeme_id": "lexeme:legacy:0713",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El amor exige dolor.",
+    "text_en": "Love demands pain.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 713
+      "kind": "tatoeba",
+      "tatoeba_id": "10154725"
     }
   },
   {
@@ -12156,12 +12117,12 @@
     "lexeme_id": "lexeme:legacy:0714",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Merezco la felicidad.",
+    "text_en": "I deserve happiness.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 714
+      "kind": "tatoeba",
+      "tatoeba_id": "3877214"
     }
   },
   {
@@ -12169,12 +12130,12 @@
     "lexeme_id": "lexeme:legacy:0715",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Vi la tristeza en tus ojos.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 715
+      "kind": "tatoeba",
+      "tatoeba_id": "8282524"
     }
   },
   {
@@ -12203,12 +12164,12 @@
     "lexeme_id": "lexeme:legacy:0717",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cuál es la gran sorpresa?",
+    "text_en": "What's the big surprise?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 717
+      "kind": "tatoeba",
+      "tatoeba_id": "3566752"
     }
   },
   {
@@ -12216,12 +12177,12 @@
     "lexeme_id": "lexeme:legacy:0718",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Por eso él se enojó.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 718
+      "kind": "tatoeba",
+      "tatoeba_id": "3845151"
     }
   },
   {
@@ -12253,17 +12214,16 @@
       "segment:fsi:15:0107",
       "segment:fsi:15:0108"
     ],
-    "text_es": "Número cuatro. Esperanza, quiero presentarte a Betty Smith, la nueva funcionaria administrativa que va a quedarse dos años con nosotros. Número cinco.",
-    "text_en": "",
+    "text_es": "Esa es la esperanza.",
+    "text_en": "That's the hope.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:15",
       "start_seconds": 633.49,
       "end_seconds": 641.65
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 720,
-      "legacy_text_es": "Esperanza, quiero presentarte a Betty Smith, la nueva funcionaria administrativa que va a quedarse dos años con nosotros."
+      "kind": "tatoeba",
+      "tatoeba_id": "4079090"
     }
   },
   {
@@ -12271,12 +12231,12 @@
     "lexeme_id": "lexeme:legacy:0721",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "La confianza se gana.",
+    "text_en": "Trust is earned.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 721
+      "kind": "tatoeba",
+      "tatoeba_id": "1901096"
     }
   },
   {
@@ -12284,12 +12244,12 @@
     "lexeme_id": "lexeme:legacy:0722",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No quiere sacarse el estrés.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 722
+      "kind": "tatoeba",
+      "tatoeba_id": "12045798"
     }
   },
   {
@@ -12297,12 +12257,12 @@
     "lexeme_id": "lexeme:legacy:0723",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tu única preocupación era la comida.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 723
+      "kind": "tatoeba",
+      "tatoeba_id": "12029319"
     }
   },
   {
@@ -12310,12 +12270,12 @@
     "lexeme_id": "lexeme:legacy:0724",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él no tiene orgullo.",
+    "text_en": "He doesn't have pride.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 724
+      "kind": "tatoeba",
+      "tatoeba_id": "1824846"
     }
   },
   {
@@ -12323,12 +12283,12 @@
     "lexeme_id": "lexeme:legacy:0725",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me puse rojo de la vergüenza.",
+    "text_en": "I was feverish with embarrassment.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 725
+      "kind": "tatoeba",
+      "tatoeba_id": "975739"
     }
   },
   {
@@ -12336,12 +12296,12 @@
     "lexeme_id": "lexeme:legacy:0726",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Los celos lo llevaron a eso.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 726
+      "kind": "tatoeba",
+      "tatoeba_id": "2087269"
     }
   },
   {
@@ -12349,12 +12309,12 @@
     "lexeme_id": "lexeme:legacy:0727",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El roce hace el cariño.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 727
+      "kind": "tatoeba",
+      "tatoeba_id": "7927631"
     }
   },
   {
@@ -12382,12 +12342,12 @@
     "lexeme_id": "lexeme:legacy:0729",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me gusta la empresa.",
+    "text_en": "I like the company.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 729
+      "kind": "tatoeba",
+      "tatoeba_id": "9798723"
     }
   },
   {
@@ -12416,12 +12376,12 @@
     "lexeme_id": "lexeme:legacy:0731",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El proyecto continúa.",
+    "text_en": "The project is ongoing.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 731
+      "kind": "tatoeba",
+      "tatoeba_id": "7964851"
     }
   },
   {
@@ -12450,12 +12410,12 @@
     "lexeme_id": "lexeme:legacy:0733",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cómo va el negocio?",
+    "text_en": "How's business?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 733
+      "kind": "tatoeba",
+      "tatoeba_id": "1279970"
     }
   },
   {
@@ -12483,12 +12443,12 @@
     "lexeme_id": "lexeme:legacy:0735",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El salario es pésimo.",
+    "text_en": "The pay is terrible.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 735
+      "kind": "tatoeba",
+      "tatoeba_id": "5952293"
     }
   },
   {
@@ -12496,12 +12456,12 @@
     "lexeme_id": "lexeme:legacy:0736",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Él le daba el sueldo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 736
+      "kind": "tatoeba",
+      "tatoeba_id": "10802598"
     }
   },
   {
@@ -12529,12 +12489,12 @@
     "lexeme_id": "lexeme:legacy:0738",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El currículum está anexo.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 738
+      "kind": "tatoeba",
+      "tatoeba_id": "1604783"
     }
   },
   {
@@ -12563,12 +12523,12 @@
     "lexeme_id": "lexeme:legacy:0740",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cuál es la profesión de Tom?",
+    "text_en": "What's Tom's profession?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 740
+      "kind": "tatoeba",
+      "tatoeba_id": "3006049"
     }
   },
   {
@@ -12597,12 +12557,12 @@
     "lexeme_id": "lexeme:legacy:0742",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Me gusta el maestro.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 742
+      "kind": "tatoeba",
+      "tatoeba_id": "7237463"
     }
   },
   {
@@ -12610,12 +12570,12 @@
     "lexeme_id": "lexeme:legacy:0743",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tú eres el profesor.",
+    "text_en": "You are the teacher.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 743
+      "kind": "tatoeba",
+      "tatoeba_id": "10010023"
     }
   },
   {
@@ -12623,12 +12583,12 @@
     "lexeme_id": "lexeme:legacy:0744",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Él es un buen estudiante.",
+    "text_en": "He is a good student.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 744
+      "kind": "tatoeba",
+      "tatoeba_id": "544081"
     }
   },
   {
@@ -12677,12 +12637,12 @@
     "lexeme_id": "lexeme:legacy:0747",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El enfermero me vacunó.",
+    "text_en": "The nurse vaccinated me.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 747
+      "kind": "tatoeba",
+      "tatoeba_id": "9665165"
     }
   },
   {
@@ -12712,12 +12672,12 @@
     "lexeme_id": "lexeme:legacy:0749",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Él es un buen cocinero.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 749
+      "kind": "tatoeba",
+      "tatoeba_id": "7881936"
     }
   },
   {
@@ -12767,12 +12727,12 @@
     "lexeme_id": "lexeme:legacy:0752",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "No superé el examen.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 752
+      "kind": "tatoeba",
+      "tatoeba_id": "10350950"
     }
   },
   {
@@ -12780,12 +12740,12 @@
     "lexeme_id": "lexeme:legacy:0753",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Tom daba la nota alta.",
+    "text_en": "Tom stuck out like a sore thumb.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 753
+      "kind": "tatoeba",
+      "tatoeba_id": "4530996"
     }
   },
   {
@@ -12813,12 +12773,12 @@
     "lexeme_id": "lexeme:legacy:0755",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Esa es la respuesta.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 755
+      "kind": "tatoeba",
+      "tatoeba_id": "5607360"
     }
   },
   {
@@ -12846,12 +12806,12 @@
     "lexeme_id": "lexeme:legacy:0757",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Esta es la solución.",
+    "text_en": "This is the solution.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 757
+      "kind": "tatoeba",
+      "tatoeba_id": "4329348"
     }
   },
   {
@@ -12879,12 +12839,12 @@
     "lexeme_id": "lexeme:legacy:0759",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Abandonamos el plan.",
+    "text_en": "We gave up the plan.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 759
+      "kind": "tatoeba",
+      "tatoeba_id": "1418964"
     }
   },
   {
@@ -12892,12 +12852,12 @@
     "lexeme_id": "lexeme:legacy:0760",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El camino es la meta.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 760
+      "kind": "tatoeba",
+      "tatoeba_id": "12778035"
     }
   },
   {
@@ -12905,12 +12865,12 @@
     "lexeme_id": "lexeme:legacy:0761",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El plan fue un éxito.",
+    "text_en": "The plan was a success.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 761
+      "kind": "tatoeba",
+      "tatoeba_id": "2711867"
     }
   },
   {
@@ -12918,12 +12878,12 @@
     "lexeme_id": "lexeme:legacy:0762",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡El error fue de él!",
+    "text_en": "That was his mistake!",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 762
+      "kind": "tatoeba",
+      "tatoeba_id": "10467152"
     }
   },
   {
@@ -12934,7 +12894,7 @@
       "segment:fsi:28:0078",
       "segment:fsi:28:0079"
     ],
-    "text_es": "diaria número tres en parte sí almorzamos en un restaurante cerca de las ruinas si su almuerzo cuesta más de 250 pesos usted paga la diferencia número",
+    "text_es": "¿Veis la diferencia?",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:28",
@@ -12942,9 +12902,8 @@
       "end_seconds": 500.7
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 763,
-      "legacy_text_es": "ruinas si su almuerzo cuesta más de 250 pesos usted paga la diferencia número"
+      "kind": "tatoeba",
+      "tatoeba_id": "1268427"
     }
   },
   {
@@ -12952,12 +12911,12 @@
     "lexeme_id": "lexeme:legacy:0764",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "El Internet explotó.",
+    "text_en": "The Internet has exploded.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 764
+      "kind": "tatoeba",
+      "tatoeba_id": "1753556"
     }
   },
   {
@@ -12965,12 +12924,12 @@
     "lexeme_id": "lexeme:legacy:0765",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Borré la aplicación.",
+    "text_en": "I deleted the app.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 765
+      "kind": "tatoeba",
+      "tatoeba_id": "12848649"
     }
   },
   {
@@ -12978,12 +12937,12 @@
     "lexeme_id": "lexeme:legacy:0766",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Actualicé la página web.",
+    "text_en": "I reloaded the webpage.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 766
+      "kind": "tatoeba",
+      "tatoeba_id": "1406413"
     }
   },
   {
@@ -13012,12 +12971,12 @@
     "lexeme_id": "lexeme:legacy:0768",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cambió la contraseña?",
+    "text_en": "Did you change the password?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 768
+      "kind": "tatoeba",
+      "tatoeba_id": "10967115"
     }
   },
   {
@@ -13080,12 +13039,12 @@
     "lexeme_id": "lexeme:legacy:0772",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Quién hizo la foto?",
+    "text_en": "Who took the picture?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 772
+      "kind": "tatoeba",
+      "tatoeba_id": "2110540"
     }
   },
   {
@@ -13093,12 +13052,12 @@
     "lexeme_id": "lexeme:legacy:0773",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Quiero ver el vídeo.",
+    "text_en": "I want to watch the video.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 773
+      "kind": "tatoeba",
+      "tatoeba_id": "13467081"
     }
   },
   {
@@ -13106,12 +13065,12 @@
     "lexeme_id": "lexeme:legacy:0774",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Nos gusta la música.",
+    "text_en": "We like music.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 774
+      "kind": "tatoeba",
+      "tatoeba_id": "1222714"
     }
   },
   {
@@ -13119,12 +13078,12 @@
     "lexeme_id": "lexeme:legacy:0775",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Te traes la cámara?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 775
+      "kind": "tatoeba",
+      "tatoeba_id": "10871483"
     }
   },
   {
@@ -13132,12 +13091,12 @@
     "lexeme_id": "lexeme:legacy:0776",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Se apagó la pantalla.",
+    "text_en": "The screen turned off.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 776
+      "kind": "tatoeba",
+      "tatoeba_id": "11696764"
     }
   },
   {
@@ -13148,17 +13107,16 @@
       "segment:fsi:36:0091",
       "segment:fsi:36:0092"
     ],
-    "text_es": "No, pero haga una para el archivo del señor Morán. Número tres.",
-    "text_en": "",
+    "text_es": "Yo revisé el archivo.",
+    "text_en": "I reviewed the file.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:36",
       "start_seconds": 394.44,
       "end_seconds": 397.44
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 777,
-      "legacy_text_es": "No, pero haga una para el archivo del señor Morán."
+      "kind": "tatoeba",
+      "tatoeba_id": "8558685"
     }
   },
   {
@@ -13166,12 +13124,12 @@
     "lexeme_id": "lexeme:legacy:0778",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "La batería no carga.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 778
+      "kind": "tatoeba",
+      "tatoeba_id": "1390280"
     }
   },
   {
@@ -13179,12 +13137,12 @@
     "lexeme_id": "lexeme:legacy:0779",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No me funciona el wifi.",
+    "text_en": "The WiFi isn't working for me.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 779
+      "kind": "tatoeba",
+      "tatoeba_id": "2692329"
     }
   },
   {
@@ -13275,12 +13233,12 @@
     "lexeme_id": "lexeme:legacy:0784",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Cómo estás de salud?",
+    "text_en": "How's your health?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 784
+      "kind": "tatoeba",
+      "tatoeba_id": "10093235"
     }
   },
   {
@@ -13330,12 +13288,12 @@
     "lexeme_id": "lexeme:legacy:0787",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Qué tal el trabajo?",
+    "text_en": "How's work?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 787
+      "kind": "tatoeba",
+      "tatoeba_id": "1013531"
     }
   },
   {
@@ -13383,12 +13341,12 @@
     "lexeme_id": "lexeme:legacy:0790",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Saben cómo te llamas.",
+    "text_en": "They know your name.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 790
+      "kind": "tatoeba",
+      "tatoeba_id": "2693731"
     }
   },
   {
@@ -13396,12 +13354,12 @@
     "lexeme_id": "lexeme:legacy:0791",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me llamo Tom, ¿y tú?",
+    "text_en": "My name's Tom, and you?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 791
+      "kind": "tatoeba",
+      "tatoeba_id": "10017729"
     }
   },
   {
@@ -13409,12 +13367,12 @@
     "lexeme_id": "lexeme:legacy:0792",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy gato de palabra.",
+    "text_en": "I'm a cat of my word.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 792
+      "kind": "tatoeba",
+      "tatoeba_id": "10244771"
     }
   },
   {
@@ -13422,12 +13380,12 @@
     "lexeme_id": "lexeme:legacy:0793",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Adiós. Hasta mañana.",
+    "text_en": "Goodbye. See you tomorrow.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 793
+      "kind": "tatoeba",
+      "tatoeba_id": "1604571"
     }
   },
   {
@@ -13458,7 +13416,7 @@
       "segment:fsi:06:0017",
       "segment:fsi:06:0018"
     ],
-    "text_es": "Número tres, ¿qué pueden hacer los niños hasta las nueve? Número cuatro, ¿qué hacen los niños a las nueve?",
+    "text_es": "¿Hasta pronto entonces?",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:06",
@@ -13466,9 +13424,8 @@
       "end_seconds": 98.22
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 795,
-      "legacy_text_es": "Número tres, ¿qué pueden hacer los niños hasta las nueve?"
+      "kind": "tatoeba",
+      "tatoeba_id": "9747943"
     }
   },
   {
@@ -13660,12 +13617,12 @@
     "lexeme_id": "lexeme:legacy:0805",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Con su permiso, señoras.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 805
+      "kind": "tatoeba",
+      "tatoeba_id": "10144661"
     }
   },
   {
@@ -13694,12 +13651,12 @@
     "lexeme_id": "lexeme:legacy:0807",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Habla usted inglés?",
+    "text_en": "Do you speak English?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 807
+      "kind": "tatoeba",
+      "tatoeba_id": "340398"
     }
   },
   {
@@ -13728,12 +13685,12 @@
     "lexeme_id": "lexeme:legacy:0809",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Lo siento, ¿puede repetir, por favor?",
+    "text_en": "I'm sorry, could you repeat that please?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 809
+      "kind": "tatoeba",
+      "tatoeba_id": "963985"
     }
   },
   {
@@ -13762,12 +13719,12 @@
     "lexeme_id": "lexeme:legacy:0811",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Haz como se te dice.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 811
+      "kind": "tatoeba",
+      "tatoeba_id": "8563871"
     }
   },
   {
@@ -13815,12 +13772,12 @@
     "lexeme_id": "lexeme:legacy:0814",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Por supuesto que no.",
+    "text_en": "Of course not.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 814
+      "kind": "tatoeba",
+      "tatoeba_id": "7938275"
     }
   },
   {
@@ -13828,12 +13785,12 @@
     "lexeme_id": "lexeme:legacy:0815",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tal vez tiene calor.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 815
+      "kind": "tatoeba",
+      "tatoeba_id": "13398646"
     }
   },
   {
@@ -13882,12 +13839,12 @@
     "lexeme_id": "lexeme:legacy:0818",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Felicidades a ellos.",
+    "text_en": "Congratulations to them.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 818
+      "kind": "tatoeba",
+      "tatoeba_id": "5404640"
     }
   },
   {
@@ -13895,12 +13852,12 @@
     "lexeme_id": "lexeme:legacy:0819",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Feliz cumpleaños, papá.",
+    "text_en": "Happy birthday, Dad.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 819
+      "kind": "tatoeba",
+      "tatoeba_id": "13452617"
     }
   },
   {
@@ -13911,17 +13868,16 @@
       "segment:fsi:24:0121",
       "segment:fsi:24:0122"
     ],
-    "text_es": "Que tengan buena suerte. Número cuatro.",
-    "text_en": "",
+    "text_es": "Adiós y buena suerte.",
+    "text_en": "Goodbye and good luck.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:24",
       "start_seconds": 626.41,
       "end_seconds": 628.41
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 820,
-      "legacy_text_es": "Que tengan buena suerte."
+      "kind": "tatoeba",
+      "tatoeba_id": "434819"
     }
   },
   {
@@ -13949,12 +13905,12 @@
     "lexeme_id": "lexeme:legacy:0822",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡Bienvenido al club!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 822
+      "kind": "tatoeba",
+      "tatoeba_id": "10650769"
     }
   },
   {
@@ -13982,12 +13938,12 @@
     "lexeme_id": "lexeme:legacy:0824",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Puedo ver el menú, por favor?",
+    "text_en": "May I see a menu, please?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 824
+      "kind": "tatoeba",
+      "tatoeba_id": "1507533"
     }
   },
   {
@@ -13995,12 +13951,12 @@
     "lexeme_id": "lexeme:legacy:0825",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Qué me recomienda ver?",
+    "text_en": "What do you recommend I should see?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 825
+      "kind": "tatoeba",
+      "tatoeba_id": "464549"
     }
   },
   {
@@ -14113,7 +14069,7 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
+    "text_es": "Estoy lleno de dudas.",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
@@ -14121,9 +14077,8 @@
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 831,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "12018411"
     }
   },
   {
@@ -14235,12 +14190,12 @@
     "lexeme_id": "lexeme:legacy:0837",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Aceptan la tarjeta MasterCard?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 837
+      "kind": "tatoeba",
+      "tatoeba_id": "6699389"
     }
   },
   {
@@ -14314,17 +14269,16 @@
       "segment:fsi:27:0082",
       "segment:fsi:27:0083"
     ],
-    "text_es": "Entonces voy a pagar en efectivo, pero solo tengo dólares. Número cuatro.",
-    "text_en": "",
+    "text_es": "Sólo estoy mirando, gracias.",
+    "text_en": "I'm just looking, thank you.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:27",
       "start_seconds": 375.41,
       "end_seconds": 380.11
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 841,
-      "legacy_text_es": "Entonces voy a pagar en efectivo, pero solo tengo dólares."
+      "kind": "tatoeba",
+      "tatoeba_id": "726497"
     }
   },
   {
@@ -14397,17 +14351,16 @@
       "segment:fsi:08:0060",
       "segment:fsi:08:0061"
     ],
-    "text_es": "¿Cómo llego hasta allá? Número cinco.",
-    "text_en": "",
+    "text_es": "¿Cómo llego a tu casa?",
+    "text_en": "How do I get to your house?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:08",
       "start_seconds": 310.04,
       "end_seconds": 312.04
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 845,
-      "legacy_text_es": "¿Cómo llego hasta allá?"
+      "kind": "tatoeba",
+      "tatoeba_id": "6694995"
     }
   },
   {
@@ -14457,12 +14410,12 @@
     "lexeme_id": "lexeme:legacy:0848",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Siga usted todo recto.",
+    "text_en": "Continue straight ahead.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 848
+      "kind": "tatoeba",
+      "tatoeba_id": "434465"
     }
   },
   {
@@ -14576,17 +14529,16 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
-    "text_en": "",
+    "text_es": "Disculpa, estoy perdido.",
+    "text_en": "Excuse me, I'm lost.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
       "start_seconds": 318.5,
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 854,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "332225"
     }
   },
   {
@@ -14677,12 +14629,12 @@
     "lexeme_id": "lexeme:legacy:0859",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "El hotel tiene habitaciones disponibles en varios islotes.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 859
+      "kind": "tatoeba",
+      "tatoeba_id": "13472300"
     }
   },
   {
@@ -14690,12 +14642,12 @@
     "lexeme_id": "lexeme:legacy:0860",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿Cuál es la contraseña del wifi de esta oficina?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 860
+      "kind": "tatoeba",
+      "tatoeba_id": "2692341"
     }
   },
   {
@@ -14747,7 +14699,7 @@
       "segment:fsi:16:0030",
       "segment:fsi:16:0031"
     ],
-    "text_es": "Usted le dice que está bien y que lo comunique con la señora Mary Jones al número 724-0038. Además, usted quiere que la operadora le dé tiempo y costo.",
+    "text_es": "¿Cuánto tiempo se tarda en aprender español?",
     "text_en": "",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:16",
@@ -14755,9 +14707,8 @@
       "end_seconds": 156.05
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 863,
-      "legacy_text_es": "Además, usted quiere que la operadora le dé tiempo y costo."
+      "kind": "tatoeba",
+      "tatoeba_id": "13100920"
     }
   },
   {
@@ -14786,12 +14737,12 @@
     "lexeme_id": "lexeme:legacy:0865",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me aseguró su ayuda.",
+    "text_en": "He assured me of his help.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 865
+      "kind": "tatoeba",
+      "tatoeba_id": "11217686"
     }
   },
   {
@@ -14799,12 +14750,12 @@
     "lexeme_id": "lexeme:legacy:0866",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Me trae sin cuidado.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 866
+      "kind": "tatoeba",
+      "tatoeba_id": "10205618"
     }
   },
   {
@@ -14976,12 +14927,12 @@
     "lexeme_id": "lexeme:legacy:0875",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Soy alérgico a los gatos.",
+    "text_en": "I'm allergic to cats.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 875
+      "kind": "tatoeba",
+      "tatoeba_id": "9816885"
     }
   },
   {
@@ -15009,12 +14960,12 @@
     "lexeme_id": "lexeme:legacy:0877",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Me robaron mi pluma.",
+    "text_en": "My pen has been stolen.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 877
+      "kind": "tatoeba",
+      "tatoeba_id": "1532980"
     }
   },
   {
@@ -15083,12 +15034,12 @@
     "lexeme_id": "lexeme:legacy:0881",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¿A qué te dedicas ahora?",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 881
+      "kind": "tatoeba",
+      "tatoeba_id": "10205713"
     }
   },
   {
@@ -15138,12 +15089,12 @@
     "lexeme_id": "lexeme:legacy:0884",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Tú tienes dos hermanos.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 884
+      "kind": "tatoeba",
+      "tatoeba_id": "1489856"
     }
   },
   {
@@ -15153,17 +15104,16 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
-    "text_en": "",
+    "text_es": "Estoy de vacaciones.",
+    "text_en": "I'm on vacation.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
       "start_seconds": 318.5,
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 885,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "1256538"
     }
   },
   {
@@ -15191,12 +15141,12 @@
     "lexeme_id": "lexeme:legacy:0887",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "Puede que esté bien.",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 887
+      "kind": "tatoeba",
+      "tatoeba_id": "2366184"
     }
   },
   {
@@ -15204,12 +15154,12 @@
     "lexeme_id": "lexeme:legacy:0888",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡Lástima que no estás aquí!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 888
+      "kind": "tatoeba",
+      "tatoeba_id": "3443366"
     }
   },
   {
@@ -15217,12 +15167,12 @@
     "lexeme_id": "lexeme:legacy:0889",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
+    "text_es": "¡Oh! ¡Qué interesante!",
     "text_en": "",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 889
+      "kind": "tatoeba",
+      "tatoeba_id": "11005534"
     }
   },
   {
@@ -15275,17 +15225,16 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
-    "text_en": "",
+    "text_es": "Yo estoy de acuerdo.",
+    "text_en": "I agree with you.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
       "start_seconds": 318.5,
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 892,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "2842"
     }
   },
   {
@@ -15295,17 +15244,16 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
-    "text_en": "",
+    "text_es": "No estoy de acuerdo.",
+    "text_en": "I don't agree.",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
       "start_seconds": 318.5,
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 893,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "514850"
     }
   },
   {
@@ -15354,12 +15302,12 @@
     "lexeme_id": "lexeme:legacy:0896",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "No me tomo en serio.",
+    "text_en": "I don't take myself seriously.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 896
+      "kind": "tatoeba",
+      "tatoeba_id": "10352305"
     }
   },
   {
@@ -15367,12 +15315,12 @@
     "lexeme_id": "lexeme:legacy:0897",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Eso suena increíble.",
+    "text_en": "That sounds incredible.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 897
+      "kind": "tatoeba",
+      "tatoeba_id": "3389977"
     }
   },
   {
@@ -15421,12 +15369,12 @@
     "lexeme_id": "lexeme:legacy:0900",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "Su vuelo está listo.",
+    "text_en": "Your airplane is ready.",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 900
+      "kind": "tatoeba",
+      "tatoeba_id": "1337659"
     }
   },
   {
@@ -15436,17 +15384,16 @@
     "segment_ids": [
       "segment:fsi:04:0047"
     ],
-    "text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho.",
-    "text_en": "",
+    "text_es": "¿Estoy listo para ir?",
+    "text_en": "Am I ready to go?",
     "audio_clip": {
       "audio_asset_id": "audio:fsi:04",
       "start_seconds": 318.5,
       "end_seconds": 322.5
     },
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 901,
-      "legacy_text_es": "Estoy en el hotel Caribe, cuarto número cuatrocientos veintiocho."
+      "kind": "tatoeba",
+      "tatoeba_id": "1180559"
     }
   },
   {
@@ -15454,12 +15401,12 @@
     "lexeme_id": "lexeme:legacy:0902",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Me entiendes ahora?",
+    "text_en": "Do you understand me now?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 902
+      "kind": "tatoeba",
+      "tatoeba_id": "5128750"
     }
   },
   {
@@ -15488,12 +15435,12 @@
     "lexeme_id": "lexeme:legacy:0904",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¿Qué significa esto?",
+    "text_en": "What does this stand for?",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 904
+      "kind": "tatoeba",
+      "tatoeba_id": "1156567"
     }
   },
   {
@@ -15541,12 +15488,12 @@
     "lexeme_id": "lexeme:legacy:0907",
     "lesson_id": null,
     "segment_ids": [],
-    "text_es": "",
-    "text_en": "",
+    "text_es": "¡Cuidate y divertite!",
+    "text_en": "Take care of yourself, and have a good time!",
     "audio_clip": null,
     "source": {
-      "kind": "legacy_card_example",
-      "legacy_card_id": 907
+      "kind": "tatoeba",
+      "tatoeba_id": "1666901"
     }
   },
   {
