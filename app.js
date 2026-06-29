@@ -917,6 +917,93 @@ function renderBrowseList() {
 }
 
 // ---------------------------------------------------------------------------
+// Conjugation tables
+// ---------------------------------------------------------------------------
+// Forms order: [yo, tú, él/ella, nosotros, vosotros, ellos]
+const CONJ_IRREG = {
+  "ser":      { pres:["soy","eres","es","somos","sois","son"],                         pret:["fui","fuiste","fue","fuimos","fuisteis","fueron"] },
+  "estar":    { pres:["estoy","estás","está","estamos","estáis","están"],               pret:["estuve","estuviste","estuvo","estuvimos","estuvisteis","estuvieron"] },
+  "tener":    { pres:["tengo","tienes","tiene","tenemos","tenéis","tienen"],             pret:["tuve","tuviste","tuvo","tuvimos","tuvisteis","tuvieron"] },
+  "ir":       { pres:["voy","vas","va","vamos","vais","van"],                           pret:["fui","fuiste","fue","fuimos","fuisteis","fueron"] },
+  "hacer":    { pres:["hago","haces","hace","hacemos","hacéis","hacen"],                pret:["hice","hiciste","hizo","hicimos","hicisteis","hicieron"] },
+  "poder":    { pres:["puedo","puedes","puede","podemos","podéis","pueden"],             pret:["pude","pudiste","pudo","pudimos","pudisteis","pudieron"] },
+  "querer":   { pres:["quiero","quieres","quiere","queremos","queréis","quieren"],       pret:["quise","quisiste","quiso","quisimos","quisisteis","quisieron"] },
+  "decir":    { pres:["digo","dices","dice","decimos","decís","dicen"],                 pret:["dije","dijiste","dijo","dijimos","dijisteis","dijeron"] },
+  "saber":    { pres:["sé","sabes","sabe","sabemos","sabéis","saben"],                  pret:["supe","supiste","supo","supimos","supisteis","supieron"] },
+  "venir":    { pres:["vengo","vienes","viene","venimos","venís","vienen"],             pret:["vine","viniste","vino","vinimos","vinisteis","vinieron"] },
+  "ver":      { pres:["veo","ves","ve","vemos","veis","ven"],                           pret:["vi","viste","vio","vimos","visteis","vieron"] },
+  "dar":      { pres:["doy","das","da","damos","dais","dan"],                           pret:["di","diste","dio","dimos","disteis","dieron"] },
+  "poner":    { pres:["pongo","pones","pone","ponemos","ponéis","ponen"],               pret:["puse","pusiste","puso","pusimos","pusisteis","pusieron"] },
+  "traer":    { pres:["traigo","traes","trae","traemos","traéis","traen"],              pret:["traje","trajiste","trajo","trajimos","trajisteis","trajeron"] },
+  "salir":    { pres:["salgo","sales","sale","salimos","salís","salen"],                pret:["salí","saliste","salió","salimos","salisteis","salieron"] },
+  "conocer":  { pres:["conozco","conoces","conoce","conocemos","conocéis","conocen"],   pret:["conocí","conociste","conoció","conocimos","conocisteis","conocieron"] },
+  "oír":      { pres:["oigo","oyes","oye","oímos","oís","oyen"],                       pret:["oí","oíste","oyó","oímos","oísteis","oyeron"] },
+  "haber":    { pres:["he","has","ha","hemos","habéis","han"],                          pret:["hube","hubiste","hubo","hubimos","hubisteis","hubieron"] },
+  "pedir":    { pres:["pido","pides","pide","pedimos","pedís","piden"],                 pret:["pedí","pediste","pidió","pedimos","pedisteis","pidieron"] },
+  "dormir":   { pres:["duermo","duermes","duerme","dormimos","dormís","duermen"],       pret:["dormí","dormiste","durmió","dormimos","dormisteis","durmieron"] },
+  "volver":   { pres:["vuelvo","vuelves","vuelve","volvemos","volvéis","vuelven"],      pret:["volví","volviste","volvió","volvimos","volvisteis","volvieron"] },
+  "encontrar":{ pres:["encuentro","encuentras","encuentra","encontramos","encontráis","encuentran"], pret:["encontré","encontraste","encontró","encontramos","encontrasteis","encontraron"] },
+  "entender": { pres:["entiendo","entiendes","entiende","entendemos","entendéis","entienden"], pret:["entendí","entendiste","entendió","entendimos","entendisteis","entendieron"] },
+  "perder":   { pres:["pierdo","pierdes","pierde","perdemos","perdéis","pierden"],      pret:["perdí","perdiste","perdió","perdimos","perdisteis","perdieron"] },
+  "recordar": { pres:["recuerdo","recuerdas","recuerda","recordamos","recordáis","recuerdan"], pret:["recordé","recordaste","recordó","recordamos","recordasteis","recordaron"] },
+  "costar":   { pres:["cuesto","cuestas","cuesta","costamos","costáis","cuestan"],      pret:["costé","costaste","costó","costamos","costasteis","costaron"] },
+  "pensar":   { pres:["pienso","piensas","piensa","pensamos","pensáis","piensan"],      pret:["pensé","pensaste","pensó","pensamos","pensasteis","pensaron"] },
+  "preferir": { pres:["prefiero","prefieres","prefiere","preferimos","preferís","prefieren"], pret:["preferí","preferiste","prefirió","preferimos","preferisteis","prefirieron"] },
+  "sentir":   { pres:["siento","sientes","siente","sentimos","sentís","sienten"],       pret:["sentí","sentiste","sintió","sentimos","sentisteis","sintieron"] },
+  "seguir":   { pres:["sigo","sigues","sigue","seguimos","seguís","siguen"],            pret:["seguí","seguiste","siguió","seguimos","seguisteis","siguieron"] },
+  "servir":   { pres:["sirvo","sirves","sirve","servimos","servís","sirven"],           pret:["serví","serviste","sirvió","servimos","servisteis","sirvieron"] },
+  "empezar":  { pres:["empiezo","empiezas","empieza","empezamos","empezáis","empiezan"], pret:["empecé","empezaste","empezó","empezamos","empezasteis","empezaron"] },
+  "jugar":    { pres:["juego","juegas","juega","jugamos","jugáis","juegan"],            pret:["jugué","jugaste","jugó","jugamos","jugasteis","jugaron"] },
+  "leer":     { pres:["leo","lees","lee","leemos","leéis","leen"],                      pret:["leí","leíste","leyó","leímos","leísteis","leyeron"] },
+  "caer":     { pres:["caigo","caes","cae","caemos","caéis","caen"],                   pret:["caí","caíste","cayó","caímos","caísteis","cayeron"] },
+  "llegar":   { pres:["llego","llegas","llega","llegamos","llegáis","llegan"],          pret:["llegué","llegaste","llegó","llegamos","llegasteis","llegaron"] },
+  "pagar":    { pres:["pago","pagas","paga","pagamos","pagáis","pagan"],               pret:["pagué","pagaste","pagó","pagamos","pagasteis","pagaron"] },
+  "buscar":   { pres:["busco","buscas","busca","buscamos","buscáis","buscan"],          pret:["busqué","buscaste","buscó","buscamos","buscasteis","buscaron"] },
+  "tocar":    { pres:["toco","tocas","toca","tocamos","tocáis","tocan"],               pret:["toqué","tocaste","tocó","tocamos","tocasteis","tocaron"] },
+};
+
+const CONJ_PRONOUNS = ["yo","tú","él/ella","nosotros","vosotros","ellos"];
+
+function getConjugation(verb) {
+  if (CONJ_IRREG[verb]) return CONJ_IRREG[verb];
+  const m = verb.match(/^(.+?)(ar|er|ir)$/);
+  if (!m) return null;
+  const [, stem, end] = m;
+  const pres = end === "ar" ? ["o","as","a","amos","áis","an"]
+             : end === "er" ? ["o","es","e","emos","éis","en"]
+             :                ["o","es","e","imos","ís","en"];
+  const pret = end === "ar" ? ["é","aste","ó","amos","asteis","aron"]
+             :                ["í","iste","ió","imos","isteis","ieron"];
+  return { pres: pres.map(e => stem + e), pret: pret.map(e => stem + e) };
+}
+
+function renderConjGrid(container, forms) {
+  container.innerHTML = "";
+  // Layout: [yo, nosotros, tú, vosotros, él/ella, ellos] (left col then right col, row by row)
+  const order = [0, 3, 1, 4, 2, 5];
+  order.forEach(i => {
+    const pronoun = document.createElement("span");
+    pronoun.className = "conj-pronoun";
+    pronoun.textContent = CONJ_PRONOUNS[i];
+    const form = document.createElement("span");
+    form.className = "conj-form";
+    form.textContent = forms[i];
+    container.appendChild(pronoun);
+    container.appendChild(form);
+  });
+}
+
+function renderConjPanel(card) {
+  const panel = $("detail-conj-panel");
+  if (card.pos !== "verb") { panel.classList.add("hidden"); return; }
+  const conj = getConjugation(card.es);
+  if (!conj) { panel.classList.add("hidden"); return; }
+  renderConjGrid($("detail-conj-presente"), conj.pres);
+  renderConjGrid($("detail-conj-preterito"), conj.pret);
+  panel.classList.remove("hidden");
+}
+
+// ---------------------------------------------------------------------------
 // Word detail
 // ---------------------------------------------------------------------------
 let selectedDetailCard = null;
@@ -964,6 +1051,7 @@ function openWordDetail(card, returnScreen = "screen-browse") {
   statusEl.className = `browse-status ${status.cls}`;
   statusEl.textContent = status.label;
   renderDetailDeckButton();
+  renderConjPanel(card);
   show("screen-word-detail");
 }
 

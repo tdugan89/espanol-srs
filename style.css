@@ -558,6 +558,17 @@ html, body {
   font-weight: 700;
   cursor: pointer;
 }
+.conj-section { margin-bottom: 16px; }
+.conj-section:last-child { margin-bottom: 0; }
+.conj-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  gap: 6px 12px;
+  align-items: baseline;
+}
+.conj-pronoun { font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+.conj-form { font-size: 14px; font-weight: 650; color: var(--text); }
+
 .detail-actions {
   display: grid;
   grid-template-columns: 1.45fr 1fr;
